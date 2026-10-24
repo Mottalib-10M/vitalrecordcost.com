@@ -22,7 +22,16 @@ const kindOpts = (lang: L) => [{ value: '0', label: W(lang).birth }, { value: '1
 const kindOf = (v: Record<string, number>) => ((v.kind ?? 0) >= 1 ? 'death' : 'birth') as 'birth' | 'death';
 const AMENDED = ['CA', 'TX', 'FL', 'NY', 'NYC', 'PA', 'IL', 'OH', 'GA', 'NC', 'MI', 'NJ', 'VA', 'WA', 'AZ'].filter((c) => x(`amended_${c.toLowerCase()}_fee`) != null);
 const COURT = Object.keys(EXTRAS.items).filter((k) => /^ceremony_.+_fee$/.test(k)).map((k) => k.slice(9, -4));
-const courtLabel = (k: string) => EXTRAS.items[`ceremony_${k}_fee`]?.note.split(':')[0] ?? k;
+const PLACE: Record<string, string> = {
+  fulton_county: 'Fulton County (Atlanta), GA', cook_county: 'Cook County (Chicago), IL', la_county: 'Los Angeles County, CA',
+  nyc: 'New York City, NY', clark_county: 'Clark County (Las Vegas), NV', miami_dade: 'Miami-Dade County, FL',
+  harris_county: 'Harris County (Houston), TX', travis_county: 'Travis County (Austin), TX', maricopa: 'Maricopa County (Phoenix), AZ',
+  king_county: 'King County (Seattle), WA', franklin_county: 'Franklin County (Columbus), OH', davidson_county: 'Davidson County (Nashville), TN',
+  mecklenburg: 'Mecklenburg County (Charlotte), NC',
+};
+const courtLabel = (k: string, lang: L = 'en') => { const l = PLACE[k] ?? k.split('_').map((w) => w[0].toUpperCase() + w.slice(1)).join(' '); return lang === 'es' ? l.replace('New York City', 'Ciudad de Nueva York').replace(/^(.+?) County(.*)$/, 'Condado de $1$2').replace('Los Angeles', 'Los Ángeles') : l; };
+/** Places with a published courthouse ceremony or license fee (extras), for the courthouse page. */
+export const courtPlaces = (lang: L) => COURT.map((k) => ({ k, label: courtLabel(k, lang), cer: x(`ceremony_${k}_fee`), lic: x(`license_${k}_fee`) ?? x(`license_${k}_public_fee`), url: EXTRAS.items[`ceremony_${k}_fee`]?.url ?? '' }));
 
 const SPECS: Record<string, (lang: L) => MiniSpec> = {
   /** Birth and death fees of one state side by side. */
@@ -273,10 +282,10 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
   /** Courthouse wedding total. */
   courthouse: (lang) => ({
     title: lang === 'es' ? 'Boda civil en la corte: licencia más ceremonia' : 'Courthouse wedding: license plus ceremony', cta: lang === 'es' ? 'Calcular la licencia' : 'Work out the license', ctaPage: 'marriage-license',
-    inputs: [{ id: 'place', label: lang === 'es' ? 'Lugar' : 'Place', def: 0, options: COURT.map((k, i) => ({ value: String(i), label: courtLabel(k) })) }],
+    inputs: [{ id: 'place', label: lang === 'es' ? 'Lugar' : 'Place', def: 0, options: COURT.map((k, i) => ({ value: String(i), label: courtLabel(k, lang) })) }],
     run: (v) => {
       const k = COURT[Math.max(0, Math.min(COURT.length - 1, Math.round(v.place ?? 0)))], m = (z: number) => money(z, lang), w = W(lang), es = lang === 'es';
-      const cer = k ? x(`ceremony_${k}_fee`) : null, lic = k ? x(`license_${k}_fee`) : null;
+      const cer = k ? x(`ceremony_${k}_fee`) : null, lic = k ? x(`license_${k}_fee`) ?? x(`license_${k}_public_fee`) : null;
       return {
         head: [es ? 'Licencia + ceremonia' : 'License + ceremony', cer != null && lic != null ? m(cer + lic) : w.nc],
         rows: [[es ? 'Licencia' : 'License', lic != null ? m(lic) : w.nc], [es ? 'Ceremonia civil' : 'Civil ceremony', cer != null ? m(cer) : w.nc]],

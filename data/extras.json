@@ -1,4 +1,362 @@
 {
  "dataAsOf": "2026-10-24",
- "items": {}
+ "items": {
+  "amended_tx_fee": {
+   "value": 15,
+   "unit": "USD",
+   "note": "Correction, all other changes 15; add/remove/replace a parent and seal old record 25. Certified copy not included (new certified copy of corrected record 22).",
+   "url": "https://www.dshs.texas.gov/vital-statistics/costs-fees",
+   "retrieved": "2026-10-24"
+  },
+  "license_fulton_county_fee": {
+   "value": 68.5,
+   "unit": "USD",
+   "note": "Fulton County Probate Court; includes one mailed certified copy of the marriage certificate. With premarital education certificate (course within 12 months, taken together): 28.50. Older Fulton pages still show 56/16. No personal checks. Quote via search index (site blocks bots).",
+   "url": "https://fultoncountyga.gov/home/inside-fulton-county/fulton-county-departments/probate-court/filing-fees",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_fulton_county_fee": {
+   "value": 0,
+   "unit": "USD",
+   "note": "Free courthouse ceremony for couples with a Fulton County license, Fridays 10am-4pm, up to 6 guests. Quote via search index.",
+   "url": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/probate-court-2/marriage-licenses-2",
+   "retrieved": "2026-10-24"
+  },
+  "license_cook_county_fee": {
+   "value": 60,
+   "unit": "USD",
+   "note": "Cook County Clerk; effective 1 day after issuance, valid 60 days, Chicago and suburban Cook only; return within 10 days after ceremony.",
+   "url": "https://www.cookcountyclerkil.gov/vital-records/marriage-civil-union/marriage-licenses",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_cook_county_fee": {
+   "value": 10,
+   "unit": "USD",
+   "note": "Circuit Court of Cook County Marriage and Civil Union Court (judge), downtown Chicago and suburban courthouses; license must be 1-60 days old; some locations cash only.",
+   "url": "https://www.cookcountycourt.org/ABOUT-THE-COURT/Municipal-Department/First-Municipal-District-Chicago/Marriage-and-Civil-Union",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_la_county_fee": {
+   "value": 35,
+   "unit": "USD",
+   "note": "Civil ceremony by RR/CC; RR/CC-provided witness +20. Live RR/CC fee page (read 2026-10-24). A 2025-09-16 Board letter proposed 176 public / 220 confidential / 44 ceremony / 26 witness; adoption not confirmed, page still shows current figures.",
+   "url": "https://www.lavote.gov/home/county-clerk/marriage-licenses-ceremonies/fees/fees",
+   "retrieved": "2026-10-24"
+  },
+  "license_la_county_public_fee": {
+   "value": 91,
+   "unit": "USD",
+   "note": "Live RR/CC fee page (read 2026-10-24). A 2025-09-16 Board letter proposed 176 public / 220 confidential / 44 ceremony / 26 witness; adoption not confirmed, page still shows current figures.",
+   "url": "https://www.lavote.gov/home/county-clerk/marriage-licenses-ceremonies/fees/fees",
+   "retrieved": "2026-10-24"
+  },
+  "license_la_county_confidential_fee": {
+   "value": 85,
+   "unit": "USD",
+   "note": "Live RR/CC fee page (read 2026-10-24). A 2025-09-16 Board letter proposed 176 public / 220 confidential / 44 ceremony / 26 witness; adoption not confirmed, page still shows current figures.",
+   "url": "https://www.lavote.gov/home/county-clerk/marriage-licenses-ceremonies/fees/fees",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_nyc_fee": {
+   "value": 25,
+   "unit": "USD",
+   "note": "NYC City Clerk (Project Cupid appointment); valid NY license and one witness 18+; card or money order, no cash.",
+   "url": "https://portal.311.nyc.gov/article/?kanumber=KA-02124",
+   "retrieved": "2026-10-24"
+  },
+  "license_nyc_fee": {
+   "value": 35,
+   "unit": "USD",
+   "note": "NYC City Clerk; 24-hour wait, valid 60 days (180 days active military).",
+   "url": "https://portal.311.nyc.gov/article/?kanumber=KA-02115",
+   "retrieved": "2026-10-24"
+  },
+  "license_clark_county_fee": {
+   "value": 102,
+   "unit": "USD",
+   "note": "Clark County Clerk Marriage License Bureau (201 E. Clark Ave); no personal or business checks; card surcharge. Certified marriage certificate 20.",
+   "url": "https://www.clarkcountynv.gov/government/elected_officials/county_clerk/fees",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_clark_county_fee": {
+   "value": 75,
+   "unit": "USD",
+   "note": "Office of Civil Marriages (330 S. 3rd St), cards only; license must be obtained first.",
+   "url": "https://www.clarkcountynv.gov/government/elected_officials/county_clerk/fees",
+   "retrieved": "2026-10-24"
+  },
+  "license_miami_dade_fee": {
+   "value": 86,
+   "unit": "USD",
+   "note": "Miami-Dade Clerk; 61 with a registered premarital course (min 4 h, within 1 year), which also waives the 3-day wait for Florida residents; non-residents no wait.",
+   "url": "https://www.miamidadeclerk.gov/clerk/marriage-licenses.page",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_miami_dade_fee": {
+   "value": 30,
+   "unit": "USD",
+   "note": "Deputy clerk ceremony at the Central Marriage License Bureau or six District Court locations, walk-in or appointment.",
+   "url": "https://www.miamidadeclerk.gov/clerk/marriage-licenses.page",
+   "retrieved": "2026-10-24"
+  },
+  "license_harris_county_fee": {
+   "value": 81,
+   "unit": "USD",
+   "note": "Harris County Clerk; 181 if neither applicant shows Texas residency ID; Twogether in Texas certificate: up to 60 off and waives the 72-hour wait. Informal (common-law) marriage declaration 46.",
+   "url": "https://www.cclerk.hctx.net/PersonalRecords.aspx",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_harris_county_fee": {
+   "value": null,
+   "unit": "USD",
+   "note": "Not published: the County Clerk does not perform ceremonies; Harris County Justices of the Peace set their own scheduling and fees (contact each JP).",
+   "url": "https://www.jp.hctx.net/info/weddings.htm",
+   "retrieved": "2026-10-24"
+  },
+  "license_travis_county_fee": {
+   "value": 80,
+   "unit": "USD",
+   "note": "Travis County Clerk; 20 with Twogether in Texas certificate; +100 non-resident fee from 2026-04-01 if no Texas residency proof (per search index); valid 89 days; informal marriage declaration 45.",
+   "url": "https://countyclerk.traviscountytx.gov/departments/recording/marriage-license/",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_travis_county_fee": {
+   "value": 200,
+   "unit": "USD",
+   "note": "No clerk ceremony; judges set their own fees. Example: Justice of the Peace Precinct 3, 200 non-refundable for on-site or Zoom weddings (policy effective 2023-08-01).",
+   "url": "https://www.traviscountytx.gov/justices-of-peace/jp3/weddings",
+   "retrieved": "2026-10-24"
+  },
+  "license_maricopa_fee": {
+   "value": 98,
+   "unit": "USD",
+   "note": "Clerk of Superior Court (also Ironwood, Southwest and Ocotillo justice courts, money order only); license valid 1 year (per search index).",
+   "url": "https://justicecourts.maricopa.gov/i-want-to/get-married",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_maricopa_fee": {
+   "value": null,
+   "unit": "USD",
+   "note": "Set by each justice court judge, usually 100-120, cash only.",
+   "url": "https://justicecourts.maricopa.gov/i-want-to/get-married",
+   "retrieved": "2026-10-24"
+  },
+  "license_king_county_fee": {
+   "value": 169,
+   "unit": "USD",
+   "note": "King County Recorder's Office; state 3-day wait cannot be waived; valid 60 days after issuance.",
+   "url": "https://kingcounty.gov/en/dept/executive-services/certificates-permits-licenses/records-licensing/recorders-office/marriage-licensing",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_king_county_fee": {
+   "value": null,
+   "unit": "USD",
+   "note": "No set fee: each King County District Court judge sets their own ceremony fee (contact the judge). Seattle Municipal Court runs its own cash-only program; amount not found on official page.",
+   "url": "https://kingcounty.gov/en/court/district-court/courts-jails-legal-system/court-calendars-locations-operations/judges-who-perform-weddings",
+   "retrieved": "2026-10-24"
+  },
+  "license_franklin_county_fee": {
+   "value": 65,
+   "unit": "USD",
+   "note": "Franklin County Probate Court (Columbus); card +3%; non-refundable; certified abstract 2. Quote via search index (site blocks bots).",
+   "url": "https://probate.franklincountyohio.gov/Marriage-License-Requirements",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_franklin_county_fee": {
+   "value": 25,
+   "unit": "USD",
+   "note": "Franklin County Municipal Court judges, by appointment; pay at Clerk Civil Division before ceremony. Probate Court does not perform ceremonies.",
+   "url": "https://www.fcmcclerk.com/documents/civil/civilcost.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "license_davidson_county_fee": {
+   "value": 99.5,
+   "unit": "USD",
+   "note": "Davidson County Clerk (Nashville): cash 99.50, card 101.49, no checks; 60 off with notarized premarital course certificate (within 1 year); valid 30 days. Quote via search index (site blocks bots).",
+   "url": "https://www.nashvilleclerk.com/living/marriage-license/",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_davidson_county_fee": {
+   "value": null,
+   "unit": "USD",
+   "note": "Not offered: the Davidson County Clerk does not perform civil ceremonies; no official county ceremony fee found.",
+   "url": "https://www.nashvilleclerk.com/living/marriage-license/",
+   "retrieved": "2026-10-24"
+  },
+  "license_mecklenburg_fee": {
+   "value": 60,
+   "unit": "USD",
+   "note": "Mecklenburg County Register of Deeds; certified copy 10; valid 60 days, any NC county. Quote via search index (site blocks bots).",
+   "url": "https://deeds.mecknc.gov/Uniform-Fee-Schedule",
+   "retrieved": "2026-10-24"
+  },
+  "ceremony_mecklenburg_fee": {
+   "value": 50,
+   "unit": "USD",
+   "note": "Civil ceremony by a magistrate (Mecklenburg County Magistrates Office); statewide statutory fee G.S. 7A-309(1), was 20 before. Quote via search index.",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7A/GS_7A-309.html",
+   "retrieved": "2026-10-24"
+  },
+  "passport_book_adult_fee": {
+   "value": 130,
+   "unit": "USD",
+   "note": "First-time adult book (DS-11) application fee, paid to U.S. Department of State; plus 35 execution fee. Renewal (DS-82) also 130. State Dept fee chart updated October 2026 (state.gov PDF).",
+   "url": "https://adoptions.state.gov/content/dam/tsg_aem/passports/documents/forms-fees/Passport_Fees_OCT_2026.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "passport_execution_fee": {
+   "value": 35,
+   "unit": "USD",
+   "note": "Execution/acceptance fee for DS-11, paid to the acceptance facility; not charged on DS-82 renewals.",
+   "url": "https://adoptions.state.gov/content/dam/tsg_aem/passports/documents/forms-fees/Passport_Fees_OCT_2026.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "passport_book_child_fee": {
+   "value": 100,
+   "unit": "USD",
+   "note": "Under 16, DS-11, plus 35 execution fee; minor card 15; minor book and card 115.",
+   "url": "https://adoptions.state.gov/content/dam/tsg_aem/passports/documents/forms-fees/Passport_Fees_OCT_2026.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "passport_card_adult_fee": {
+   "value": 30,
+   "unit": "USD",
+   "note": "First-time adult card, plus 35 execution fee; adult book and card 160.",
+   "url": "https://adoptions.state.gov/content/dam/tsg_aem/passports/documents/forms-fees/Passport_Fees_OCT_2026.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "passport_expedite_fee": {
+   "value": 60,
+   "unit": "USD",
+   "note": "Optional, in addition to required fees; 1-3 day delivery of the book is a further 26.87; file search 150.",
+   "url": "https://adoptions.state.gov/content/dam/tsg_aem/passports/documents/forms-fees/Passport_Fees_OCT_2026.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "passport_routine_weeks": {
+   "value": null,
+   "unit": "weeks",
+   "note": "Mailing time not included (can add about 2 weeks each way). travel.state.gov processing-times page states the same (blocks bots); quote from State Dept report to Congress, March 2026.",
+   "url": "https://www.state.gov/wp-content/uploads/2026/03/Report-to-Congress-on-A-Plan-to-Minimize-the-Occurrence-of-Passport-and-Visa-Backlogs-HRC13171.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "passport_expedited_weeks": {
+   "value": null,
+   "unit": "weeks",
+   "note": "Expedited, +60; urgent travel within 14 days needs an agency appointment.",
+   "url": "https://www.state.gov/wp-content/uploads/2026/03/Report-to-Congress-on-A-Plan-to-Minimize-the-Occurrence-of-Passport-and-Visa-Backlogs-HRC13171.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "passport_birth_cert_requirements": {
+   "value": null,
+   "unit": "text",
+   "note": "Must be the sealed original or certified replacement plus a photocopy; no digital/mobile certificates; watermark not required; filed more than 1 year after birth = delayed certificate (secondary evidence). Quote via search index (site blocks bots).",
+   "url": "https://travel.state.gov/en/passports/apply/help/citizenship-evidence.html",
+   "retrieved": "2026-10-24"
+  },
+  "ssa_name_change_fee": {
+   "value": 0,
+   "unit": "USD",
+   "note": "Free. Need Form SS-5 (online for some marriage name changes), proof of legal name change (marriage document, divorce decree, naturalization certificate or court order, original or certified copy, no photocopies), proof of identity (plus old-name ID if change was over 2 years ago), citizenship if not on record. Same number; does not count toward replacement limits.",
+   "url": "https://www.ssa.gov/blog/en/posts/2024-08-29.html",
+   "retrieved": "2026-10-24"
+  },
+  "amended_ca_fee": {
+   "value": 26,
+   "unit": "USD",
+   "note": "CDPH Vital Records, VS 24 affidavit after 1 year from birth: 26, includes one certified copy of the amended record; within 1 year: no amendment fee but copy 31 (not included). Court order/parentage amendments also 26 with one copy. Fees effective 2026-01-01 (AB 64); birth copy now 31.",
+   "url": "https://www.cdph.ca.gov/Programs/CHSI/pages/vital-records-fees.aspx",
+   "retrieved": "2026-10-24"
+  },
+  "amended_fl_fee": {
+   "value": 20,
+   "unit": "USD",
+   "note": "Includes one certified copy of the amended record. Conflict: Lee County DOH page and 2023 DH429 cite 21; state DOH page says 20. Extra copies 9 first / 4 each; rush +10.",
+   "url": "https://www.floridahealth.gov/certificates-records/amendments-and-corrections/",
+   "retrieved": "2026-10-24"
+  },
+  "amended_ny_fee": {
+   "value": 0,
+   "unit": "USD",
+   "note": "NYS DOH (outside NYC). Corrections: no fee, certified copy not included (copy costs 30). Amendments (court name change, adoption, paternity): no fee and one amended certificate issued free; extra copies 30.",
+   "url": "https://www.health.ny.gov/vital_records/docs/public_instructions_for_birth_corrections.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "amended_nyc_fee": {
+   "value": 40,
+   "unit": "USD",
+   "note": "NYC DOHMH: 40 nonrefundable processing fee for most corrections; certified copy not included (copy costs 15 each, e.g. 40 + 15 = 55 for one copy). No fee for parentage acknowledgments and some court orders; about 12 weeks.",
+   "url": "https://www.nyc.gov/site/doh/services/birth-death-records-fees.page",
+   "retrieved": "2026-10-24"
+  },
+  "amended_pa_fee": {
+   "value": 0,
+   "unit": "USD",
+   "note": "PA DOH: no separate amendment fee on the Request to Modify forms; you pay only the 20 certified copy fee for the updated certificate (copy not free, except infants under 6 months returning the incorrect certificate). Fee waivers for armed forces etc.",
+   "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Request%20to%20Modify%20an%20Adult's%20Birth%20Record.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "amended_il_fee": {
+   "value": 15,
+   "unit": "USD",
+   "note": "IDPH correction or legal name change: 15 includes the first certified copy of the corrected record; additional copies 2 each at the same time. Notarized affidavit required.",
+   "url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/files/resources/resources-obtain-birth/death-certificate/fee-schedule.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "amended_oh_fee": {
+   "value": null,
+   "unit": "USD",
+   "note": "Not found: ODH pages state no filing fee for the birth affidavit (minor spelling/data errors only, notarized, state office only) and codes.ohio.gov was unreachable. Certified copy of the corrected record costs 21.50 (not included as far as published). 4-6 weeks.",
+   "url": "https://odh.ohio.gov/know-our-programs/vital-statistics/changing-correcting-birth-record",
+   "retrieved": "2026-10-24"
+  },
+  "amended_ga_fee": {
+   "value": 10,
+   "unit": "USD",
+   "note": "GA DPH State Office of Vital Records: 10 amendment fee, certified copy not included (copy costs 25, extra copies 5) so 35 minimum. Current-year corrections (within 1 year of birth) free.",
+   "url": "https://dph.georgia.gov/ways-request-vital-record/fees",
+   "retrieved": "2026-10-24"
+  },
+  "amended_nc_fee": {
+   "value": 39,
+   "unit": "USD",
+   "note": "NC Vital Records: 39 total = 24 search fee (includes one certified copy) + 15 amendment fee; includes one certified copy of the amended certificate if approved; nonrefundable. No personal checks or cash.",
+   "url": "https://vitalrecords.nc.gov/change.htm",
+   "retrieved": "2026-10-24"
+  },
+  "amended_mi_fee": {
+   "value": 50,
+   "unit": "USD",
+   "note": "MDHHS application to correct or change a birth record (DCH-0847): 50 includes one certified copy; additional copies 16; rush 25. Older 2003 form said 26. Quote via search index (michigan.gov blocks bots).",
+   "url": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder1/Folder3/DCH-0847-CHGBX.pdf",
+   "retrieved": "2026-10-24"
+  },
+  "amended_nj_fee": {
+   "value": 2,
+   "unit": "USD",
+   "note": "NJ DOH Office of Vital Statistics and Registry: 2 to record an amendment (legal name change or adoption); certified copy not included (copy of the new certificate costs 25, extra copies 2). Other corrections: fee not listed separately; local registrars set their own fees.",
+   "url": "https://www.nj.gov/health/vital/order-vital/fees/",
+   "retrieved": "2026-10-24"
+  },
+  "amended_va_fee": {
+   "value": 10,
+   "unit": "USD",
+   "note": "VDH: 10 administration fee for any change; certified copy not included (copy costs 15 since 2026-07-01, so 25 total with one copy).",
+   "url": "https://www.vdh.virginia.gov/vital-records/how-to-request-an-amendment-to-a-birth-certificate/",
+   "retrieved": "2026-10-24"
+  },
+  "amended_wa_fee": {
+   "value": 0,
+   "unit": "USD",
+   "note": "WA DOH: no fee to amend the record itself (stated for sex designation; fee rule WAC 246-491-990 lists no amendment fee); certified copy not included (25 each, RCW 70.58A.560), except a copy issued within 1 year is exchanged at no charge. Processing about 4 months. Quote via search index.",
+   "url": "https://doh.wa.gov/licenses-permits-and-certificates/vital-records/sex-designation-change-birth-certificate",
+   "retrieved": "2026-10-24"
+  },
+  "amended_az_fee": {
+   "value": 30,
+   "unit": "USD",
+   "note": "ADHS Bureau of Vital Records: correction or amendment 30 (form VS-11 rev. 2026-03-18; certified copy 20). Rule R9-19-105 says the Department provides a certified copy of the amended certificate when an amendment results, so one copy likely included; older rule cited 29. Quote via search index (site blocks bots).",
+   "url": "https://www.azdhs.gov/documents/vital-records/application-certificate-birth.pdf?v=20260323",
+   "retrieved": "2026-10-24"
+  }
+ }
 }

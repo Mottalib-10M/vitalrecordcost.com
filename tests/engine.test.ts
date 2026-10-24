@@ -109,7 +109,7 @@ describe('licence de mariage', () => {
     expect(r.reason).toBe('expired');
   });
   it('validité inconnue : pas de verdict', () => {
-    const r = marriageLicense({ rule: rule('GA'), issueDate: '2026-10-26', weddingDate: '2026-12-01' });
+    const r = marriageLicense({ rule: rule('SC'), issueDate: '2026-10-26', weddingDate: '2026-12-01' });
     expect(r.validityKnown).toBe(false);
     expect(r.weddingOk).toBeNull();
   });

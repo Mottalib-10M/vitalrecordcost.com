@@ -7,7 +7,7 @@ const R = (id: string, en: string, es: string, noindex = false): RouteDef<Locale
 const CORE: RouteDef<Locale>[] = [
   { id: 'home', paths: { en: '/en/', es: '/es/' } },
   R('method', 'method', 'metodologia'),
-  R('about', 'about', 'quienes-somos'),
+  R('about', 'about', 'sobre-nosotros'),
   R('widget', 'widget', 'widget', true),
   R('contact', 'contact', 'contacto', true),
   R('editorial', 'editorial-policy', 'politica-editorial', true),
