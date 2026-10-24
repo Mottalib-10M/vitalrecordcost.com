@@ -1,0 +1,396 @@
+{
+ "site": "us-vital-records",
+ "locales": [
+  "en",
+  "es"
+ ],
+ "rule": "chaque page EN a sa version /es/ (acta de nacimiento, certificado de defunción, licencia de matrimonio) ; titres et FAQ propres",
+ "pages": [
+  {
+   "path": "/",
+   "queries": [
+    "birth certificate cost",
+    "how much is a birth certificate"
+   ],
+   "simulator": "Simulateur principal : État (52) × acte (naissance/décès) × copies × canal (courrier/guichet/en ligne) → frais d'État, frais du prestataire, total, prix par copie, écart avec un intermédiaire saisi (ex. 59 $)",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/birth-certificate/",
+   "queries": [
+    "birth certificate",
+    "how to get a birth certificate",
+    "how to get a copy of my birth certificate"
+   ],
+   "simulator": "Parcours en 4 étapes : État de naissance → droit de demander → pièces → coût et canal",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/replacement-birth-certificate/",
+   "queries": [
+    "replacement birth certificate"
+   ],
+   "simulator": "Remplacement d'un acte perdu : coût par État + copies supplémentaires à commander d'un coup",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/order-birth-certificate-online/",
+   "queries": [
+    "order birth certificate online"
+   ],
+   "simulator": "Comparateur courrier / prestataire agréé (frais publiés par l'État) / intermédiaire privé",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json (online)"
+  },
+  {
+   "path": "/certified-copy-birth-certificate/",
+   "queries": [
+    "certified copy of birth certificate"
+   ],
+   "simulator": "Choix copie certifiée / informative / formule courte-longue selon l'usage (passeport, REAL ID, école)",
+   "engine": "règles + vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/how-long-does-it-take-to-get-a-birth-certificate/",
+   "queries": [
+    "how long does it take to get a birth certificate"
+   ],
+   "simulator": "Date d'arrivée estimée = délai publié par l'État (quand publié) + acheminement ; sinon saisi",
+   "engine": "dates (délais publiés)",
+   "data": "vital-records.json (processing) — à compléter phase 2"
+  },
+  {
+   "path": "/birth-certificate-for-passport/",
+   "queries": [
+    "birth certificate for passport"
+   ],
+   "simulator": "Vérificateur : l'acte de mon État est-il accepté (formule longue, sceau, noms des parents) + coût",
+   "engine": "règles + vital.orderCost",
+   "data": "vital-records.json + travel.state.gov (domaine public)"
+  },
+  {
+   "path": "/apostille-birth-certificate/",
+   "queries": [
+    "apostille birth certificate"
+   ],
+   "simulator": "Coût total = copie certifiée + apostille du Secretary of State (+ copie exemplifiée si exigée)",
+   "engine": "vital.orderCost + barème SOS",
+   "data": "à collecter phase 2 : frais d'apostille des 10 États les plus peuplés, sinon saisi"
+  },
+  {
+   "path": "/amended-birth-certificate/",
+   "queries": [
+    "amended birth certificate"
+   ],
+   "simulator": "Coût d'une correction / modification : frais de modification + copie incluse ou non",
+   "engine": "somme simple",
+   "data": "relevés partiels (AL 20, AR 15, KS 20, MT 25+16, MD 10, NV 45) — compléter phase 2"
+  },
+  {
+   "path": "/death-certificate/",
+   "queries": [
+    "death certificate",
+    "how to get a death certificate"
+   ],
+   "simulator": "Qui peut commander, où, combien : État × copies",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/death-certificate-cost/",
+   "queries": [
+    "death certificate cost"
+   ],
+   "simulator": "Classement des 52 juridictions pour N copies + simulateur",
+   "engine": "vital.rankByCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/how-many-death-certificates-do-i-need/",
+   "queries": [
+    "how many death certificates do i need"
+   ],
+   "simulator": "Compteur : banques, assurances vie, retraite, véhicules, biens par comté, succession, VA → copies recommandées + coût dans l'État",
+   "engine": "deathCopies + vital.stateFees",
+   "data": "méthode écrite par nous (estimation)"
+  },
+  {
+   "path": "/marriage-license/",
+   "queries": [
+    "marriage license",
+    "how to get a marriage license",
+    "marriage license requirements"
+   ],
+   "simulator": "État + date de délivrance + cours prénuptial → prix, première date de cérémonie, date d'expiration",
+   "engine": "marriage.marriageLicense",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license-cost/",
+   "queries": [
+    "marriage license cost"
+   ],
+   "simulator": "Prix par État (fixé par l'État ou fourchette de comtés) avec et sans cours",
+   "engine": "marriage.marriageLicense",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license-waiting-period/",
+   "queries": [
+    "marriage license waiting period"
+   ],
+   "simulator": "Date la plus proche pour la cérémonie selon l'État",
+   "engine": "marriage.marriageLicense",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/how-long-is-a-marriage-license-valid/",
+   "queries": [
+    "how long is a marriage license valid"
+   ],
+   "simulator": "Dernière date de mariage avant expiration",
+   "engine": "marriage.expiryDate",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license-vs-marriage-certificate/",
+   "queries": [
+    "marriage license vs marriage certificate"
+   ],
+   "simulator": "Frise : licence → cérémonie → retour par l'officiant → acte enregistré → copie certifiée (coûts et délais par État)",
+   "engine": "marriage + vital",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-certificate-copy/",
+   "queries": [
+    "how to get marriage certificate",
+    "marriage certificate copy",
+    "how to get a marriage certificate"
+   ],
+   "simulator": "Où commander (État ou comté) et combien",
+   "engine": "vital.orderCost (marriage)",
+   "data": "à compléter phase 2 : frais d'acte de mariage par État (déjà : MD 12, UT 25, WI 20/3, TX 20 vérification, NE 16, SD 15)"
+  },
+  {
+   "path": "/divorce-certificate/",
+   "queries": [
+    "divorce certificate"
+   ],
+   "simulator": "Certificat d'État ou jugement du comté : où et combien",
+   "engine": "vital.orderCost (divorce)",
+   "data": "à compléter phase 2"
+  },
+  {
+   "path": "/name-change-after-marriage/",
+   "queries": [
+    "how to change your name after marriage",
+    "name change after marriage checklist"
+   ],
+   "simulator": "Liste ordonnée avec coûts : copies d'acte de mariage nécessaires → SSA (gratuit) → permis → passeport",
+   "engine": "checklist + somme",
+   "data": "SSA, travel.state.gov (frais passeport) à collecter phase 2"
+  },
+  {
+   "path": "/courthouse-wedding-cost/",
+   "queries": [
+    "courthouse wedding cost",
+    "can you get married at the courthouse"
+   ],
+   "simulator": "Licence + cérémonie civile au tribunal + copie : total par comté relevé",
+   "engine": "somme",
+   "data": "LA County 91 + 35 ; autres comtés phase 2"
+  },
+  {
+   "path": "/common-law-marriage-states/",
+   "queries": [
+    "common law marriage states"
+   ],
+   "simulator": "Vérificateur par État (reconnu / abrogé avec date)",
+   "engine": "table",
+   "data": "lois des États — à collecter phase 2"
+  },
+  {
+   "path": "/vital-records-office/",
+   "queries": [
+    "vital records office"
+   ],
+   "simulator": "Trouver le bureau officiel : État → bureau, page officielle, canaux, prestataire agréé",
+   "engine": "table",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/states/",
+   "queries": [
+    "birth certificate cost",
+    "death certificate cost",
+    "marriage license cost"
+   ],
+   "simulator": "Tableau des 52 juridictions trié (naissance, décès, licence) + simulateur",
+   "engine": "vital.rankByCost",
+   "data": "les deux JSON"
+  },
+  {
+   "path": "/birth-certificate/texas/",
+   "queries": [
+    "birth certificate texas"
+   ],
+   "simulator": "Simulateur Texas (état 22 $ / comtés 23 $)",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/birth-certificate/california/",
+   "queries": [
+    "birth certificate california"
+   ],
+   "simulator": "Simulateur Californie (CDPH 31 $, comtés)",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/birth-certificate/florida/",
+   "queries": [
+    "birth certificate florida"
+   ],
+   "simulator": "Simulateur Floride (9 $ + 4 $, VitalChek 7 $)",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/birth-certificate/new-york/",
+   "queries": [
+    "birth certificate new york"
+   ],
+   "simulator": "État de NY (30 $) contre NYC (15 $) : lequel vous concerne + coût",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/birth-certificate/ohio/",
+   "queries": [
+    "birth certificate ohio"
+   ],
+   "simulator": "Simulateur Ohio (21,50 $ ; bureaux locaux 22 à 32 $)",
+   "engine": "vital.orderCost",
+   "data": "vital-records.json"
+  },
+  {
+   "path": "/marriage-license/texas/",
+   "queries": [
+    "marriage license texas"
+   ],
+   "simulator": "Texas : prix du comté saisi, Twogether in Texas −60 $, 72 h, 90 jours",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/california/",
+   "queries": [
+    "marriage license california"
+   ],
+   "simulator": "Californie : publique / confidentielle, 90 jours",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/florida/",
+   "queries": [
+    "marriage license florida"
+   ],
+   "simulator": "Floride : 86 $ / 61 $, 3 jours, 60 jours",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/las-vegas/",
+   "queries": [
+    "marriage license las vegas"
+   ],
+   "simulator": "Clark County : 102 $, sans délai, 1 an",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/georgia/",
+   "queries": [
+    "marriage license georgia"
+   ],
+   "simulator": "Géorgie : prix du probate saisi, −40 $ avec 6 h",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/ohio/",
+   "queries": [
+    "marriage license ohio"
+   ],
+   "simulator": "Ohio : 60 à 65 $ selon comté, 60 jours",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/north-carolina/",
+   "queries": [
+    "marriage license north carolina"
+   ],
+   "simulator": "Caroline du Nord : 60 $, immédiat, 60 jours",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/new-york/",
+   "queries": [
+    "marriage license new york"
+   ],
+   "simulator": "NY : 40 $ (35 $ à NYC), 24 h, 60 jours",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/arizona/",
+   "queries": [
+    "marriage license arizona"
+   ],
+   "simulator": "Arizona : 98 $, sans délai, 1 an",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/marriage-license/tennessee/",
+   "queries": [
+    "marriage license tennessee"
+   ],
+   "simulator": "Tennessee : 97,50 à 107,50 $, −60 $ avec cours, 30 jours",
+   "engine": "marriage",
+   "data": "marriage-license.json"
+  },
+  {
+   "path": "/method/",
+   "queries": [],
+   "simulator": "Page Méthode : sources par État, date, niveau de confiance, cas de test publiés",
+   "engine": "-",
+   "data": "les deux JSON"
+  },
+  {
+   "path": "/about/",
+   "queries": [],
+   "simulator": "À propos (Radif Partners) avec mini-simulateur",
+   "engine": "vital.orderCost",
+   "data": "-"
+  }
+ ],
+ "legal": [
+  "/privacy/",
+  "/legal/"
+ ],
+ "count": {
+  "en": 43,
+  "es": 43,
+  "total": 86
+ }
+}

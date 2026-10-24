@@ -1,0 +1,33 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { PAGES } from '../../lib/guides';
+import { helpers } from '../../lib/helpers';
+import { M } from '../../lib/method-data';
+import Tool from '../../components/Tool.astro';
+const lang = 'en';
+const h = helpers(lang);
+const b = h.stats('birth');
+---
+<PageLayout title="Vital Record Cost publisher: who checks every state fee" description="Who publishes Vital Record Cost, why the state fee of each certified copy comes first, where each figure is read and what the site will never sell you." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><p class="kicker">About</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Who checks the fees on Vital Record Cost</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Vital Record Cost is published by Radif Partners, a company that builds free tools on public data. This one is for anyone who needs a certified copy of a birth, death, marriage or divorce record in the United States, or a marriage license: parents applying for a first passport, families settling an estate, couples planning a wedding date.</p>
+    <h2>What the site does</h2>
+    <p>It puts the fee the state itself charges first. A certified birth certificate costs from {h.m(b.min)} to {h.m(b.max)} at the {M.jurs} state and city offices, and each office publishes that price on its own page, often far from the order button. The calculator adds the price of the extra copies, which many offices sell for less when they are ordered with the first one, the online fee of the vendor the state has chosen when the state publishes it, and express shipping if you want it. For marriage licenses it gives the fee, the first day the ceremony may take place and the last day the license is valid. Everything is computed in your browser.</p>
+    <Tool tool={{ kind: 'mini:office' }} lang={lang} idPrefix="ab" />
+    <h2>Where the figures come from</h2>
+    <p>Every fee was read on the official page of the office that charges it: state departments of health, the New York City health department, state statutes, and county or town clerks for licenses priced locally. The sheets cite {h.num(M.urls)} official pages and were last read on {displayDate(M.asOf, 'en-US')}. The <a href={route('method', lang)}>method page</a> explains how each number is checked and how sure we are of it.</p>
+    <h2>What we are not</h2>
+    <p>We are not a government agency, a vital records office or an ordering service. We cannot order a record, see whether one exists or speed up an order, and we use no state seal or logo. The only places to order are the office itself and the vendors it names.</p>
+    <h2>How the site is paid for</h2>
+    <p>It is free and needs no account or email. We sell no document service, take no commission and link to no firm that charges for ordering records. If advertising is added one day, it will never sit above a calculator.</p>
+    <h2>Tell us when something is wrong</h2>
+    <p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the office and the figure. The <a href={route('editorial', lang)}>editorial policy</a> explains how a correction is made. The site has {PAGES.length + 3} pages in English.</p>
+    <p class="text-sm text-navy-600">Fees last checked on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

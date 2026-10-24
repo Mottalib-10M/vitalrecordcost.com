@@ -1,0 +1,32 @@
+name: Re-check official vital records pages
+# Chaque lundi : relit chaque page officielle citée (fees, licences, délais, apostilles, faits annexes),
+# enregistre son empreinte et ouvre un ticket quand une page a changé. Les montants ne sont jamais
+# modifiés automatiquement : une personne relit la page et corrige data/source/*.tsv.
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # every Monday, 06:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Rebuild the data and hash each official page
+        id: run
+        run: node scripts/update-data.mjs --check-sources || echo "changed=1" >> "$GITHUB_OUTPUT"
+      - name: Commit the new page hashes
+        run: |
+          git config user.name "Radif Partners"
+          git config user.email "amradif@gmail.com"
+          git add data/source/hashes.json data/source/changes.txt
+          git diff --cached --quiet || git commit -m "Données : contrôle hebdomadaire des pages officielles"
+          git push
+      - name: Open an issue when an official page changed
+        if: steps.run.outputs.changed == '1'
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: gh issue create --title "Page officielle à relire ($(date +%Y-%m-%d))" --body-file data/source/changes.txt

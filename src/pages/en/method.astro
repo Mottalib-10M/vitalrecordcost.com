@@ -1,0 +1,37 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { helpers } from '../../lib/helpers';
+import { M } from '../../lib/method-data';
+const lang = 'en';
+const h = helpers(lang);
+const ga = h.J('GA'), tx = h.ML('TX');
+---
+<PageLayout title="Vital Record Fees Method: How Each State Figure Is Checked" description="How Vital Record Cost reads the fee page of each state, DC and NYC, prices extra copies and online orders, dates a marriage license and counts copies." lang={lang} jsonLd={[articleSchema({ title: 'How each fee and date is checked', description: 'Method of Vital Record Cost', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">How each fee and date is checked</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>All pages and calculators read the same two sheets: one line per jurisdiction for certified copies of birth and death records, and one line per jurisdiction for the marriage license. There are {M.jurs} lines in each, because New York City runs its own vital records office apart from New York State. No fee is typed into a page. The sheets were last read on {displayDate(M.asOf, 'en-US')}, from {h.num(M.urls)} official pages.</p>
+    <h2>1. What a line holds</h2>
+    <p>For each office we record the price of the first certified copy, the price of each additional copy of the same record ordered at the same time, the online channel the office accepts and its fee when the office publishes it, the processing time the office states, the address of the page each figure was read on, a short quotation from that page and the date. A figure that is not on an official page stays empty and the site writes "not published".</p>
+    <h2>2. How sure we are</h2>
+    <p>{M.high} lines are marked high confidence: the fee was read on a current fee page or a 2024 to 2026 order form. {M.medium} are medium: the fee is official but two pages of the same office disagree, or the page is old and nothing newer exists. {M.low} are low: the page refused automated reading and the figure was confirmed another way. The level is kept in the sheet and reviewed first at each update.</p>
+    <h2>3. How an order is priced</h2>
+    <p>Total = first copy + additional copies × their price + online or processing fee + optional express shipping. Many offices charge less for each extra copy ordered with the first: Georgia asks {ga.bFirst} for the first birth certificate and {ga.bAdd} for each additional one, so three copies cost {ga.b3} at once but three times {ga.bFirst} when ordered one by one. The calculator shows both numbers. The online fee is filled in when the state publishes it ({M.vendorFee} offices do); otherwise you type the figure shown at checkout.</p>
+    <h2>4. How a marriage license is dated</h2>
+    <p>The earliest ceremony date is the day of issue plus the waiting period, counted in whole days. The expiry date is the day of issue plus the validity in days, months or years. Some states count from the application rather than the issue (Michigan, for example); the note under the result says so. A premarital course removes the wait in Texas and Florida and lowers the fee where the law allows it: in Texas the discount is {tx.discL ?? 'not published'}. {M.marriageState} jurisdictions set the license fee statewide; in the {M.marriageCounty} others each county or town sets it, so the calculator shows the range read on county pages and asks for your county's fee.</p>
+    <h2>5. How many death certificates</h2>
+    <p>This count is our own method, shown as an estimate: one certified copy for each institution that keeps an original (each bank, insurer, retirement plan, vehicle title office, county recorder where real estate is held, the probate court and the VA), plus two spares. Many institutions accept a photocopy or look at the original and give it back; the tool says to ask first.</p>
+    <h2>6. Tests</h2>
+    <p>On every build, cases read on official pages are checked against the engine (Texas, Georgia, California, Utah, New Jersey, Ohio, New York City for copies; Florida, Minnesota, Connecticut, DC and Nevada for licenses), the copy count is bounded, and every page passes the editorial checks. A failing test stops the build.</p>
+    <h2>7. What the site does not do</h2>
+    <ul>
+      <li>It does not order, issue or certify any record, and it does not know who is eligible beyond the rule each office publishes.</li>
+      <li>It does not list every county fee: where a county sets its own price, the figure comes from the county page you read.</li>
+      <li>It gives no legal advice. Records rules change: confirm with the office before you pay.</li>
+    </ul>
+    <p>Method of {displayDate(LAST_UPDATED, 'en-US')}. A figure that looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>

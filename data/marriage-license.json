@@ -1,0 +1,1271 @@
+{
+ "meta": {
+  "generatedAt": "2026-10-24",
+  "dataAsOf": "2026-10-24",
+  "licence": {
+   "facts": "Montants et délais = faits publiés par les administrations des États, des comtés et des villes (pages officielles citées une à une). Les faits ne sont pas protégés ; aucun tableau ni texte n’est recopié.",
+   "cdc": "CDC/NCHS « Where to Write for Vital Records » : « Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain » (cdc.gov/other/agencymaterials.html). Attribution : développé par CDC/HHS, disponible gratuitement sur cdc.gov. Utilisé seulement comme annuaire de repli ; ses montants (revus en 2019-2022) ne sont pas repris."
+  },
+  "count": 52
+ },
+ "records": [
+  {
+   "code": "AL",
+   "feeState": null,
+   "feeMin": 75,
+   "feeMax": 89,
+   "example": {
+    "en": "Madison County $89; Montgomery $81",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "No license since 2019: the couple files a notarized marriage form with the probate court within 30 days of the last signature.",
+    "es": ""
+   },
+   "source": "https://www.alabamapublichealth.gov/vitalrecords/assets/marriage_faq.pdf",
+   "quote": "must be delivered to the probate court within 30 days of the latter of the dates of the spouses' signatures",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "AK",
+   "feeState": 60,
+   "feeMin": 60,
+   "feeMax": 60,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 90
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "License valid in Alaska only; issued on the fourth day after the application unless a court waives the wait.",
+    "es": ""
+   },
+   "source": "https://health.alaska.gov/en/services/marriage-license/",
+   "quote": "\"three (3) day waiting period ; \"\"only valid for 90 days\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "AZ",
+   "feeState": 98,
+   "feeMin": 83,
+   "feeMax": 98,
+   "example": {
+    "en": "Pima, Coconino $98",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "years",
+    "value": 1
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Fee set by each county clerk of the superior court; no waiting period; the license is valid one year.",
+    "es": ""
+   },
+   "source": "https://www.pima.gov/marriage-license",
+   "quote": "No blood test or waiting period is required",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "AR",
+   "feeState": 60,
+   "feeMin": 60,
+   "feeMax": 60,
+   "example": null,
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the county clerk; the signed license must be returned within 60 days.",
+    "es": ""
+   },
+   "source": "https://pulaskiclerkar.gov/departments/marriage-license/",
+   "quote": "license valid 60 days ; must be returned within 60 days or $100 bond",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "CA",
+   "feeState": null,
+   "feeMin": 61,
+   "feeMax": 97,
+   "example": {
+    "en": "Los Angeles public $91, confidential $85",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 90
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Public or confidential license, priced by each county; the officiant returns it within 10 days.",
+    "es": ""
+   },
+   "source": "https://www.lavote.gov/home/county-clerk/marriage-licenses-ceremonies/fees/fees",
+   "quote": "\"Public Marriage License \"\"$91\"\" ; CDPH : \"\"valid for 90 days from the date of issuance\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "CO",
+   "feeState": 30,
+   "feeMin": 30,
+   "feeMax": 30,
+   "example": null,
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 35
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the county clerk; the officiant returns it within 63 days, with a late penalty after that.",
+    "es": ""
+   },
+   "source": "https://www.deltacountyco.gov/76/Marriage-Licenses",
+   "quote": "\"the license must be used within 35 days in the State of Colorado ; \"\"The fee is $30.00\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "CT",
+   "feeState": 50,
+   "feeMin": 50,
+   "feeMax": 50,
+   "example": null,
+   "setBy": "town",
+   "waitingHours": 48,
+   "validity": {
+    "kind": "days",
+    "value": 65
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "License from the town where the ceremony takes place; 48-hour wait since October 1, 2026.",
+    "es": ""
+   },
+   "source": "https://www.mansfieldct.gov/1722/Marriage-Licenses",
+   "quote": "a minimum 48-hour waiting period is required between completing a marriage license application ... and the issuance",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "DE",
+   "feeState": null,
+   "feeMin": 50,
+   "feeMax": 120,
+   "example": {
+    "en": "Kent County $70 resident, $120 non-resident",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 24,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Issued by the Clerk of the Peace of each county; 24-hour wait; the license is valid 30 days.",
+    "es": ""
+   },
+   "source": "https://www.kentcountyde.gov/Residents/Permits-Licenses/Marriage-Licenses",
+   "quote": "\"The license is valid for 30 days ; \"\"24-hour waiting period\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "DC",
+   "feeState": 45,
+   "feeMin": 45,
+   "feeMax": 45,
+   "example": null,
+   "setBy": "district",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "none"
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the DC Superior Court Marriage Bureau; no waiting period; the license does not expire.",
+    "es": ""
+   },
+   "source": "https://www.dccourts.gov/superior-court/superior-court-divisions/family-court-operations-division/marriage",
+   "quote": "\"the marriage license application fee is $45.00 ; \"\"Once issued, a marriage license does not expire\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "FL",
+   "feeState": 86,
+   "feeMin": 86,
+   "feeMax": 86,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 25,
+   "courseHours": 4,
+   "confidence": "high",
+   "note": {
+    "en": "Fee set by state law; residents wait 3 days unless they take a 4-hour premarital course, which also cuts the fee.",
+    "es": ""
+   },
+   "source": "https://www.duvalclerk.gov/how-do-i/apply-for/marriage-license",
+   "quote": "\"Marriage license and application: $86.00 ; \"\"$61.00\"\" with course ; valid 60 days\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "GA",
+   "feeState": null,
+   "feeMin": 56,
+   "feeMax": 78,
+   "example": {
+    "en": "Clayton $66 ($26 with course)",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": null,
+   "courseDiscount": 40,
+   "courseHours": 6,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each probate court; a 6-hour premarital program cuts the fee.",
+    "es": ""
+   },
+   "source": "https://www.claytoncountyga.gov/government/courts/probate-court/marriage-license/",
+   "quote": "\"$66 without premarital certification ; \"\"$26\"\" with\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "HI",
+   "feeState": 65,
+   "feeMin": 65,
+   "feeMax": 65,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued statewide by the Department of Health through licensing agents; valid 30 days.",
+    "es": ""
+   },
+   "source": "https://health.hawaii.gov/vitalrecords/marriage-licenses/",
+   "quote": "The cost to obtain a marriage or civil union license is $65.00 ($60 application fee + $5 portal fee)",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "ID",
+   "feeState": null,
+   "feeMin": 28,
+   "feeMax": 30,
+   "example": {
+    "en": "Ada County $30",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "none"
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county recorder; most licenses do not expire.",
+    "es": ""
+   },
+   "source": "https://www.cassia.gov/marriage-license",
+   "quote": "Idaho Marriage Licenses do NOT have an expiration date",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "IL",
+   "feeState": null,
+   "feeMin": 60,
+   "feeMax": 60,
+   "example": {
+    "en": "Cook County $60",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 24,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county clerk; the license takes effect the day after issue and is valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.cookcountyclerkil.gov/vital-records/marriage-civil-union/marriage-licenses",
+   "quote": "valid from the calendar day after they are issued, for a period of 60 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "IN",
+   "feeState": null,
+   "feeMin": 25,
+   "feeMax": 69,
+   "example": {
+    "en": "Monroe County $29 resident, $69 out of state",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county clerk, higher for couples from out of state.",
+    "es": ""
+   },
+   "source": "https://www.in.gov/counties/monroe/justice/clerk-of-court/marriage-licenses/",
+   "quote": "valid in any county in the State of Indiana for 60 days from date of issuance (Hancock)",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "IA",
+   "feeState": 35,
+   "feeMin": 35,
+   "feeMax": 35,
+   "example": null,
+   "setBy": "county",
+   "waitingHours": 72,
+   "validity": null,
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "3-day wait that a judge can waive; fee set by state law, collected by the county recorder.",
+    "es": ""
+   },
+   "source": "https://www.dubuquecountyiowa.gov/222/Birth-Death-Marriage-Certificates",
+   "quote": "Iowa law requires a three day waiting period before the marriage license is valid",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "KS",
+   "feeState": 85.5,
+   "feeMin": 85.5,
+   "feeMax": 85.5,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "months",
+    "value": 6
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Applied for through the district court; 3-day wait; valid six months.",
+    "es": ""
+   },
+   "source": "https://www.8thkscourts.gov/197/Marriage-License-Information",
+   "quote": "\"a fee of $85.50 ; \"\"shall expire at the end of six months from the date of issuance\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "KY",
+   "feeState": null,
+   "feeMin": 50,
+   "feeMax": 60,
+   "example": {
+    "en": "Franklin County $60",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county clerk; valid 30 days.",
+    "es": ""
+   },
+   "source": "https://franklincountyclerk.ky.gov/marriage-license/",
+   "quote": "license valid 30 days, ceremony in Kentucky",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "LA",
+   "feeState": null,
+   "feeMin": 27.5,
+   "feeMax": 27.5,
+   "example": {
+    "en": "Orleans Parish $27.50",
+    "es": ""
+   },
+   "setBy": "parish",
+   "waitingHours": 24,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Issued by the parish clerk of court (Orleans: the state vital records office); 24-hour wait.",
+    "es": ""
+   },
+   "source": "https://ldh.la.gov/page/644",
+   "quote": "valid for thirty days from the date of issuance ; Orleans license $27.50",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "ME",
+   "feeState": 40,
+   "feeMin": 40,
+   "feeMax": 40,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 90
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Intention of marriage filed with a town clerk; valid 90 days from filing.",
+    "es": ""
+   },
+   "source": "https://legislature.maine.gov/legis/statutes/30-A/title30-Asec2652.html",
+   "quote": "The license is valid for a period of 90 days from the date the intentions are filed",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "MD",
+   "feeState": null,
+   "feeMin": 35,
+   "feeMax": 55,
+   "example": {
+    "en": "Montgomery County $55",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 48,
+   "validity": {
+    "kind": "months",
+    "value": 6
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county circuit court clerk; 48-hour wait; valid six months.",
+    "es": ""
+   },
+   "source": "https://www.montgomerycountymd.gov/cct/marriage-license.html",
+   "quote": "valid for six months and must be acquired at least 48 hours before the ceremony",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "MA",
+   "feeState": null,
+   "feeMin": 25,
+   "feeMax": 40,
+   "example": {
+    "en": "Worcester $40",
+    "es": ""
+   },
+   "setBy": "town",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Intention of marriage filed with a city or town clerk; 3-day wait; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.mass.gov/guides/getting-married-in-massachusetts-before-the-wedding",
+   "quote": "there's a 3-day waiting period once you apply for a marriage license",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "MI",
+   "feeState": null,
+   "feeMin": 20,
+   "feeMax": 40,
+   "example": {
+    "en": "Most counties $20 resident, $30 out of state",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 33
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by the county clerk, higher for non-residents; 3-day wait; valid 33 days from application.",
+    "es": ""
+   },
+   "source": "https://www.kalcounty.gov/436/Apply-for-a-Marriage-License",
+   "quote": "$20 Michigan residents, $30 out-of-state ; valid 33 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "MN",
+   "feeState": 125,
+   "feeMin": 125,
+   "feeMax": 125,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "months",
+    "value": 6
+   },
+   "courseDiscount": 75,
+   "courseHours": 12,
+   "confidence": "high",
+   "note": {
+    "en": "Fee set by state law, much lower with 12 hours of premarital education; valid six months.",
+    "es": ""
+   },
+   "source": "https://www.revisor.mn.gov/statutes/cite/517.08",
+   "quote": "\"a fee of $125 ; \"\"$50\"\" with 12 hours premarital education ; \"\"valid for a period of six months\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "MS",
+   "feeState": null,
+   "feeMin": 21,
+   "feeMax": 38,
+   "example": {
+    "en": "Harrison County $38",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "none"
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Issued by the circuit clerk of each county; no waiting period.",
+    "es": ""
+   },
+   "source": "https://www.desotocountyms.gov/639/Marriage-License",
+   "quote": "no blood work or waiting period required and the license does not expire",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "MO",
+   "feeState": null,
+   "feeMin": 50,
+   "feeMax": 50,
+   "example": {
+    "en": "St. Louis County $50",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": null,
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "low",
+   "note": {
+    "en": "Issued by the county recorder of deeds; no waiting period.",
+    "es": ""
+   },
+   "source": "https://stlouiscountymo.gov/st-louis-county-departments/revenue/recorder-of-deeds/marriage-license-faqs/how-much-does-a-marriage-license-cost-and-how-can-i-pay/",
+   "quote": "The cost is $50.00 for the license and a keepsake license.",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "MT",
+   "feeState": 53,
+   "feeMin": 53,
+   "feeMax": 53,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 180
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Fee set by state law, collected by the clerk of district court; valid 180 days.",
+    "es": ""
+   },
+   "source": "https://www.lccountymt.gov/Government/Clerk-of-District-Court/Marriage-License",
+   "quote": "$53 ; valid for 180 days after issuance",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NE",
+   "feeState": 50,
+   "feeMin": 50,
+   "feeMax": 50,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "years",
+    "value": 1
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by state law, collected by the county clerk; valid one year.",
+    "es": ""
+   },
+   "source": "https://madisoncountyne.gov/clerk/marriage-licenses/",
+   "quote": "fee change beginning July 18, 2026 will increase to $50.00",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NV",
+   "feeState": null,
+   "feeMin": 85,
+   "feeMax": 102,
+   "example": {
+    "en": "Clark County (Las Vegas) $102",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "years",
+    "value": 1
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Fee set by each county; no waiting period; valid one year.",
+    "es": ""
+   },
+   "source": "https://www.clarkcountynv.gov/government/elected_officials/county_clerk/marriage-license-requirements",
+   "quote": "the marriage license expires one year from the date it is issued ; fee $102",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NH",
+   "feeState": 50,
+   "feeMin": 50,
+   "feeMax": 50,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 90
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Any city or town clerk in the state; no waiting period; valid 90 days.",
+    "es": ""
+   },
+   "source": "https://www.concordnh.gov/997/Marriage-Licenses",
+   "quote": "The state-set fee for a marriage license is $50. NH RSA 457.",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NJ",
+   "feeState": 28,
+   "feeMin": 28,
+   "feeMax": 28,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the local registrar; 72-hour wait; valid 30 days.",
+    "es": ""
+   },
+   "source": "https://www.fredonnj.gov/township-clerk/pages/marriage-license-applications",
+   "quote": "\"$28 application fee ; \"\"will not issue a license sooner than 72 hours after the application\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NM",
+   "feeState": 55,
+   "feeMin": 55,
+   "feeMax": 55,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "none"
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Fee set by state law, collected by the county clerk; the license does not expire.",
+    "es": ""
+   },
+   "source": "https://www.berncoclerk.gov/recording-and-filing/marriage-licenses/",
+   "quote": "will increase from $25 to $55 as a part of Senate Bill 290, effective June 20, 2025",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NY",
+   "feeState": 40,
+   "feeMin": 40,
+   "feeMax": 40,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 24,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Town or city clerk outside New York City; 24-hour wait; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.health.ny.gov/publications/4210/",
+   "quote": "license from a town or city clerk $40 ; valid 60 days ; 24 hours",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NYC",
+   "feeState": 35,
+   "feeMin": 35,
+   "feeMax": 35,
+   "example": null,
+   "setBy": "city",
+   "waitingHours": 24,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Office of the City Clerk, online appointment; 24-hour wait; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.cityclerk.nyc.gov/content/marriage-bureau/same-sex-couples-faq",
+   "quote": "The City Clerk's fee for a Marriage License is $35",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "NC",
+   "feeState": 60,
+   "feeMin": 60,
+   "feeMax": 60,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the county Register of Deeds; no waiting period; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.wake.gov/departments-government/register-deeds/apply-marriage-license",
+   "quote": "can be used immediately upon issuance and is good for 60 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "ND",
+   "feeState": 65,
+   "feeMin": 65,
+   "feeMax": 65,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the county; no waiting period; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.casscountynd.gov/our-county/finance-office/marriage-licenses-and-weddings/marriage-licenses",
+   "quote": "the fee for the marriage license is $65.00 ; valid 60 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "OH",
+   "feeState": null,
+   "feeMin": 60,
+   "feeMax": 65,
+   "example": {
+    "en": "Franklin County $65, Cuyahoga $60",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Issued by the county probate court, fee set by each county; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://probate.franklincountyohio.gov/Departments/Marriage",
+   "quote": "The fee for the license is $65.00 ; valid 60 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "OK",
+   "feeState": 50,
+   "feeMin": 50,
+   "feeMax": 50,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 45,
+   "courseHours": 4,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the court clerk; a premarital course cuts the fee; valid 30 days.",
+    "es": ""
+   },
+   "source": "https://wagonercounty.ok.gov/269/Marriage-Licenses",
+   "quote": "\"Fees are $50 ; \"\"reduced to $5\"\" with premarital counseling\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "OR",
+   "feeState": null,
+   "feeMin": 50,
+   "feeMax": 60,
+   "example": {
+    "en": "Josephine, Polk $60",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county clerk; 3-day wait that can be waived for a fee; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.josephinecounty.gov/government/county_clerk___recorder/marriage_licenses.php",
+   "quote": "three-day wait ; valid 60 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "PA",
+   "feeState": null,
+   "feeMin": 65,
+   "feeMax": 90,
+   "example": {
+    "en": "Philadelphia $90",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Issued by the county Register of Wills or Orphans Court; 3-day wait; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.phila.gov/services/birth-marriage-life-events/marriage-and-divorce/get-a-marriage-license/",
+   "quote": "A regular marriage license costs $90. ; issued on the third day, valid 60 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "RI",
+   "feeState": 24,
+   "feeMin": 24,
+   "feeMax": 24,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 90
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the city or town clerk; no waiting period; valid 90 days.",
+    "es": ""
+   },
+   "source": "https://www.smithfieldri.gov/departments/town-clerk/marriage-licenses",
+   "quote": "marriage license fee $24.00 ; valid ninety days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "SC",
+   "feeState": null,
+   "feeMin": 30,
+   "feeMax": 120,
+   "example": {
+    "en": "Horry County $55-$120 by residence",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 24,
+   "validity": null,
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each probate court, often higher for non-residents; 24-hour wait set by law.",
+    "es": ""
+   },
+   "source": "https://www.spartanburgcounty.gov/433/Marriage-License-Requirements",
+   "quote": "at least twenty-four hours before the issuance of the license",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "SD",
+   "feeState": 40,
+   "feeMin": 40,
+   "feeMax": 40,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 90
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the county register of deeds; no waiting period; valid 90 days.",
+    "es": ""
+   },
+   "source": "https://www.minnehahacounty.gov/dept/rd/vital_records/marriages/marriages.php",
+   "quote": "license usable 90 days since July 1, 2020 ; $40 cash only",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "TN",
+   "feeState": null,
+   "feeMin": 97.5,
+   "feeMax": 107.5,
+   "example": {
+    "en": "Montgomery County $107.50 ($47.50 with course)",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 30
+   },
+   "courseDiscount": 60,
+   "courseHours": 4,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county clerk; a 4-hour premarital course cuts it by $60; valid 30 days.",
+    "es": ""
+   },
+   "source": "https://montgomerytn.gov/clerk/marriage",
+   "quote": "license good for 30 days anywhere in Tennessee",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "TX",
+   "feeState": null,
+   "feeMin": 71,
+   "feeMax": 82,
+   "example": {
+    "en": "Travis $80, Denton $81",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 90
+   },
+   "courseDiscount": 60,
+   "courseHours": 8,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county clerk; 72-hour wait, waived with the Twogether in Texas course, which also cuts the fee.",
+    "es": ""
+   },
+   "source": "https://www.dentoncounty.gov/330/Marriage-Licenses",
+   "quote": "valid for 90 days from the date issued ; $81 ; $21 with the state-approved class",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "UT",
+   "feeState": null,
+   "feeMin": 50,
+   "feeMax": 71.75,
+   "example": {
+    "en": "Utah County $71.75 online",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 32
+   },
+   "courseDiscount": 20,
+   "courseHours": 3,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county clerk, lower with premarital counseling; valid 32 days.",
+    "es": ""
+   },
+   "source": "https://clerk.utahcounty.gov/marriage-license/apply",
+   "quote": "valid for 32 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "VT",
+   "feeState": 80,
+   "feeMin": 80,
+   "feeMax": 80,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by a town clerk; no waiting period; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.healthvermont.gov/sites/default/files/document/HSI-VR-GettingMarriedinVermont-FAQs-2023.pdf",
+   "quote": "You may obtain a license from any Vermont town/city clerk and the cost is $80 (FAQ février 2026)",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "VA",
+   "feeState": null,
+   "feeMin": 30,
+   "feeMax": 33,
+   "example": {
+    "en": "Richmond $30",
+    "es": ""
+   },
+   "setBy": "locality",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Issued by the circuit court clerk; no waiting period; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://www.rva.gov/office-circuit-court-clerk/marriages-licenses",
+   "quote": "The marriage license fee is $30.00 ; valid 60 days",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "WA",
+   "feeState": null,
+   "feeMin": 169,
+   "feeMax": 169,
+   "example": {
+    "en": "King County $169",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 72,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "medium",
+   "note": {
+    "en": "Fee set by each county auditor; 3-day wait set by law; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://kingcounty.gov/en/dept/executive-services/certificates-permits-licenses/records-licensing/recorders-office/marriage-licensing",
+   "quote": "There is a fee of $169 to apply for a marriage license. ; three-day waiting period",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "WV",
+   "feeState": 57,
+   "feeMin": 56,
+   "feeMax": 57,
+   "example": null,
+   "setBy": "state",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 22,
+   "courseHours": 4,
+   "confidence": "medium",
+   "note": {
+    "en": "Issued by the county clerk; a premarital course cuts the fee; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://code.wvlegislature.gov/59-1-10/",
+   "quote": "reduced to $35 if the applicants present a premarital education course completion certificate",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "WI",
+   "feeState": null,
+   "feeMin": 120,
+   "feeMax": 120,
+   "example": {
+    "en": "Milwaukee County $120",
+    "es": ""
+   },
+   "setBy": "county",
+   "waitingHours": 96,
+   "validity": {
+    "kind": "days",
+    "value": 60
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "low",
+   "note": {
+    "en": "Fee set by each county clerk; waiting period of several days; valid 60 days.",
+    "es": ""
+   },
+   "source": "https://county.milwaukee.gov/EN/County-Clerk/Marriage-License",
+   "quote": "\"$120 payable at the time of filing ; \"\"valid for 60 days upon the issuance date\"\"\"",
+   "retrievedAt": "2026-10-24"
+  },
+  {
+   "code": "WY",
+   "feeState": 30,
+   "feeMin": 25,
+   "feeMax": 30,
+   "example": null,
+   "setBy": "county",
+   "waitingHours": 0,
+   "validity": {
+    "kind": "years",
+    "value": 1
+   },
+   "courseDiscount": 0,
+   "courseHours": 0,
+   "confidence": "high",
+   "note": {
+    "en": "Issued by the county clerk, first certified copy included in some counties; valid one year.",
+    "es": ""
+   },
+   "source": "https://www.laramiecountywy.gov/County-Government/Elected-Officials/County-Clerk/Marriage-Licenses",
+   "quote": "Marriage license and first official certificate · $30.00 ; expire one year",
+   "retrievedAt": "2026-10-24"
+  }
+ ]
+}

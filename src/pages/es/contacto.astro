@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'es';
+---
+<PageLayout title={`Contacto de ${SITE_NAMES[lang]}: una tarifa cambió`} description="Escriba a Costo de Actas por Estado si cambió la tarifa de un estado o condado, si una página oficial se movió, o para insertar gratis la calculadora en su propio sitio web." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contacto' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contacto</h1>
+    <p>Correo: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Cada mensaje lo lee el equipo que mantiene las hojas de tarifas.</p>
+    <h2>Una tarifa o una regla cambió</h2>
+    <p>Indique el estado, el condado o la ciudad, el tipo de acta (nacimiento, defunción, matrimonio, divorcio, licencia de matrimonio) y la página oficial que muestra la nueva cifra. Las legislaturas y los condados suben las tarifas sobre todo el 1 de julio o el 1 de enero, y a veces una oficina cambia su formulario antes que su página web. Volvemos a leer la página, corregimos la hoja y las páginas se reconstruyen con la nueva fecha.</p>
+    <h2>Lo que no podemos hacer</h2>
+    <p>No somos una oficina de registros vitales ni un servicio de pedidos. No podemos pedir, buscar, corregir ni certificar un acta, ni revisar o acelerar un pedido. No nos envíe nombres, fechas de nacimiento, números de caso ni copias de documentos: no los necesitamos y los borramos.</p>
+    <h2>Usar la calculadora en su sitio</h2>
+    <p>Funerarias, bibliotecas, clínicas de ayuda legal y salones de boda pueden mostrar la calculadora en un iframe sin costo; el código está en la <a href={route('widget', lang)}>página para insertar</a>.</p>
+    <h2>Editor</h2>
+    <LegalIdentity lang={lang} />
+    <p>Actualizado el {displayDate(LAST_UPDATED, 'es-US')}.</p>
+  </div>
+</PageLayout>

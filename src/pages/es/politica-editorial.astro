@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'es';
+---
+<PageLayout title={`Política editorial de ${SITE_NAMES[lang]}: fuentes`} description="Qué páginas oficiales lee Costo de Actas por Estado en cada estado, qué fuentes nunca usa, cada cuánto relee las tarifas, cómo corrige una cifra y por qué ningún servicio le paga." lang={lang} noindex={true} breadcrumbs={[{ label: 'Política editorial' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Política editorial y de correcciones</h1>
+    <p>Estas páginas sirven para decidir dónde pedir un acta que hace falta para un pasaporte, un funeral, una sucesión o una boda. Una tarifa de hace dos años manda a la oficina equivocada o hace pagar dos veces; por eso cada cifra remite a la página oficial donde se leyó, con su fecha.</p>
+    <h2>Responsable</h2><p>{AUTHOR_NAME}, en <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Lo que leemos</h2>
+    <ul>
+      <li>la página de tarifas, el formulario de pedido o el tarifario de cada oficina estatal de registros vitales, del Distrito de Columbia y de la Ciudad de Nueva York;</li>
+      <li>las leyes y los códigos administrativos de los estados cuando fijan una tarifa, una espera o la vigencia de una licencia de matrimonio;</li>
+      <li>las páginas de los secretarios de condado, tribunales sucesorios y secretarios municipales cuando la licencia tiene precio local;</li>
+      <li>las páginas federales (Departamento de Estado, Administración del Seguro Social) para el pasaporte y el cambio de apellido.</li>
+    </ul>
+    <h2>Fuentes que rechazamos</h2><p>Ningún servicio de pedidos, gestor de documentos, blog u otra lista de tarifas aporta una cifra aquí. Una tarifa que no encontramos en una página oficial aparece como «no publicado», nunca de memoria. Cuando dos páginas oficiales no coinciden, conservamos la más reciente y lo decimos en la metodología.</p>
+    <h2>Revisión</h2><p>Un programa vuelve a leer cada semana todas las páginas de origen y señala las que cambiaron; luego una persona las lee y actualiza la hoja. Las tarifas se revisan por completo cada enero y cada julio, cuando entra en vigor la mayoría de los cambios.</p>
+    <h2>Correcciones</h2>
+    <ol><li>Abrimos de nuevo la página oficial.</li><li>Corregimos la hoja y, si el cambio afecta un cálculo, agregamos una prueba.</li><li>El sitio se reconstruye y cada página muestra la nueva fecha.</li></ol>
+    <h2>Independencia</h2><p>Ningún servicio de pedidos, proveedor, funeraria ni organismo público paga ni revisa lo que se publica aquí, y el sitio no lleva enlaces de afiliados. Vea la <a href={route('method', lang)}>metodología</a>. Versión del {displayDate(LAST_UPDATED, 'es-US')}.</p>
+  </div>
+</PageLayout>

@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: sources, fixes`} description="Which official pages Vital Record Cost reads for each state, which sources it never uses, how often fees are re-read, how a figure is corrected and why no ordering service pays it." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Editorial and corrections policy</h1>
+    <p>People use these pages to decide where to order a record they need for a passport, a funeral, an estate or a wedding. A fee that is two years old sends them to the wrong office or makes them pay twice, so every figure points back to the official page it was read on, with the date.</p>
+    <h2>Who is responsible</h2><p>{AUTHOR_NAME}, reachable at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>What we read</h2>
+    <ul>
+      <li>the fee page, order form or fee schedule of each state vital records office, of the District of Columbia and of New York City;</li>
+      <li>state statutes and administrative codes when they set a fee, a waiting period or the validity of a marriage license;</li>
+      <li>the pages of county clerks, probate courts and town clerks for licenses priced locally;</li>
+      <li>federal pages (State Department, Social Security Administration) for passports and name changes.</li>
+    </ul>
+    <h2>Sources we refuse</h2><p>Ordering services, document preparers, blogs and other fee lists never provide a figure here. A fee we cannot find on an official page is shown as "not published", never filled in from memory. When two official pages disagree, we keep the most recent one and say so on the method page.</p>
+    <h2>Review cycle</h2><p>A script reads every source page again each week and lists those whose text changed; a person then reads them and updates the sheet. Fees are reviewed in full each January and July, when most changes take effect.</p>
+    <h2>Corrections</h2>
+    <ol><li>We open the official page again.</li><li>We correct the sheet and, where the change affects a calculation, add a test.</li><li>The site rebuilds and every page shows the new date.</li></ol>
+    <h2>Independence</h2><p>No ordering service, vendor, funeral home or government body pays for or reviews what is published here, and the site carries no affiliate link. See the <a href={route('method', lang)}>method page</a>. Version of {displayDate(LAST_UPDATED, 'en-US')}.</p>
+  </div>
+</PageLayout>

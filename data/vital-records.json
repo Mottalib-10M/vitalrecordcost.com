@@ -1,0 +1,2886 @@
+{
+ "meta": {
+  "generatedAt": "2026-10-24",
+  "dataAsOf": "2026-10-24",
+  "licence": {
+   "facts": "Montants et délais = faits publiés par les administrations des États, des comtés et des villes (pages officielles citées une à une). Les faits ne sont pas protégés ; aucun tableau ni texte n’est recopié.",
+   "cdc": "CDC/NCHS « Where to Write for Vital Records » : « Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain » (cdc.gov/other/agencymaterials.html). Attribution : développé par CDC/HHS, disponible gratuitement sur cdc.gov. Utilisé seulement comme annuaire de repli ; ses montants (revus en 2019-2022) ne sont pas repris."
+  },
+  "count": 52
+ },
+ "records": [
+  {
+   "code": "AL",
+   "name": "Alabama",
+   "nameEs": "Alabama",
+   "office": "Alabama Center for Health Statistics",
+   "birth": {
+    "first": 15,
+    "additional": 6
+   },
+   "death": {
+    "first": 15,
+    "additional": 6
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds its own fee at checkout.",
+    "es": "En línea con VitalChek, que suma su propio cargo al pagar."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.alabamapublichealth.gov/vitalrecords/birth-certificates.html",
+    "death": "https://www.alabamapublichealth.gov/vitalrecords/death-certificates.html"
+   },
+   "quote": "The fee to search for a death certificate is $15.00, which includes one certified copy",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://www.alabamapublichealth.gov/vitalrecords/birth-certificates.html",
+   "marriageRecord": {
+    "where": "state",
+    "first": 15,
+    "additional": 6,
+    "note": {
+     "en": "State has records since Aug 1936; earlier ones at the county probate office. Expedite +$15.",
+     "es": ""
+    },
+    "url": "https://www.alabamapublichealth.gov/vitalrecords/marriage-certificates.html"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 6,
+    "note": {
+     "en": "State divorce certificate since 1950; decree and pre-1950 records at the county circuit court.",
+     "es": ""
+    },
+    "url": "https://www.alabamapublichealth.gov/vitalrecords/divorce-certificates.html"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "AK",
+   "name": "Alaska",
+   "nameEs": "Alaska",
+   "office": "Health Analytics and Vital Records Section",
+   "birth": {
+    "first": 30,
+    "additional": 25
+   },
+   "death": {
+    "first": 30,
+    "additional": 25
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "VitalChek is the only online vendor the state accepts.",
+    "es": "VitalChek es el único proveedor en línea que acepta el estado."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://health.alaska.gov/en/services/vital-records-orders/",
+    "death": "https://health.alaska.gov/en/services/vital-records-orders/"
+   },
+   "quote": "$30 for the first copy and $25 for each additional copy ordered at the same time",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 2-3 months (mail or fax); site alert says currently 1-2 months; online: at least 2-3 weeks via VitalChek",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://health.alaska.gov/en/services/vital-records-orders/",
+   "marriageRecord": {
+    "where": "state",
+    "first": 30,
+    "additional": 25,
+    "note": {
+     "en": "State Health Analytics and Vital Records issues certified marriage certificates (page snapshot 2026-10-09; live page blocks robots).",
+     "es": ""
+    },
+    "url": "https://health.alaska.gov/en/services/vital-records-orders/"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 30,
+    "additional": 25,
+    "note": {
+     "en": "State issues a one-page divorce certificate; the divorce decree and full record only from the Alaska Court System.",
+     "es": ""
+    },
+    "url": "https://health.alaska.gov/media/ac4dye1o/divorce_form_v042026.pdf"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona",
+   "nameEs": "Arizona",
+   "office": "ADHS Bureau of Vital Records",
+   "birth": {
+    "first": 20,
+    "additional": 20
+   },
+   "death": {
+    "first": 20,
+    "additional": 20
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek; county health offices issue copies the same day.",
+    "es": "En línea con VitalChek; las oficinas de salud del condado entregan copias el mismo día."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.azdhs.gov/documents/vital-records/application-certificate-birth.pdf",
+    "death": "https://azdhs.gov/vital-records/death-certificate/apply.htm"
+   },
+   "quote": "$20 per certified copy (VS-11 rev 03/18/2026)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": null,
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "ADHS Vital Records does not issue marriage records; Clerk of the Superior Court of the county of the license (CDC W2W).",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/arizona.htm"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "No state divorce certificate; decree from the Clerk of the Superior Court of the county (CDC W2W).",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/arizona.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas",
+   "nameEs": "Arkansas",
+   "office": "Arkansas Department of Health, Vital Records",
+   "birth": {
+    "first": 12,
+    "additional": 10
+   },
+   "death": {
+    "first": 10,
+    "additional": 8
+   },
+   "vendor": "state",
+   "vendorFee": 6.85,
+   "vendorText": {
+    "en": "State online service: $5 processing plus $1.85 identity check.",
+    "es": "Servicio en línea del estado: 5 $ de trámite más 1.85 $ de verificación de identidad."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://healthy.arkansas.gov/programs-services/certificates-records/order-birth-records/",
+    "death": "https://healthy.arkansas.gov/programs-services/certificates-records/order-death-records/"
+   },
+   "quote": "$12.00 for the first copy and $10.00 for each additional copy of the same record",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 10-14 days plus mail time; online: 7-14 business days from approval plus shipping; in person: same day for most requests if arriving by 4:00 p.m.",
+    "es": ""
+   },
+   "mailDaysMax": 14,
+   "processingUrl": "https://healthy.arkansas.gov/programs-services/certificates-records/order-birth-records/",
+   "marriageRecord": {
+    "where": "both",
+    "first": 10,
+    "additional": 10,
+    "note": {
+     "en": "State issues certified marriage coupon copies (since 1917); full license copy from the County Clerk (CDC W2W). Online +$5 +$1.85.",
+     "es": ""
+    },
+    "url": "https://healthy.arkansas.gov/programs-services/certificates-records/order-marriage-records/"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 10,
+    "additional": 10,
+    "note": {
+     "en": "State issues a divorce coupon (since 1923), not the decree; full decree from the Circuit Clerk of the county (CDC W2W).",
+     "es": ""
+    },
+    "url": "https://healthy.arkansas.gov/programs-services/certificates-records/order-divorce-records/"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "CA",
+   "name": "California",
+   "nameEs": "California",
+   "office": "CDPH Vital Records",
+   "birth": {
+    "first": 31,
+    "additional": 31
+   },
+   "death": {
+    "first": 26,
+    "additional": 26
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "CDPH takes mail orders; county recorders also issue copies and sell online through VitalChek.",
+    "es": "CDPH atiende pedidos por correo; los condados también emiten copias y venden en línea con VitalChek."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.cdph.ca.gov/Programs/CHSI/pages/vital-records-fees.aspx",
+    "death": "https://www.cdph.ca.gov/Programs/CHSI/pages/vital-records-fees.aspx"
+   },
+   "quote": "$31.00 for each copy, payable to CDPH-Vital Records (barème au 1er janv. 2026)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: average 4-6 weeks (CDPH); counties often faster",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Processing-Times.aspx",
+   "marriageRecord": {
+    "where": "both",
+    "first": 19,
+    "additional": 19,
+    "note": {
+     "en": "CDPH copies only for 1905-1999, 2001, 2008-2025; other years from the County Recorder. Fee raised 1 Jan 2026 (AB 64).",
+     "es": ""
+    },
+    "url": "https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Obtaining-Certified-Copies-of-Marriage-Records.aspx"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 18,
+    "additional": 18,
+    "note": {
+     "en": "CDPH issues only a Certificate of Record for 1962-June 1984 divorces, not the decree; decree from county Superior Court. Old form says $16.",
+     "es": ""
+    },
+    "url": "https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Obtaining-Certified-Copies-of-Divorce-Records.aspx"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "CT",
+   "name": "Connecticut",
+   "nameEs": "Connecticut",
+   "office": "DPH State Vital Records Office",
+   "birth": {
+    "first": 30,
+    "additional": 30
+   },
+   "death": {
+    "first": 20,
+    "additional": 20
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "VitalChek is the state's only online vendor; the town of birth also issues copies.",
+    "es": "VitalChek es el único proveedor en línea del estado; el municipio de nacimiento también emite copias."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://portal.ct.gov/dph/vital-records/birth-certificates",
+    "death": "https://portal.ct.gov/dph/vital-records/death-certificates"
+   },
+   "quote": "The fee for a birth certificate issued from the State of Connecticut Vital Records Unit is $30.00",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": {
+    "en": "Mail: state office up to 12 weeks; towns generally faster",
+    "es": ""
+   },
+   "mailDaysMax": 84,
+   "processingUrl": "https://portal.ct.gov/dph/vital-records/how-to-obtain-a-record",
+   "marriageRecord": {
+    "where": "both",
+    "first": 20,
+    "additional": 20,
+    "note": {
+     "en": "Copies from the town of marriage or residence ($20) or the State Vital Records Office ($20, money order only).",
+     "es": ""
+    },
+    "url": "https://portal.ct.gov/dph/vital-records/how-to-obtain-a-record"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "No state divorce certificate; decree from the CT Superior Court that granted the divorce.",
+     "es": ""
+    },
+    "url": "https://portal.ct.gov/dph/vital-records/divorce"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "DE",
+   "name": "Delaware",
+   "nameEs": "Delaware",
+   "office": "Office of Vital Statistics",
+   "birth": {
+    "first": 25,
+    "additional": 25
+   },
+   "death": {
+    "first": 25,
+    "additional": 25
+   },
+   "vendor": "GoCertificates",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through GoCertificates, which adds its own fee.",
+    "es": "En línea con GoCertificates, que suma su propio cargo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://delaware.gov/guides/certificates/",
+    "death": "https://www.dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/death.pdf"
+   },
+   "quote": "$25.00 per certificate (formulaire rev. June 2021)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "low",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": null,
+   "marriageRecord": {
+    "where": "state",
+    "first": 25,
+    "additional": 25,
+    "note": {
+     "en": "Office of Vital Statistics holds marriages newer than 50 years; older ones at Delaware Public Archives. Form rev. June 2020.",
+     "es": ""
+    },
+    "url": "https://dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/marriage.pdf"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "No state divorce certificate; records from the Family Court (1979-present) or Prothonotary (1978 and before) of the county.",
+     "es": ""
+    },
+    "url": "https://delaware.gov/guides/certificates/"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "CO",
+   "name": "Colorado",
+   "nameEs": "Colorado",
+   "office": "CDPHE Office of Vital Records",
+   "birth": {
+    "first": 25,
+    "additional": 20
+   },
+   "death": {
+    "first": 25,
+    "additional": 20
+   },
+   "vendor": "GoCertificates",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through GoCertificates or VitalChek; county vital records offices issue copies too.",
+    "es": "En línea con GoCertificates o VitalChek; las oficinas del condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://la-h-health.colorado.gov/services/vital-statistics",
+    "death": "https://oterocounty.colorado.gov/vital-records"
+   },
+   "quote": "two copies of the same record ordered together cost $45.00 (comtés, barème 1er janv. 2026)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "low",
+   "processing": {
+    "en": "Mail: queue: processing mail received on or before 10/07/2026; online: normally 30 business days; in person: state office by appointment only; local offices also issue",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://cdphe.colorado.gov/vitalrecords",
+   "marriageRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 20,
+    "note": {
+     "en": "State issues a marriage verification only (fee schedule eff. 1/1/2026); certified copy from the county clerk and recorder.",
+     "es": ""
+    },
+    "url": "https://drive.google.com/file/d/1POQTDPVLqteFe2rdx59mnLAOyca4ZA3A/view"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 20,
+    "note": {
+     "en": "State issues a dissolution verification only; certified decree from the district court where the divorce was granted.",
+     "es": ""
+    },
+    "url": "https://drive.google.com/file/d/1POQTDPVLqteFe2rdx59mnLAOyca4ZA3A/view"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "DC",
+   "name": "District of Columbia",
+   "nameEs": "Distrito de Columbia",
+   "office": "DC Health Vital Records Division",
+   "birth": {
+    "first": 23,
+    "additional": 23
+   },
+   "death": {
+    "first": 18,
+    "additional": 18
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 6,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds $6.",
+    "es": "En línea con VitalChek, que suma 6 $."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://dchealth.dc.gov/page/vital-records-fee-schedule-html",
+    "death": "https://dchealth.dc.gov/page/vital-records-fee-schedule-html"
+   },
+   "quote": "fee schedule DC Health : birth $23, death $18 ; VitalChek $6.00",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://dchealth.dc.gov/service/vital-records",
+   "marriageRecord": {
+    "where": "county",
+    "first": 10,
+    "additional": 10,
+    "note": {
+     "en": "DC Health does not issue marriage records; certified copies from the DC Superior Court Marriage Bureau (fee shown is the court's).",
+     "es": ""
+    },
+    "url": "https://www.dccourts.gov/node/21877"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": 5,
+    "additional": 5,
+    "note": {
+     "en": "No vital-records divorce certificate; certified copy of the decree from DC Superior Court Family Court (generic certified-copy fee).",
+     "es": ""
+    },
+    "url": "https://www.dccourts.gov/node/21877"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "FL",
+   "name": "Florida",
+   "nameEs": "Florida",
+   "office": "Bureau of Vital Statistics",
+   "birth": {
+    "first": 9,
+    "additional": 4
+   },
+   "death": {
+    "first": 5,
+    "additional": 4
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 7,
+   "vendorText": {
+    "en": "Online through VitalChek ($7 added); county health departments issue copies too.",
+    "es": "En línea con VitalChek (7 $ más); los departamentos de salud del condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.floridahealth.gov/certificates-records/birth-certificates/",
+    "death": "https://www.floridahealth.gov/certificates-records/death-certificates/"
+   },
+   "quote": "first computer-generated $9 + $9 search ; death $5 first, $4 each additional",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": {
+    "en": "Mail: 3-5 business days plus shipping (computer-generated); in person: same day walk-in with $10 rush fee, when available",
+    "es": ""
+   },
+   "mailDaysMax": 7,
+   "processingUrl": "https://www.floridahealth.gov/certificates-records/birth-certificates/",
+   "marriageRecord": {
+    "where": "both",
+    "first": 5,
+    "additional": 4,
+    "note": {
+     "en": "State abstract certificate for marriages since June 6, 1927; record also at county clerk of court. Rush +$10; online first copy $15.",
+     "es": ""
+    },
+    "url": "https://www.floridahealth.gov/certificates-records/marriage-certificates/"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 5,
+    "additional": 4,
+    "note": {
+     "en": "State issues a dissolution certificate (abstract) since June 6, 1927; the actual judgment from the county clerk of court.",
+     "es": ""
+    },
+    "url": "https://www.floridahealth.gov/certificates-records/divorce-certificates/"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "GA",
+   "name": "Georgia",
+   "nameEs": "Georgia",
+   "office": "DPH State Office of Vital Records",
+   "birth": {
+    "first": 25,
+    "additional": 5
+   },
+   "death": {
+    "first": 25,
+    "additional": 5
+   },
+   "vendor": "state",
+   "vendorFee": 8,
+   "vendorText": {
+    "en": "State online service adds an $8 processing fee; county offices issue copies too.",
+    "es": "El servicio en línea del estado suma 8 $ de trámite; las oficinas del condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://dph.georgia.gov/ways-request-vital-record/fees",
+    "death": "https://dph.georgia.gov/ways-request-vital-record/fees"
+   },
+   "quote": "$25.00 + $5.00 for additional copies",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: processed and shipped within 10 weeks; online: up to 10 weeks (ROVER, processing and shipping)",
+    "es": ""
+   },
+   "mailDaysMax": 70,
+   "processingUrl": "https://dph.georgia.gov/node/60711",
+   "marriageRecord": {
+    "where": "both",
+    "first": 10,
+    "additional": 5,
+    "note": {
+     "en": "State has marriage records June 1952-Aug 1996 only; other years at the county Probate Court.",
+     "es": ""
+    },
+    "url": "https://dph.georgia.gov/ways-request-vital-record/fees"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State can only confirm a divorce, no copies; decree from the Clerk of the Superior Court of the county.",
+     "es": ""
+    },
+    "url": "https://georgia.gov/request-vital-records"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "HI",
+   "name": "Hawaii",
+   "nameEs": "Hawái",
+   "office": "DOH Office of Health Status Monitoring",
+   "birth": {
+    "first": 10,
+    "additional": 4
+   },
+   "death": {
+    "first": 10,
+    "additional": 4
+   },
+   "vendor": "state",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "The state's own online service adds a small administrative fee.",
+    "es": "El servicio en línea del propio estado suma un pequeño cargo administrativo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://health.hawaii.gov/vitalrecords/birth-marriage-certificates/",
+    "death": "https://health.hawaii.gov/vitalrecords/death-certificates/"
+   },
+   "quote": "$10.00 for the first copy and $4.00 for each additional copy ordered at the same time + $2.50 par commande de 5",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: usually up to 4-6 weeks (all orders); online: usually up to 4-6 weeks (all orders)",
+    "es": ""
+   },
+   "mailDaysMax": 42,
+   "processingUrl": "https://health.hawaii.gov/vitalrecords/birth-marriage-certificates/",
+   "marriageRecord": {
+    "where": "state",
+    "first": 10,
+    "additional": 4,
+    "note": {
+     "en": "State Department of Health issues marriage and civil union copies; plus $2.50 administration fee per application (up to 5 copies).",
+     "es": ""
+    },
+    "url": "https://health.hawaii.gov/vitalrecords/birth-marriage-certificates/"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "Change in 2026: since Feb 1, 2026 the Health Department keeps no divorce records; decree from the circuit court that granted it.",
+     "es": ""
+    },
+    "url": "https://health.hawaii.gov/vitalrecords/files/2026/02/DIVORCE-REVISED-2-f.pdf"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "ID",
+   "name": "Idaho",
+   "nameEs": "Idaho",
+   "office": "Bureau of Vital Records and Health Statistics",
+   "birth": {
+    "first": 16,
+    "additional": 16
+   },
+   "death": {
+    "first": 16,
+    "additional": 16
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 10.5,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds $10.50.",
+    "es": "En línea con VitalChek, que suma 10.50 $."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://healthandwelfare.idaho.gov/services-programs/birth-marriage-death-records/ordering-birth-certificate",
+    "death": "https://healthandwelfare.idaho.gov/services-programs/birth-marriage-death-records/processing-times-and-fees-1"
+   },
+   "quote": "an additional per copy fee of $16 ; \"3-5 weeks to process standard non-RUSH certificate orders\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": {
+    "en": "Mail: 3-5 weeks standard; 2-3 weeks with express (after receipt); online: 3-5 weeks standard via VitalChek; 2-3 weeks with rush; in person: no public counter at the state office",
+    "es": ""
+   },
+   "mailDaysMax": 35,
+   "processingUrl": "https://healthandwelfare.idaho.gov/services-programs/birth-marriage-death-records/processing-times-and-fees",
+   "marriageRecord": {
+    "where": "state",
+    "first": 16,
+    "additional": 16,
+    "note": {
+     "en": "State issues certified copies of marriage certificates filed since May 1947; county recorder also files the original.",
+     "es": ""
+    },
+    "url": "https://healthandwelfare.idaho.gov/services-programs/birth-marriage-death-records/processing-times-and-fees-0"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 16,
+    "additional": 16,
+    "note": {
+     "en": "State issues a divorce certificate (since May 1947), not the decree; decree from the county court where granted.",
+     "es": ""
+    },
+    "url": "https://healthandwelfare.idaho.gov/services-programs/birth-marriage-death-records/about-marriage-and-divorce-records"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "IL",
+   "name": "Illinois",
+   "nameEs": "Illinois",
+   "office": "IDPH Division of Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 2
+   },
+   "death": {
+    "first": 19,
+    "additional": 4
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 15,
+   "vendorText": {
+    "en": "Online through VitalChek ($15 added); county clerks issue copies too.",
+    "es": "En línea con VitalChek (15 $ más); los secretarios de condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://dph.illinois.gov/topics-services/birth-death-other-records/birth-records/obtain-birth-certificate.html",
+    "death": "https://dph.illinois.gov/topics-services/birth-death-other-records/death-records/obtain-death-certificate.html"
+   },
+   "quote": "long form $15 first, $2 additional ; death $19 first, $4 additional",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: approximately 12 weeks from receipt",
+    "es": ""
+   },
+   "mailDaysMax": 84,
+   "processingUrl": "https://dph.illinois.gov/topics-services/birth-death-other-records/birth-records/obtain-birth-certificate.html",
+   "marriageRecord": {
+    "where": "county",
+    "first": 5,
+    "additional": null,
+    "note": {
+     "en": "State issues only a $5 verification of facts (1962 onward); certified copies only from the county clerk",
+     "es": ""
+    },
+    "url": "https://dph.illinois.gov/topics-services/birth-death-other-records/marriage-records.html"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": 5,
+    "additional": null,
+    "note": {
+     "en": "State issues only a $5 verification (1962 onward); certified decree from the circuit court clerk",
+     "es": ""
+    },
+    "url": "https://dph.illinois.gov/topics-services/birth-death-other-records/dissolution-marriage-records.html"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "IN",
+   "name": "Indiana",
+   "nameEs": "Indiana",
+   "office": "IDOH Vital Records",
+   "birth": {
+    "first": 10,
+    "additional": 4
+   },
+   "death": {
+    "first": 8,
+    "additional": 4
+   },
+   "vendor": "other",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through a third-party vendor that adds its own fee; local health departments issue copies.",
+    "es": "En línea con un proveedor externo que suma su cargo; los departamentos de salud locales emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.in.gov/health/vital-records/fee-schedule/",
+    "death": "https://www.in.gov/health/vital-records/fee-schedule/"
+   },
+   "quote": "birth $10.00, death $8.00, $4.00 each additional copy in the same order",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 10-15 business days once received (allow 2 weeks for the order to reach the office); in person: walk-up service at the local health department of the county of birth",
+    "es": ""
+   },
+   "mailDaysMax": 21,
+   "processingUrl": "https://www.in.gov/health/vital-records/fee-schedule/",
+   "marriageRecord": {
+    "where": "both",
+    "first": 8,
+    "additional": null,
+    "note": {
+     "en": "State has records 1958-2012 only ($8 per search, includes a certified copy; form rev. 2018); otherwise county Clerk of Court",
+     "es": ""
+    },
+    "url": "https://www.in.gov/dA/12b78a91f5/Marriage-Application-10.2018.docx"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State does not store divorce records; certified decree from the county Clerk of Court",
+     "es": ""
+    },
+    "url": "https://www.in.gov/health/vital-records/marriages"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "IA",
+   "name": "Iowa",
+   "nameEs": "Iowa",
+   "office": "HHS Bureau of Health Statistics",
+   "birth": {
+    "first": 20,
+    "additional": 20
+   },
+   "death": {
+    "first": 20,
+    "additional": 20
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 14,
+   "vendorText": {
+    "en": "VitalChek is the only online vendor ($14 added); county recorders issue copies too.",
+    "es": "VitalChek es el único proveedor en línea (14 $ más); los registradores del condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://hhs.iowa.gov/family-community/vital-records/how-request-certified-record",
+    "death": "https://hhs.iowa.gov/family-community/vital-records/how-request-certified-record"
+   },
+   "quote": "Each copy of a certified record costs $20.00 (hausse au 1er juillet 2026)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 4 to 6 weeks (average); online: VitalChek: 2-5 business days (UPS overnight), 5-10 business days (UPS 2-day), 4-6 weeks (regular mail); in person: after 2 hours (Des Moines)",
+    "es": ""
+   },
+   "mailDaysMax": 42,
+   "processingUrl": "https://hhs.iowa.gov/family-community/vital-records/how-request-certified-record",
+   "marriageRecord": {
+    "where": "both",
+    "first": 20,
+    "additional": 20,
+    "note": {
+     "en": "State has marriages since 1880 (online order list says 1954 to present); earlier copies from the county of application",
+     "es": ""
+    },
+    "url": "https://hhs.iowa.gov/family-community/vital-records/how-request-certified-record"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State receives only a statistical Report of Dissolution; no state divorce copy offered; decree from the county clerk of district court",
+     "es": ""
+    },
+    "url": "https://hhs.iowa.gov/media/3221/download"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "KS",
+   "name": "Kansas",
+   "nameEs": "Kansas",
+   "office": "KDHE Office of Vital Statistics",
+   "birth": {
+    "first": 20,
+    "additional": 20
+   },
+   "death": {
+    "first": 20,
+    "additional": 20
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds its own fee.",
+    "es": "En línea con VitalChek, que suma su propio cargo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.kdhe.ks.gov/1186/Birth-Certificate",
+    "death": "https://www.kdhe.ks.gov/1193/Death-Certificate"
+   },
+   "quote": "$20 for one certified copy and $20 for each additional copy of the same record ordered at the same time (K.A.R. 28-17-6)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 7 to 10 business days, depending on request volume; online: VitalChek: within 3 to 5 business days after receipt (expedited fee $15); in person: around 15 to 20 minutes at the Topeka walk-in lobby",
+    "es": ""
+   },
+   "mailDaysMax": 14,
+   "processingUrl": "https://www.kdhe.ks.gov/1186/Birth-Certificate",
+   "marriageRecord": {
+    "where": "both",
+    "first": 20,
+    "additional": 20,
+    "note": {
+     "en": "State has marriages filed since May 1, 1913; licenses also kept by the county district court clerk",
+     "es": ""
+    },
+    "url": "https://www.kdhe.ks.gov/1194/Marriage-Certificate"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 20,
+    "additional": 20,
+    "note": {
+     "en": "State issues a divorce certificate (basic facts, since July 1951); the decree is only at the county district court",
+     "es": ""
+    },
+    "url": "https://www.kdhe.ks.gov/1195/Divorce-Certificate"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "KY",
+   "name": "Kentucky",
+   "nameEs": "Kentucky",
+   "office": "Office of Vital Statistics",
+   "birth": {
+    "first": 10,
+    "additional": 10
+   },
+   "death": {
+    "first": 6,
+    "additional": 6
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds its own fee.",
+    "es": "En línea con VitalChek, que suma su propio cargo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Pages/purchase.aspx",
+    "death": "https://apps.legislature.ky.gov/law/kar/titles/901/005/050/"
+   },
+   "quote": "901 KAR 5:050 + registrar guidelines rev. 06/2026 : birth $10, death $6",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": {
+    "en": "Mail: usually within 5 business days; allow up to 30 working days for mail orders",
+    "es": ""
+   },
+   "mailDaysMax": 42,
+   "processingUrl": "https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Pages/purchase.aspx",
+   "marriageRecord": {
+    "where": "both",
+    "first": 6,
+    "additional": 6,
+    "note": {
+     "en": "State has marriages since June 1958 ($6 non-refundable search fee per certificate); earlier at the county clerk. Site blocks bots: read via archive 2026-08-13",
+     "es": ""
+    },
+    "url": "https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Pages/purchase.aspx"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 6,
+    "additional": 6,
+    "note": {
+     "en": "State issues a divorce certificate (since June 1958); the decree and earlier records at the circuit court clerk",
+     "es": ""
+    },
+    "url": "https://www.chfs.ky.gov/agencies/dph/dehp/vsb/Pages/marriage-divorce.aspx"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana",
+   "nameEs": "Luisiana",
+   "office": "LDH Vital Records Registry",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 7,
+    "additional": 7
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds its own fee; clerks of court issue copies too.",
+    "es": "En línea con VitalChek, que suma su propio cargo; los secretarios de tribunal también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://ldh.la.gov/vital-records/service-fees",
+    "death": "https://ldh.la.gov/vital-records/service-fees"
+   },
+   "quote": "LDH service fees: long form $15.00, death $7.00 (+ $0.50 per mail/VitalChek order)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "low",
+   "processing": {
+    "en": "Mail: approximately 8-10 weeks for delivery",
+    "es": ""
+   },
+   "mailDaysMax": 70,
+   "processingUrl": "https://www.ldh.la.gov/page/635",
+   "marriageRecord": {
+    "where": "both",
+    "first": 5,
+    "additional": 5,
+    "note": {
+     "en": "State issues only Orleans Parish marriages of the last 50 years ($5 + $0.50 state charge); all other parishes at the parish Clerk of Court",
+     "es": ""
+    },
+    "url": "https://ldh.la.gov/vital-records/service-fees"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State issues no divorce document; certified decree from the parish Clerk of Court",
+     "es": ""
+    },
+    "url": "https://ldh.la.gov/vital-records/marriage"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "ME",
+   "name": "Maine",
+   "nameEs": "Maine",
+   "office": "Maine CDC Data, Research and Vital Statistics",
+   "birth": {
+    "first": 15,
+    "additional": 6
+   },
+   "death": {
+    "first": 15,
+    "additional": 6
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek; town and city clerks issue copies at the same fee.",
+    "es": "En línea con VitalChek; los secretarios municipales emiten copias a la misma tarifa."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://www.maine.gov/dhhs/mecdc/vital-records/request-documents",
+    "death": "https://www.maine.gov/dhhs/mecdc/vital-records/request-documents"
+   },
+   "quote": "The cost for a certified copy of a vital record is $15.00 and $6.00 for each additional copy of the same record",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: average 5-7 business days from receipt; in person: same day walk-in (occasionally up to 24 hours)",
+    "es": ""
+   },
+   "mailDaysMax": 10,
+   "processingUrl": "https://www.maine.gov/dhhs/mecdc/vital-records/request-documents",
+   "marriageRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 6,
+    "note": {
+     "en": "State Vital Records and the municipal clerk both issue certified marriage copies (application rev. 06/2024)",
+     "es": ""
+    },
+    "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Application%20for%20a%20Vital%20Record.pdf"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 6,
+    "note": {
+     "en": "State issues a certified divorce record (same application); full decree from the Superior or District Court",
+     "es": ""
+    },
+    "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Application%20for%20a%20Vital%20Record.pdf"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "MD",
+   "name": "Maryland",
+   "nameEs": "Maryland",
+   "office": "MDH Division of Vital Records",
+   "birth": {
+    "first": 10,
+    "additional": 10
+   },
+   "death": {
+    "first": 10,
+    "additional": 12
+   },
+   "vendor": "state",
+   "vendorFee": 13,
+   "vendorText": {
+    "en": "The state's internet order adds $13.",
+    "es": "El pedido por internet del estado suma 13 $."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://health.maryland.gov/vsa/Pages/fees.aspx",
+    "death": "https://health.maryland.gov/vsa/Pages/fees.aspx"
+   },
+   "quote": "Birth \"$10.00\" ; Death \"$10.00\" ; \"Additional Death (same transaction)\" \"$12.00\" ; Internet \"$13.00\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": {
+    "en": "Mail: 6 weeks (temporarily increased; DVR page also reports a 4-week backlog delay on mail orders); online: 5 weeks with regular shipping, 3 weeks with expedited shipping; in person: same day at the DVR lobby (appointment only)",
+    "es": ""
+   },
+   "mailDaysMax": 42,
+   "processingUrl": "https://health.maryland.gov/vsa/Pages/proctime.aspx",
+   "marriageRecord": {
+    "where": "both",
+    "first": 12,
+    "additional": null,
+    "note": {
+     "en": "State issues copies for marriages since Jan 1, 2007 (no additional-copy rate listed); earlier ones at the county circuit court or State Archives",
+     "es": ""
+    },
+    "url": "https://health.maryland.gov/vsa/Pages/marriage.aspx"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": 12,
+    "additional": null,
+    "note": {
+     "en": "State issues only a $12 Verification of Divorce (since 1992); the decree only from the Circuit Court",
+     "es": ""
+    },
+    "url": "https://health.maryland.gov/vsa/Pages/divorce.aspx"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "MA",
+   "name": "Massachusetts",
+   "nameEs": "Massachusetts",
+   "office": "Registry of Vital Records and Statistics",
+   "birth": {
+    "first": 32,
+    "additional": 32
+   },
+   "death": {
+    "first": 32,
+    "additional": 32
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 22,
+   "vendorText": {
+    "en": "Online through VitalChek: $54 for the first copy instead of $32; city and town clerks issue copies too.",
+    "es": "En línea con VitalChek: 54 $ la primera copia en lugar de 32 $; los secretarios municipales también emiten copias."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://www.mass.gov/info-details/vital-records-service-fees",
+    "death": "https://www.mass.gov/info-details/vital-records-service-fees"
+   },
+   "quote": "mail $32 per copy standard, $42 expedited ; in person $20 (page ancienne)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: processed and shipped within 15-20 business days of receipt (expedited mail: 10 business days); online: VitalChek: shipped within 10 business days (expedited: next business day); in person: processed immediately in most cases",
+    "es": ""
+   },
+   "mailDaysMax": 28,
+   "processingUrl": "https://www.mass.gov/info-details/vital-records-service-fees",
+   "marriageRecord": {
+    "where": "both",
+    "first": 32,
+    "additional": 32,
+    "note": {
+     "en": "State Registry: $32 per copy by mail ($20 in person, $42 expedited mail); city or town clerk also issues copies",
+     "es": ""
+    },
+    "url": "https://www.mass.gov/info-details/vital-records-service-fees"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State Registry keeps only a divorce index (no certified copies); decree from the county Probate and Family Court",
+     "es": ""
+    },
+    "url": "https://www.mass.gov/how-to/get-a-copy-of-your-divorce-record"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "MI",
+   "name": "Michigan",
+   "nameEs": "Míchigan",
+   "office": "MDHHS Vital Records",
+   "birth": {
+    "first": 34,
+    "additional": 16
+   },
+   "death": {
+    "first": 34,
+    "additional": 16
+   },
+   "vendor": "state",
+   "vendorFee": 14,
+   "vendorText": {
+    "en": "The state's online order adds a $14 processing fee; county clerks issue copies too.",
+    "es": "El pedido en línea del estado suma 14 $ de trámite; los secretarios de condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record",
+    "death": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
+   },
+   "quote": "$34 search fee plus a $14 online processing fee ; \"Additional Certified Copies: $16.00 each\" (formulaires)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "low",
+   "processing": {
+    "en": "Mail: 10-12 weeks (regular); 8-10 weeks (expedited); online: VitalChek Will Call pickup: processed within 2-5 business days; in person: same-day service by appointment (Tue/Thu 10am-2pm)",
+    "es": ""
+   },
+   "mailDaysMax": 84,
+   "processingUrl": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record",
+   "marriageRecord": {
+    "where": "both",
+    "first": 34,
+    "additional": null,
+    "note": {
+     "en": "State has marriages since 1867 ($34 search fee incl. one copy; additional-copy fee only on application PDF, which blocks bots); county clerk also issues",
+     "es": ""
+    },
+    "url": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 34,
+    "additional": null,
+    "note": {
+     "en": "State issues a divorce certificate (record, $34 search fee); the full decree from the county circuit court clerk",
+     "es": ""
+    },
+    "url": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "MN",
+   "name": "Minnesota",
+   "nameEs": "Minnesota",
+   "office": "MDH Office of Vital Records",
+   "birth": {
+    "first": 26,
+    "additional": 19
+   },
+   "death": {
+    "first": 13,
+    "additional": 6
+   },
+   "vendor": "county",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "County vital records offices issue copies over the counter and by mail.",
+    "es": "Las oficinas de registros vitales del condado emiten copias en ventanilla y por correo."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.health.state.mn.us/people/vitalrecords/birthnc.html",
+    "death": "https://www.health.state.mn.us/people/vitalrecords/docs/dcappia.pdf"
+   },
+   "quote": "Birth certificate $26 (fee table MDH) ; additional birth $19, death $13 first, $6 additional (formulaires MDH)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": {
+    "en": "Mail: about 8 days backlog (as of Oct 20, 2026, orders received by Oct 12 were completed and mailed); in person: county offices: most of the time while you wait (MDH itself is mail/fax only)",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://www.health.state.mn.us/people/vitalrecords/index.html",
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State (MDH) does not record marriages; certified copy from the county office that issued the license, fee varies by county",
+     "es": ""
+    },
+    "url": "https://www.health.state.mn.us/people/vitalrecords/birthnc.html"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State keeps no divorce records; decree from the county district court that granted the divorce",
+     "es": ""
+    },
+    "url": "https://www.health.state.mn.us/people/vitalrecords/birthnc.html"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "MS",
+   "name": "Mississippi",
+   "nameEs": "Misisipi",
+   "office": "MSDH Vital Records",
+   "birth": {
+    "first": 17,
+    "additional": 6
+   },
+   "death": {
+    "first": 17,
+    "additional": 6
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds its own fee.",
+    "es": "En línea con VitalChek, que suma su propio cargo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://msdh.ms.gov/page/31,0,109,808.html",
+    "death": "https://msdh.ms.gov/page/31,1248,109,62.html"
+   },
+   "quote": "birth certificates cost $17, with a $6 fee for additional copies of the same record",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 7-10 business days (standard USPS orders); online: 3-5 business days with UPS expedited delivery (online/phone); in person: same day unless a search is required",
+    "es": ""
+   },
+   "mailDaysMax": 14,
+   "processingUrl": "https://msdh.ms.gov/page/31,0,109,76.html",
+   "marriageRecord": {
+    "where": "both",
+    "first": 17,
+    "additional": 6,
+    "note": {
+     "en": "State has marriages 1926-1938 and 1942 to present; circuit clerk of the issuing county also issues; not all records on file at state",
+     "es": ""
+    },
+    "url": "https://msdh.ms.gov/page/31,1241,109,62.html"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State keeps no divorce records; offers only a $17 index search to locate the county; decree from the Chancery Clerk",
+     "es": ""
+    },
+    "url": "https://msdh.ms.gov/page/31,0,109,810.html"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "MO",
+   "name": "Missouri",
+   "nameEs": "Misuri",
+   "office": "DHSS Bureau of Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 14,
+    "additional": 11
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek; local public health agencies issue copies at the same fee.",
+    "es": "En línea con VitalChek; las agencias de salud locales emiten copias a la misma tarifa."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://health.mo.gov/vital-records-registries/vital-records/order-copy-vital-record",
+    "death": "https://health.mo.gov/vital-records-registries/vital-records/order-copy-vital-record"
+   },
+   "quote": "birth $15 per copy ; death $14 first, $11 each additional same time",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://health.mo.gov/vital-records-registries/vital-records/order-copy-vital-record",
+   "marriageRecord": {
+    "where": "county",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "State issues only a Certified Statement (since July 1948); certified copy from county Recorder of Deeds. Read via archive 2026-10-09",
+     "es": ""
+    },
+    "url": "https://health.mo.gov/vital-records-registries/vital-records/order-copy-vital-record"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "State issues only a Certified Statement Relating to Divorce (since July 1948); decree from the county Circuit Clerk",
+     "es": ""
+    },
+    "url": "https://health.mo.gov/vital-records-registries/vital-records/order-copy-vital-record"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "MT",
+   "name": "Montana",
+   "nameEs": "Montana",
+   "office": "DPHHS Office of Vital Records",
+   "birth": {
+    "first": 16,
+    "additional": 16
+   },
+   "death": {
+    "first": 16,
+    "additional": 16
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "VitalChek is one of the state's two authorized online vendors.",
+    "es": "VitalChek es uno de los dos proveedores en línea autorizados por el estado."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://dphhs.mt.gov/vitalrecords/Fees",
+    "death": "https://dphhs.mt.gov/vitalrecords/Fees"
+   },
+   "quote": "Certified Birth Certificate · $16 (barème au 21/09/2024)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://dphhs.mt.gov/vitalrecords/BirthDeathCertificates",
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "State keeps only an index; certified copies from Clerk of District Court; state index search letter $10 (5 years)",
+     "es": ""
+    },
+    "url": "https://dphhs.mt.gov/vitalrecords/MarriageAndDivorce"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "Decree from Clerk of District Court; state only searches its index ($10 letter)",
+     "es": ""
+    },
+    "url": "https://dphhs.mt.gov/vitalrecords/MarriageAndDivorce"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska",
+   "nameEs": "Nebraska",
+   "office": "DHHS Vital Records",
+   "birth": {
+    "first": 17,
+    "additional": 17
+   },
+   "death": {
+    "first": 16,
+    "additional": 16
+   },
+   "vendor": "state",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "The state's own online service.",
+    "es": "El servicio en línea del propio estado."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://dhhs.ne.gov/Pages/Vital-Records-Service-Options.aspx",
+    "death": "https://dhhs.ne.gov/Pages/Vital-Records-Service-Options.aspx"
+   },
+   "quote": "$17.00 check or money order (birth) ; \"$16.00 for each death, marriage or divorce certificate\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": {
+    "en": "Mail: minimum 15 days in-office processing plus mail; online: minimum 7 days in-office processing; in person: minimum 30 minutes walk-in",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://dhhs.ne.gov/Pages/Vital-Records-Service-Options.aspx",
+   "marriageRecord": {
+    "where": "both",
+    "first": 16,
+    "additional": 16,
+    "note": {
+     "en": "Per-copy fee; state records since 1909, county court also issues (CDC W2W); site blocked, read via Wayback 2026-07-23",
+     "es": ""
+    },
+    "url": "https://dhhs.ne.gov/Pages/Vital-Records-Service-Options.aspx"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 16,
+    "additional": 16,
+    "note": {
+     "en": "State issues a divorce certificate; full decree from the Clerk of District Court (CDC W2W); read via Wayback 2026-07-23",
+     "es": ""
+    },
+    "url": "https://dhhs.ne.gov/Pages/Vital-Records-Service-Options.aspx"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NV",
+   "name": "Nevada",
+   "nameEs": "Nevada",
+   "office": "DPBH Office of Vital Records",
+   "birth": {
+    "first": 25,
+    "additional": 25
+   },
+   "death": {
+    "first": 25,
+    "additional": 25
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds its own fee.",
+    "es": "En línea con VitalChek, que suma su propio cargo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.dpbh.nv.gov/programs/birth-death-marriage-divorce-records/",
+    "death": "https://www.dpbh.nv.gov/programs/birth-death-marriage-divorce-records/"
+   },
+   "quote": "Certified Birth Certificates USD25.00 ; death $25 (Carson, Clark, Douglas, Lyon, Mineral, Washoe) or $22 other counties",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": null,
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "County recorder issues copies; state lists county contacts",
+     "es": ""
+    },
+    "url": "https://www.dpbh.nv.gov/programs/birth-death-marriage-divorce-records/"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "Decree from the county court clerk where granted",
+     "es": ""
+    },
+    "url": "https://www.dpbh.nv.gov/programs/birth-death-marriage-divorce-records/"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NH",
+   "name": "New Hampshire",
+   "nameEs": "Nueva Hampshire",
+   "office": "Division of Vital Records Administration",
+   "birth": {
+    "first": 15,
+    "additional": 10
+   },
+   "death": {
+    "first": 15,
+    "additional": 10
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek; any town or city clerk issues copies at the same fee.",
+    "es": "En línea con VitalChek; cualquier secretario municipal emite copias a la misma tarifa."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://www.sos.nh.gov/vital-records-0/faqs",
+    "death": "https://www.sos.nh.gov/vital-records-0/faqs"
+   },
+   "quote": "The cost of a search for a vital record is $15.00. Additional certified copies of the same record are available at a cost of $10.00 each.",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: allow 20 business days from receipt; in person: usually issued while you wait",
+    "es": ""
+   },
+   "mailDaysMax": 28,
+   "processingUrl": "https://www.sos.nh.gov/vital-records-0/faqs",
+   "marriageRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 10,
+    "note": {
+     "en": "State (DVRA) and any city or town clerk issue certified copies; same $15 search fee covers first copy",
+     "es": ""
+    },
+    "url": "https://www.sos.nh.gov/vital-records-0/faqs"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 10,
+    "note": {
+     "en": "State issues a certified divorce certificate (record); full decree from the Circuit Court Family Division",
+     "es": ""
+    },
+    "url": "https://www.sos.nh.gov/vital-records-0/faqs"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NJ",
+   "name": "New Jersey",
+   "nameEs": "Nueva Jersey",
+   "office": "NJDOH Office of Vital Statistics and Registry",
+   "birth": {
+    "first": 25,
+    "additional": 2
+   },
+   "death": {
+    "first": 25,
+    "additional": 2
+   },
+   "vendor": "state",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "State online service or VitalChek; municipal registrars set their own fees.",
+    "es": "Servicio en línea del estado o VitalChek; los registradores municipales fijan su tarifa."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://www.nj.gov/health/vital/order-vital/fees/",
+    "death": "https://www.nj.gov/health/vital/order-vital/fees/"
+   },
+   "quote": "$25 for the first certified copy ; \"$2 for each additional copy of the same record ordered at the same time\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 2-4 weeks (mail via VitalChek) plus delivery; online: 4-6 weeks plus delivery; in person: typically within 2 hours (Trenton walk-in)",
+    "es": ""
+   },
+   "mailDaysMax": 28,
+   "processingUrl": "https://www.nj.gov/health/vital/order-vital/non-genealogical-records/",
+   "marriageRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 2,
+    "note": {
+     "en": "State and the local registrar of the town of marriage both issue; local fees vary",
+     "es": ""
+    },
+    "url": "https://www.nj.gov/health/vital/order-vital/fees/"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "Decrees only from the Superior Court of New Jersey Records Center; state vital records does not issue",
+     "es": ""
+    },
+    "url": "https://www.nj.gov/health/vital/registration-vital/divorce-decrees/"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico",
+   "nameEs": "Nuevo México",
+   "office": "Bureau of Vital Records and Health Statistics",
+   "birth": {
+    "first": 10,
+    "additional": 10
+   },
+   "death": {
+    "first": 5,
+    "additional": 5
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek only.",
+    "es": "En línea solo con VitalChek."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.nmhealth.org/about/erd/bvrhs/vrp/birth/",
+    "death": "https://www.nmhealth.org/about/erd/bvrhs/vrp/death/"
+   },
+   "quote": "non-refundable search fee of $10 per certified copy (birth) ; \"$5 per certified copy\" (death)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "low",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://www.nmhealth.org/about/erd/bvrhs/vrp/birth/",
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: county clerk of the county that issued the license; state office does not issue (nmhealth.org returned 504)",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/new_mexico.htm"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: decree from the district court clerk where granted",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/new_mexico.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NY",
+   "name": "New York (outside NYC)",
+   "nameEs": "Nueva York (fuera de NYC)",
+   "office": "NYSDOH Bureau of Vital Records",
+   "birth": {
+    "first": 30,
+    "additional": 30
+   },
+   "death": {
+    "first": 30,
+    "additional": 30
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 8,
+   "vendorText": {
+    "en": "VitalChek: $45 a copy including $15 priority handling, plus $8 per order; local registrars issue copies too.",
+    "es": "VitalChek: 45 $ por copia con 15 $ de prioridad, más 8 $ por pedido; los registradores locales también emiten copias."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://www.health.ny.gov/vital_records/mailrequests.htm",
+    "death": "https://www.health.ny.gov/vital_records/mailrequests.htm"
+   },
+   "quote": "$30.00 per copy (mail, birth/marriage/death/divorce)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 10 to 12 weeks from receipt (regular handling)",
+    "es": ""
+   },
+   "mailDaysMax": 84,
+   "processingUrl": "https://www.health.ny.gov/vital_records/mailrequests.htm",
+   "marriageRecord": {
+    "where": "both",
+    "first": 30,
+    "additional": 30,
+    "note": {
+     "en": "Mail fee per copy (online $45 + vendor fee); town or city clerk where license bought also issues; NYC marriages excluded",
+     "es": ""
+    },
+    "url": "https://www.health.ny.gov/vital_records/marriage.htm"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 30,
+    "additional": 30,
+    "note": {
+     "en": "State issues a divorce certificate (since 1963) at $30 by mail; full decree from the County Clerk",
+     "es": ""
+    },
+    "url": "https://www.health.ny.gov/vital_records/divorce.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NYC",
+   "name": "New York City",
+   "nameEs": "Ciudad de Nueva York",
+   "office": "NYC Health Office of Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 15,
+    "additional": 15
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 9.3,
+   "vendorText": {
+    "en": "VitalChek is the city's only online vendor and adds $9.30.",
+    "es": "VitalChek es el único proveedor en línea de la ciudad y suma 9.30 $."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.nyc.gov/site/doh/services/birth-death-records-fees.page",
+    "death": "https://www.nyc.gov/site/doh/services/birth-death-records-fees.page"
+   },
+   "quote": "$15 per certified copy + online $9.30 process fee",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: approximately 2-3 weeks (non-premium mail: 8-12 weeks); online: 2-3 weeks plus up to 2 weeks regular mail delivery",
+    "es": ""
+   },
+   "mailDaysMax": 84,
+   "processingUrl": "https://www.nyc.gov/site/doh/services/birth-death-records-fees.page",
+   "marriageRecord": {
+    "where": "county",
+    "first": 15,
+    "additional": 10,
+    "note": {
+     "en": "Issued by the Office of the City Clerk (not a state office); short form $15/$10, extended form $35/$30; fee from form CC2002B dated 2016",
+     "es": ""
+    },
+    "url": "https://www.cityclerk.nyc.gov/assets/cityclerk/downloads/pdf/mail_in_request_form%20final.pdf"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 30,
+    "additional": 30,
+    "note": {
+     "en": "NY State DOH issues the divorce certificate (statewide since 1963, mail $30); decree from the county clerk of the borough",
+     "es": ""
+    },
+    "url": "https://www.health.ny.gov/vital_records/divorce.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina",
+   "nameEs": "Carolina del Norte",
+   "office": "NC Vital Records",
+   "birth": {
+    "first": 24,
+    "additional": 15
+   },
+   "death": {
+    "first": 24,
+    "additional": 15
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 13.95,
+   "vendorText": {
+    "en": "Online through VitalChek ($13.95 added); county Registers of Deeds issue copies too.",
+    "es": "En línea con VitalChek (13.95 $ más); los Registers of Deeds del condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://vitalrecords.nc.gov/order.htm",
+    "death": "https://vitalrecords.nc.gov/order.htm"
+   },
+   "quote": "Include $24 for the first copy of the certificate ; \"$15 for each additional certificate\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: average 10 business days processing plus shipping; in person: expedited in-person service by appointment only",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://vitalrecords.nc.gov/processing-dates.htm",
+   "marriageRecord": {
+    "where": "both",
+    "first": 24,
+    "additional": 15,
+    "note": {
+     "en": "State has marriages since 1962; county Register of Deeds also issues; state processing about 9 months (Oct 2026)",
+     "es": ""
+    },
+    "url": "https://vitalrecords.nc.gov/fees.htm"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 24,
+    "additional": 15,
+    "note": {
+     "en": "State issues a divorce certificate (1958-present), not the decree; Clerk of Court has the case file; state processing about 9 months",
+     "es": ""
+    },
+    "url": "https://vitalrecords.nc.gov/divorce.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "ND",
+   "name": "North Dakota",
+   "nameEs": "Dakota del Norte",
+   "office": "HHS Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 15,
+    "additional": 10
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek, which adds its own fee.",
+    "es": "En línea con VitalChek, que suma su propio cargo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.hhs.nd.gov/vital/birth",
+    "death": "https://www.hhs.nd.gov/vital/death"
+   },
+   "quote": "Certified copies of birth records are $15.00 for each copy ; death \"$15.00 for the 1st copy and $10.00 for each additional copy\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: usually mailed 3 to 5 business days after receipt, plus return mail; online: FedEx/UPS orders processed next business day",
+    "es": ""
+   },
+   "mailDaysMax": 7,
+   "processingUrl": "https://www.hhs.nd.gov/vital/birth",
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "Only the county (clerk of court or recorder) where the license was bought issues; fees vary by county",
+     "es": ""
+    },
+    "url": "https://www.hhs.nd.gov/vital/marriage"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "Only the county clerk or recorder where decreed issues copies",
+     "es": ""
+    },
+    "url": "https://www.hhs.nd.gov/vital/divorce"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "OH",
+   "name": "Ohio",
+   "nameEs": "Ohio",
+   "office": "ODH Office of Vital Statistics",
+   "birth": {
+    "first": 21.5,
+    "additional": 21.5
+   },
+   "death": {
+    "first": 21.5,
+    "additional": 21.5
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek; local health departments issue copies, often at a higher fee.",
+    "es": "En línea con VitalChek; los departamentos de salud locales emiten copias, a menudo más caras."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://odh.ohio.gov/know-our-programs/vital-statistics/how-to-order-certificates",
+    "death": "https://odh.ohio.gov/know-our-programs/vital-statistics/how-to-order-certificates"
+   },
+   "quote": "As of Jan. 1, 2025, the fee for the search of an Ohio vital birth or death record is $21.50",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: typically 4 to 6 weeks; online: processed within 5 business days; USPS delivery about 3 weeks; in person: same-day at local health department offices",
+    "es": ""
+   },
+   "mailDaysMax": 42,
+   "processingUrl": "https://odh.ohio.gov/know-our-programs/vital-statistics/how-to-order-certificates",
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: probate court of the county where the license was issued; not available from the state",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/ohio.htm"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: Clerk of Court of Common Pleas where granted; state keeps only an index",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/ohio.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma",
+   "nameEs": "Oklahoma",
+   "office": "OSDH Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 15,
+    "additional": 15
+   },
+   "vendor": "state",
+   "vendorFee": 5,
+   "vendorText": {
+    "en": "The state's online order adds $5 for residents ($12.95 for non-residents).",
+    "es": "El pedido en línea del estado suma 5 $ para residentes (12.95 $ para no residentes)."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://oklahoma.gov/health/services/birth-and-death-certificates/faqs.html",
+    "death": "https://oklahoma.gov/health/services/birth-and-death-certificates/faqs.html"
+   },
+   "quote": "fee table: $15 birth, $15 death ; $5 convenience fee residents",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://oklahoma.gov/health/services/birth-and-death-certificates/faqs.html",
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: court clerk of the county that issued the license; state health dept does not issue",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/oklahoma.htm"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: court clerk of the county where granted",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/oklahoma.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "OR",
+   "name": "Oregon",
+   "nameEs": "Oregón",
+   "office": "OHA Center for Health Statistics",
+   "birth": {
+    "first": 25,
+    "additional": 25
+   },
+   "death": {
+    "first": 25,
+    "additional": 25
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 18.25,
+   "vendorText": {
+    "en": "VitalChek: $43.25 for the first copy, of which $7 expedited handling and $11.25 vendor fee.",
+    "es": "VitalChek: 43.25 $ la primera copia, con 7 $ de trámite urgente y 11.25 $ del proveedor."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.oregon.gov/oha/ph/birthdeathcertificates/pages/vitalrecordsfees.aspx",
+    "death": "https://www.oregon.gov/oha/ph/birthdeathcertificates/pages/vitalrecordsfees.aspx"
+   },
+   "quote": "Mail order for one certificate (or one record search) · $25.00 · $25.00",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: approximately 3-5 weeks from receipt; online: typically within three workdays (VitalChek); in person: 30-minute appointment at Portland kiosk; drop box 8-10 weeks",
+    "es": ""
+   },
+   "mailDaysMax": 35,
+   "processingUrl": "https://www.oregon.gov/oha/PH/BIRTHDEATHCERTIFICATES/Pages/OrderBirthCertificate.aspx",
+   "marriageRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 25,
+    "note": {
+     "en": "State has marriages since 1911 (CDC W2W); county clerk where license issued also has records; restricted 50 years",
+     "es": ""
+    },
+    "url": "https://www.oregon.gov/oha/ph/birthdeathcertificates/pages/vitalrecordsfees.aspx"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 25,
+    "note": {
+     "en": "State issues a divorce certificate (since 1925, CDC W2W); decree from the county circuit court clerk",
+     "es": ""
+    },
+    "url": "https://www.oregon.gov/oha/ph/birthdeathcertificates/pages/vitalrecordsfees.aspx"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania",
+   "nameEs": "Pensilvania",
+   "office": "DOH Division of Vital Records",
+   "birth": {
+    "first": 20,
+    "additional": 20
+   },
+   "death": {
+    "first": 20,
+    "additional": 20
+   },
+   "vendor": "state",
+   "vendorFee": 10,
+   "vendorText": {
+    "en": "The state's online order adds a $10 service fee.",
+    "es": "El pedido en línea del estado suma 10 $ de servicio."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://www.pa.gov/agencies/health/programs/vital-records/birth-certificates",
+    "death": "https://www.pa.gov/agencies/health/programs/vital-records/death-certificates"
+   },
+   "quote": "The cost for a birth certificate is $20 each regardless of the quantity that you order",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: approximately 2 weeks; online: approximately 2 weeks; in person: same day if received before 2:30 p.m. at a public office",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://www.pa.gov/agencies/health/programs/vital-records/processing-times",
+   "marriageRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: Marriage License Clerk (Orphans' Court) of the county that issued the license; state DOH does not issue",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/pennsylvania.htm"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: decree from the county Prothonotary where granted",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/pennsylvania.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "RI",
+   "name": "Rhode Island",
+   "nameEs": "Rhode Island",
+   "office": "RIDOH Center for Vital Records",
+   "birth": {
+    "first": 22,
+    "additional": 18
+   },
+   "death": {
+    "first": 22,
+    "additional": 18
+   },
+   "vendor": "other",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through third-party portals with their own fees; city and town clerks issue copies too.",
+    "es": "En línea con portales externos con sus propios cargos; los secretarios municipales también emiten copias."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://health.ri.gov/vital-records/requesting-vital-record-state",
+    "death": "https://health.ri.gov/vital-records/requesting-vital-record-state"
+   },
+   "quote": "in person $22 first, $18 each additional same day ; mail $25 first",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 4-6 weeks (rush: 5-7 business days, +$7)",
+    "es": ""
+   },
+   "mailDaysMax": 42,
+   "processingUrl": "https://health.ri.gov/vital-records/requesting-vital-record-state",
+   "marriageRecord": {
+    "where": "both",
+    "first": 22,
+    "additional": 18,
+    "note": {
+     "en": "In-person fee; by mail $25 first copy; state keeps 100 years, older ones at state archives; city/town clerk also issues",
+     "es": ""
+    },
+    "url": "https://health.ri.gov/vital-records/requesting-vital-record-state"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: decree from the Clerk of Family Court, Providence; state health dept does not issue",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/rhode_island.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina",
+   "nameEs": "Carolina del Sur",
+   "office": "DPH Vital Records",
+   "birth": {
+    "first": 12,
+    "additional": 3
+   },
+   "death": {
+    "first": 12,
+    "additional": 3
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 8.75,
+   "vendorText": {
+    "en": "Online through VitalChek ($8.75 added) or GoCertificates ($8.70).",
+    "es": "En línea con VitalChek (8.75 $ más) o GoCertificates (8.70 $)."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://dph.sc.gov/public/vital-records/birth-certificates",
+    "death": "https://dph.sc.gov/public/vital-records/death-certificates"
+   },
+   "quote": "mail \"$12\" search fee incl. one copy ; \"$3\" each additional ; in person/online $17",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: average 4 weeks (state office only); online: average 5-7 business days; in person: average 30-45 minutes; most same day",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://web.archive.org/web/20260712123817/https://dph.sc.gov/public/vital-records/birth-certificates",
+   "marriageRecord": {
+    "where": "both",
+    "first": 12,
+    "additional": 3,
+    "note": {
+     "en": "State has July 1950-Dec 2023 (expedited $17); other years at county Probate Court; in-person paused; archived copy of DPH page dated Sept 18 2026 (geo-blocked)",
+     "es": ""
+    },
+    "url": "https://web.archive.org/web/20261007232907/https://dph.sc.gov/public/vital-records/marriage-certificates"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 12,
+    "additional": 3,
+    "note": {
+     "en": "State issues Report of Divorce (July 1962-Dec 2023), not the decree; decree from county Clerk of Court; archived DPH page",
+     "es": ""
+    },
+    "url": "https://web.archive.org/web/20261009164415/https://dph.sc.gov/public/vital-records/divorce-reports"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota",
+   "nameEs": "Dakota del Sur",
+   "office": "DOH Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 15,
+    "additional": 15
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 6.5,
+   "vendorText": {
+    "en": "Online through VitalChek ($6.50 added, plus an expedite charge).",
+    "es": "En línea con VitalChek (6.50 $ más un cargo por urgencia)."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://doh.sd.gov/licensing-and-records/vital-records/order-vital-records/vital-records-fees/",
+    "death": "https://doh.sd.gov/licensing-and-records/vital-records/order-vital-records/vital-records-fees/"
+   },
+   "quote": "$15 per certified or informational copy (birth, death, marriage, divorce)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://doh.sd.gov/licensing-and-records/vital-records/order-vital-records/",
+   "marriageRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "State office (Pierre) or any county Register of Deeds issues; $15 per copy",
+     "es": ""
+    },
+    "url": "https://doh.sd.gov/licensing-and-records/vital-records/order-vital-records/vital-records-fees/"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "Divorce certificate only from the State Office; decree only from the county Clerk of Courts",
+     "es": ""
+    },
+    "url": "https://doh.sd.gov/licensing-and-records/vital-records/order-vital-records/"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee",
+   "nameEs": "Tennessee",
+   "office": "TDH Office of Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 15,
+    "additional": 15
+   },
+   "vendor": "other",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through the state's vendor, which adds its own fee; county health departments issue short-form copies.",
+    "es": "En línea con el proveedor del estado, que suma su cargo; los departamentos de salud del condado emiten la versión corta."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees",
+    "death": "https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees"
+   },
+   "quote": "fee table: $15.00 first copy, $15.00 each additional (birth, death)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "low",
+   "processing": {
+    "en": "Mail: 3 days (as of 6/23/2026); online: 3 days; in person: same day",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://vitalrecords.tn.gov/hc/en-us/articles/36330016050195-How-long-will-it-take",
+   "marriageRecord": {
+    "where": "state",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "State keeps last 50 years; older at Tennessee State Library and Archives (CDC W2W); fee page updated 2026-04-14",
+     "es": ""
+    },
+    "url": "https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "State issues a divorce certificate (last 50 years); full decree from the court clerk where granted",
+     "es": ""
+    },
+    "url": "https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "UT",
+   "name": "Utah",
+   "nameEs": "Utah",
+   "office": "Office of Vital Records and Statistics",
+   "birth": {
+    "first": 25,
+    "additional": 10
+   },
+   "death": {
+    "first": 35,
+    "additional": 10
+   },
+   "vendor": "state",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "The state's own online service; local health departments issue copies too.",
+    "es": "El servicio en línea del propio estado; los departamentos de salud locales también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://vitalrecords.utah.gov/fee-schedule",
+    "death": "https://vitalrecords.utah.gov/fee-schedule"
+   },
+   "quote": "Effective July 1, 2026 ; birth initial $25.00 ; death initial $35.00 ; additional $10.00",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: allow at least 6 weeks for processing and mailing; online: approximately 6 weeks (June 1 2026 notice)",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://vitalrecords.utah.gov/certificates/order-a-vital-record-certificate",
+   "marriageRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 10,
+    "note": {
+     "en": "State issues an abstract only, for 1978-2010; other years and full copies at county clerk; fees effective July 1 2026",
+     "es": ""
+    },
+    "url": "https://vitalrecords.utah.gov/fee-schedule"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 10,
+    "note": {
+     "en": "State issues a divorce abstract (certificate) for 1978-2010/2011; decree from the district court",
+     "es": ""
+    },
+    "url": "https://vitalrecords.utah.gov/certificates/order-a-vital-record-certificate"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "VT",
+   "name": "Vermont",
+   "nameEs": "Vermont",
+   "office": "VDH Vital Records",
+   "birth": {
+    "first": 10,
+    "additional": 10
+   },
+   "death": {
+    "first": 10,
+    "additional": 10
+   },
+   "vendor": "state",
+   "vendorFee": 2,
+   "vendorText": {
+    "en": "Vermont.gov online order adds $2; town clerks issue copies too.",
+    "es": "El pedido en Vermont.gov suma 2 $; los secretarios municipales también emiten copias."
+   },
+   "local": "town",
+   "sources": {
+    "birth": "https://www.healthvermont.gov/stats/vital-records/order-vital-records",
+    "death": "https://legislature.vermont.gov/statutes/chapter/18/101"
+   },
+   "quote": "For a certified copy of a vital event certificate, the fee shall be $10.00 (18 V.S.A. ch. 101)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://www.healthvermont.gov/stats/vital-records/order-vital-records",
+   "marriageRecord": {
+    "where": "both",
+    "first": 10,
+    "additional": 10,
+    "note": {
+     "en": "Health Department or the town/city clerk (record on file) issues; +$2 online fee",
+     "es": ""
+    },
+    "url": "https://www.healthvermont.gov/stats/vital-records/order-vital-records"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 10,
+    "additional": 10,
+    "note": {
+     "en": "State issues a certified divorce certificate; full decree from the Superior Court Family Division",
+     "es": ""
+    },
+    "url": "https://www.healthvermont.gov/stats/vital-records/order-vital-records"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "VA",
+   "name": "Virginia",
+   "nameEs": "Virginia",
+   "office": "VDH Division of Vital Records",
+   "birth": {
+    "first": 15,
+    "additional": 15
+   },
+   "death": {
+    "first": 15,
+    "additional": 15
+   },
+   "vendor": "state",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "The state office and DMV customer service centers issue copies.",
+    "es": "La oficina estatal y los centros del DMV emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.vdh.virginia.gov/prince-william/vital-records/",
+    "death": "https://www.vdh.virginia.gov/content/uploads/sites/93/VS6D_Death-Certificate-Application_7_2026.pdf"
+   },
+   "quote": "increasing the Vital Record Certificate Fee to $15.00 effective July 1, 2026 (Ch. 616, 2026 Acts)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: normal processing time 2 weeks (standard); online: next day processing with express delivery option",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://www.vdh.virginia.gov/vital-records/",
+   "marriageRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "Fee rose from $12 to $15 on July 1 2026 (Ch. 616, 2026 Acts); also at DMV and the circuit court clerk (CDC W2W)",
+     "es": ""
+    },
+    "url": "https://www.vdh.virginia.gov/vital-records/"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 15,
+    "additional": 15,
+    "note": {
+     "en": "State issues a divorce certificate (records after 1918); full decree from the circuit court clerk (CDC W2W)",
+     "es": ""
+    },
+    "url": "https://www.vdh.virginia.gov/vital-records/"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "TX",
+   "name": "Texas",
+   "nameEs": "Texas",
+   "office": "DSHS Vital Statistics Section",
+   "birth": {
+    "first": 22,
+    "additional": 22
+   },
+   "death": {
+    "first": 20,
+    "additional": 3
+   },
+   "vendor": "state",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Texas.gov, the state portal; county and local registrars issue copies too.",
+    "es": "Texas.gov, el portal del estado; los registradores del condado y locales también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.dshs.texas.gov/vital-statistics/costs-fees",
+    "death": "https://www.dshs.texas.gov/vital-statistics/costs-fees"
+   },
+   "quote": "Certified Copy - Long Form (e.g., for U.S. Passports) | $22.00 ; \"First Death Certificate | $20.00\" ; \"Each Additional ... $3.00\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: 25-30 average business days; online: 20-25 average business days (Texas.gov); in person: same day in most cases (Austin central office)",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://www.dshs.texas.gov/vital-statistics/processing-times",
+   "marriageRecord": {
+    "where": "county",
+    "first": 20,
+    "additional": null,
+    "note": {
+     "en": "State issues only a verification letter ($20 each), not a certified copy; certified copy from the county clerk",
+     "es": ""
+    },
+    "url": "https://www.dshs.texas.gov/vital-statistics/marriage-divorce-records"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": 20,
+    "additional": null,
+    "note": {
+     "en": "State issues only a divorce verification letter ($20); certified decree from the district clerk",
+     "es": ""
+    },
+    "url": "https://www.dshs.texas.gov/vital-statistics/marriage-divorce-records"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "WA",
+   "name": "Washington",
+   "nameEs": "Washington",
+   "office": "DOH Center for Health Statistics",
+   "birth": {
+    "first": 25,
+    "additional": 25
+   },
+   "death": {
+    "first": 25,
+    "additional": 25
+   },
+   "vendor": "VitalChek",
+   "vendorFee": 15.5,
+   "vendorText": {
+    "en": "VitalChek: $8.50 vendor fee plus a $7 state online fee.",
+    "es": "VitalChek: 8.50 $ del proveedor más 7 $ de cargo estatal en línea."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://doh.wa.gov/licenses-permits-and-certificates/vital-records/ordering-vital-record/birth-record",
+    "death": "https://doh.wa.gov/licenses-permits-and-certificates/vital-records/ordering-vital-record/death-record"
+   },
+   "quote": "fees start at $25 per certified or noncertified informational copy",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: received within 8-10 weeks after payment is processed; online: VitalChek: processed and shipped within 3-7 business days; in person: most orders same day at local health departments",
+    "es": ""
+   },
+   "mailDaysMax": 70,
+   "processingUrl": "https://doh.wa.gov/licenses-permits-and-certificates/vital-records/ordering-vital-record/birth-record",
+   "marriageRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 25,
+    "note": {
+     "en": "State has 1968-present ($25 base, extra fees by method); before 1968 and recent ones at county auditor",
+     "es": ""
+    },
+    "url": "https://doh.wa.gov/licenses-permits-and-certificates/vital-records/ordering-vital-record/marriage-or-divorce-record"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 25,
+    "note": {
+     "en": "State issues a divorce certificate (1968-present), not the decree; decree from the county superior court clerk",
+     "es": ""
+    },
+    "url": "https://doh.wa.gov/licenses-permits-and-certificates/vital-records/ordering-vital-record/marriage-or-divorce-record"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia",
+   "nameEs": "Virginia Occidental",
+   "office": "Health Statistics Center, Vital Registration",
+   "birth": {
+    "first": 12,
+    "additional": 12
+   },
+   "death": {
+    "first": 12,
+    "additional": 12
+   },
+   "vendor": "other",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through a third-party vendor that adds its own fee.",
+    "es": "En línea con un proveedor externo que suma su propio cargo."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://dhhr.wv.gov/HSC/VR/CR/Pages/default.aspx",
+    "death": "https://dhhr.wv.gov/HSC/VR/CR/Pages/default.aspx"
+   },
+   "quote": "$12 per copy (barème au 1er juillet 2023)",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://dhhr.wv.gov/HSC/VR/CR/Pages/default.aspx",
+   "marriageRecord": {
+    "where": "both",
+    "first": 12,
+    "additional": 12,
+    "note": {
+     "en": "State certified copies from 1964 on (CDC W2W); county clerk also issues and holds earlier ones; fee since July 1 2023",
+     "es": ""
+    },
+    "url": "https://dhhr.wv.gov/HSC/VR/CR/Pages/default.aspx"
+   },
+   "divorceRecord": {
+    "where": "county",
+    "first": null,
+    "additional": null,
+    "note": {
+     "en": "CDC W2W: state keeps index only (since 1968); copies from the Clerk of the Circuit Court",
+     "es": ""
+    },
+    "url": "https://www.cdc.gov/nchs/w2w/west_virginia.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin",
+   "nameEs": "Wisconsin",
+   "office": "DHS Vital Records Office",
+   "birth": {
+    "first": 20,
+    "additional": 3
+   },
+   "death": {
+    "first": 20,
+    "additional": 3
+   },
+   "vendor": "VitalChek",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "Online through VitalChek; county register of deeds offices issue copies too.",
+    "es": "En línea con VitalChek; los registros de escrituras del condado también emiten copias."
+   },
+   "local": "county",
+   "sources": {
+    "birth": "https://www.dhs.wisconsin.gov/vitalrecords/record.htm",
+    "death": "https://www.dhs.wisconsin.gov/forms/f0/f05280.pdf"
+   },
+   "quote": "$20 for first copy of each record $3 for each additional copy of the same record",
+   "retrievedAt": "2026-10-24",
+   "confidence": "high",
+   "processing": {
+    "en": "Mail: about 10 business days plus mail time; online: about 5 business days (VitalChek)",
+    "es": ""
+   },
+   "mailDaysMax": null,
+   "processingUrl": "https://www.dhs.wisconsin.gov/vitalrecords/record.htm",
+   "marriageRecord": {
+    "where": "both",
+    "first": 20,
+    "additional": 3,
+    "note": {
+     "en": "State office (records since Oct 1907) or any county Register of Deeds",
+     "es": ""
+    },
+    "url": "https://www.dhs.wisconsin.gov/vitalrecords/record.htm"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 20,
+    "additional": 3,
+    "note": {
+     "en": "State issues a one-page Certificate of Divorce; decree or judgment from the county Clerk of Court",
+     "es": ""
+    },
+    "url": "https://www.dhs.wisconsin.gov/vitalrecords/record.htm"
+   },
+   "apostille": null,
+   "commonLaw": null
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming",
+   "nameEs": "Wyoming",
+   "office": "WDH Vital Statistics Services",
+   "birth": {
+    "first": 25,
+    "additional": 25
+   },
+   "death": {
+    "first": 25,
+    "additional": 20
+   },
+   "vendor": "state",
+   "vendorFee": null,
+   "vendorText": {
+    "en": "The state's online portal adds a card fee of 2.4 % (at least $1).",
+    "es": "El portal en línea del estado suma un cargo de tarjeta del 2.4 % (mínimo 1 $)."
+   },
+   "local": null,
+   "sources": {
+    "birth": "https://health.wyo.gov/admin/vitalstatistics/",
+    "death": "https://health.wyo.gov/wp-content/uploads/2024/10/WDH_VSS-Application-for-Certified-Copy-2024-Form-1a-Death.pdf"
+   },
+   "quote": "Birth, Marriage, Divorce, Stillbirth $25.00 ; \"Death - Each Additional Copy $20.00\"",
+   "retrievedAt": "2026-10-24",
+   "confidence": "medium",
+   "processing": null,
+   "mailDaysMax": null,
+   "processingUrl": "https://health.wyo.gov/admin/vitalstatistics/certificates/",
+   "marriageRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 25,
+    "note": {
+     "en": "State since 1941; county clerk also issues (CDC W2W); fee from 2024 state form (site 403, read via archive)",
+     "es": ""
+    },
+    "url": "https://health.wyo.gov/wp-content/uploads/2024/10/WDH_VSS-Application-for-Certified-Copy-2024-Form-1a-Marriage-Divorce.pdf"
+   },
+   "divorceRecord": {
+    "where": "both",
+    "first": 25,
+    "additional": 25,
+    "note": {
+     "en": "State issues a divorce certificate (since 1941); decree from the Clerk of District Court (CDC W2W)",
+     "es": ""
+    },
+    "url": "https://health.wyo.gov/wp-content/uploads/2024/10/WDH_VSS-Application-for-Certified-Copy-2024-Form-1a-Marriage-Divorce.pdf"
+   },
+   "apostille": null,
+   "commonLaw": null
+  }
+ ]
+}

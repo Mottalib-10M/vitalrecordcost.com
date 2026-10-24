@@ -1,0 +1,33 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { PAGES } from '../../lib/guides';
+import { helpers } from '../../lib/helpers';
+import { M } from '../../lib/method-data';
+import Tool from '../../components/Tool.astro';
+const lang = 'es';
+const h = helpers(lang);
+const b = h.stats('birth');
+---
+<PageLayout title="Costo de Actas por Estado: quién verifica cada tarifa" description="Quién publica Costo de Actas por Estado, por qué la tarifa del estado va primero, de dónde sale cada cifra y lo que el sitio nunca le venderá a usted." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Inicio', path: route('home', lang) }, { name: 'Quiénes somos', path: route('about', lang) }])]} breadcrumbs={[{ label: 'Quiénes somos' }]}>
+  <header class="mb-6"><p class="kicker">Quiénes somos</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Quién verifica las tarifas de Costo de Actas por Estado</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Costo de Actas por Estado lo publica Radif Partners, una empresa que crea herramientas gratuitas con datos públicos. Esta sirve a quien necesita una copia certificada de un acta de nacimiento, defunción, matrimonio o divorcio en Estados Unidos, o una licencia de matrimonio: padres que piden el primer pasaporte de un hijo, familias que cierran una sucesión, parejas que fijan la fecha de su boda.</p>
+    <h2>Lo que hace el sitio</h2>
+    <p>Pone primero la tarifa que cobra el propio estado. Una copia certificada del acta de nacimiento cuesta de {h.m(b.min)} a {h.m(b.max)} en las {M.jurs} oficinas estatales y municipales, y cada oficina publica ese precio en su propia página, a menudo lejos del botón de pedido. La calculadora suma el precio de las copias adicionales, que muchas oficinas venden más baratas si se piden con la primera, el cargo en línea del proveedor que eligió el estado cuando este lo publica, y el envío urgente si lo quiere. Para la licencia de matrimonio da la tarifa, el primer día en que puede celebrarse la boda y el último día de vigencia. Todo se calcula en su navegador.</p>
+    <Tool tool={{ kind: 'mini:office' }} lang={lang} idPrefix="ab" />
+    <h2>De dónde salen las cifras</h2>
+    <p>Cada tarifa se leyó en la página oficial de la oficina que la cobra: departamentos de salud de los estados, el departamento de salud de la Ciudad de Nueva York, leyes estatales y secretarios de condado o municipales para las licencias de precio local. Las hojas citan {h.num(M.urls)} páginas oficiales y se leyeron por última vez el {displayDate(M.asOf, 'es-US')}. La <a href={route('method', lang)}>metodología</a> explica cómo se verifica cada número y qué certeza tenemos.</p>
+    <h2>Lo que no somos</h2>
+    <p>No somos una agencia del gobierno, ni una oficina de registros vitales, ni un servicio de pedidos. No podemos pedir un acta, ver si existe ni acelerar un pedido, y no usamos ningún sello ni logotipo oficial. Los únicos lugares para pedirla son la propia oficina y los proveedores que ella nombra.</p>
+    <h2>Cómo se financia</h2>
+    <p>Es gratis y no pide cuenta ni correo. No vendemos ningún servicio de documentos, no cobramos comisiones y no enlazamos a empresas que cobran por pedir actas. Si algún día hay publicidad, nunca estará encima de una calculadora.</p>
+    <h2>Avísenos si algo está mal</h2>
+    <p>Escriba a <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> con la oficina y la cifra. La <a href={route('editorial', lang)}>política editorial</a> explica cómo se hace una corrección. El sitio tiene {PAGES.length + 3} páginas en español.</p>
+    <p class="text-sm text-navy-600">Tarifas revisadas el <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'es-US')}</time>.</p>
+  </div>
+</PageLayout>

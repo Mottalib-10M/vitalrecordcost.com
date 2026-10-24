@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: a fee that changed, a question`} description="Write to Vital Record Cost when a state or county fee has changed, when an office page moved, or to embed the certificate cost calculator on your own website for free." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Every message is read by the team that keeps the fee sheets.</p>
+    <h2>A fee or a rule has changed</h2>
+    <p>Name the state, county or city, the record (birth, death, marriage, divorce, marriage license) and the official page that shows the new figure. Legislatures and county boards raise fees on July 1 or January 1 more often than at any other time, and an office sometimes updates its order form before its web page. We read the page again, correct the sheet, and the pages rebuild with the new date.</p>
+    <h2>What we cannot do</h2>
+    <p>We are not a vital records office or an ordering service. We cannot order, find, correct or certify a record, check the status of an order or speed it up. Please do not send names, dates of birth, case numbers or copies of documents: we have no use for them and delete them.</p>
+    <h2>Using the calculator on your site</h2>
+    <p>Funeral homes, libraries, legal aid clinics and wedding venues may show the calculator in an iframe at no cost; the code is on the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Updated on {displayDate(LAST_UPDATED, 'en-US')}.</p>
+  </div>
+</PageLayout>

@@ -1,0 +1,37 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { helpers } from '../../lib/helpers';
+import { M } from '../../lib/method-data';
+const lang = 'es';
+const h = helpers(lang);
+const ga = h.J('GA'), tx = h.ML('TX');
+---
+<PageLayout title="Tarifas de actas vitales: cómo se verifica cada cifra" description="Cómo Costo de Actas por Estado lee las tarifas de cada estado, DC y NYC, calcula copias extra y pedidos en línea, fecha licencias y cuenta las copias." lang={lang} jsonLd={[articleSchema({ title: 'Cómo se verifica cada tarifa y cada fecha', description: 'Metodología de Costo de Actas por Estado', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Inicio', path: route('home', lang) }, { name: 'Metodología', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Metodología' }]}>
+  <header class="mb-6"><p class="kicker">Metodología</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Cómo se verifica cada tarifa y cada fecha</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Todas las páginas y calculadoras leen las mismas dos hojas: una línea por jurisdicción para las copias certificadas de nacimiento y defunción, y una línea por jurisdicción para la licencia de matrimonio. Cada hoja tiene {M.jurs} líneas, porque la Ciudad de Nueva York tiene su propia oficina de registros vitales, separada del estado. Ninguna tarifa se escribe a mano en una página. Las hojas se leyeron por última vez el {displayDate(M.asOf, 'es-US')}, en {h.num(M.urls)} páginas oficiales.</p>
+    <h2>1. Qué contiene una línea</h2>
+    <p>Para cada oficina anotamos el precio de la primera copia certificada, el de cada copia adicional de la misma acta pedida a la vez, el canal en línea que acepta la oficina y su cargo cuando la oficina lo publica, el plazo que indica, la dirección de la página donde se leyó cada cifra, una cita breve de esa página y la fecha. Una cifra que no está en una página oficial queda vacía y el sitio escribe «no publicado».</p>
+    <h2>2. Nivel de certeza</h2>
+    <p>{M.high} líneas tienen certeza alta: la tarifa se leyó en una página de tarifas vigente o en un formulario de 2024 a 2026. {M.medium} tienen certeza media: la tarifa es oficial pero dos páginas de la misma oficina no coinciden, o la página es antigua y no existe otra más reciente. {M.low} tienen certeza baja: la página rechazaba la lectura automática y la cifra se confirmó por otra vía. El nivel queda en la hoja y se revisa primero en cada actualización.</p>
+    <h2>3. Cómo se calcula un pedido</h2>
+    <p>Total = primera copia + copias adicionales × su precio + cargo en línea o de trámite + envío urgente opcional. Muchas oficinas cobran menos por cada copia extra pedida con la primera: Georgia pide {ga.bFirst} por la primera acta de nacimiento y {ga.bAdd} por cada adicional, así que tres copias cuestan {ga.b3} juntas, pero tres veces {ga.bFirst} si se piden por separado. La calculadora muestra las dos cifras. El cargo en línea se completa cuando el estado lo publica ({M.vendorFee} oficinas lo hacen); si no, usted escribe la cifra que aparece al pagar.</p>
+    <h2>4. Cómo se fecha una licencia de matrimonio</h2>
+    <p>La primera fecha posible de la ceremonia es el día de emisión más el periodo de espera, contado en días enteros. La fecha de vencimiento es el día de emisión más la vigencia en días, meses o años. Algunos estados cuentan desde la solicitud y no desde la emisión (Míchigan, por ejemplo); la nota bajo el resultado lo indica. Un curso prematrimonial elimina la espera en Texas y Florida y rebaja la tarifa donde la ley lo prevé: en Texas el descuento es de {tx.discL ?? 'no publicado'}. {M.marriageState} jurisdicciones fijan la tarifa para todo el estado; en las otras {M.marriageCounty}, cada condado o municipio la fija, así que la calculadora muestra el rango leído en páginas de condados y le pide la tarifa del suyo.</p>
+    <h2>5. Cuántas actas de defunción</h2>
+    <p>Este conteo es un método propio, presentado como estimación: una copia certificada por cada institución que se queda con un original (cada banco, aseguradora, plan de jubilación, oficina de títulos de vehículos, registrador del condado donde hay inmuebles, el tribunal sucesorio y el VA), más dos de reserva. Muchas instituciones aceptan una fotocopia o miran el original y lo devuelven; la herramienta aconseja preguntar antes.</p>
+    <h2>6. Pruebas</h2>
+    <p>En cada compilación se comprueban contra el motor casos leídos en páginas oficiales (Texas, Georgia, California, Utah, Nueva Jersey, Ohio y la Ciudad de Nueva York para las copias; Florida, Minnesota, Connecticut, DC y Nevada para las licencias), se acota el número de copias y cada página pasa los controles editoriales. Una prueba fallida detiene la compilación.</p>
+    <h2>7. Lo que el sitio no hace</h2>
+    <ul>
+      <li>No pide, no emite ni certifica ningún acta, y no sabe quién puede pedirla más allá de la regla que publica cada oficina.</li>
+      <li>No lista todas las tarifas de condado: donde un condado fija su precio, la cifra sale de la página del condado que usted lee.</li>
+      <li>No da asesoría legal. Las reglas cambian: confírmelas con la oficina antes de pagar.</li>
+    </ul>
+    <p>Metodología del {displayDate(LAST_UPDATED, 'es-US')}. Si una cifra le parece errónea: <a href={route('contact', lang)}>contacto</a>.</p>
+  </div>
+</PageLayout>

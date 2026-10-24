@@ -1,0 +1,73 @@
+---
+/**
+ * Home of one language: the copy cost calculator on the first screen, the folded citable answer,
+ * then the fee table of the 52 offices and the explanations (RECETTE §5, §21). Text: content/home.ts.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+import Clamp from './Clamp.astro';
+import { route, hasRoute, type Locale } from '../i18n/routes';
+import { PAGES } from '../lib/guides';
+import { groupLabel, GROUPS_ORDER } from '../i18n/nav';
+import { helpers } from '../lib/helpers';
+import { HOME } from '../content/home';
+import { AUTHOR_NAME, LAST_UPDATED } from '../data/site-config';
+import { displayDate } from '../lib/format';
+import { t } from '../i18n/ui';
+import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } from '../lib/seo';
+import { stateFees } from '../lib/engine/vital';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const es = lang === 'es';
+const T = HOME[lang];
+const h = helpers(lang, true);
+const ui = t(lang);
+const faqs = T.faqs(h);
+const parts = T.body(h).split(/<!--tool:([a-z0-9:-]+)(?:\|(\{.*?\}))?-->/);
+const chunks: Array<{ html?: string; tool?: { kind: string; props?: Record<string, any> } }> = [];
+for (let i = 0; i < parts.length; i += 3) { chunks.push({ html: parts[i] }); if (parts[i + 1]) chunks.push({ tool: { kind: parts[i + 1], props: parts[i + 2] ? JSON.parse(parts[i + 2]) : undefined } }); }
+const rows = h.sorted().map((j) => [
+  hasRoute(`birth-${j.code.toLowerCase()}`, lang) ? `<a href="${route(`birth-${j.code.toLowerCase()}`, lang)}">${es ? j.nameEs : j.name}</a>` : `<a href="${j.sources.birth}" target="_blank" rel="nofollow noopener noreferrer">${es ? j.nameEs : j.name}</a>`,
+  h.m(j.birth.first), h.m(j.birth.additional ?? j.birth.first), h.m(stateFees(j.birth, 3)), h.m(j.death.first),
+]);
+const path = route('home', lang);
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: T.h1, description: T.description, path, lang }), faqSchema(faqs, lang)];
+const sources = [
+  { name: es ? 'CDPH (California): tarifas de registros vitales' : 'CDPH (California): vital records fees', url: h.J('CA').birthUrl },
+  { name: es ? 'DSHS (Texas): costos y tarifas de estadísticas vitales' : 'Texas DSHS: vital statistics costs and fees', url: h.J('TX').birthUrl },
+  { name: es ? 'Departamento de Salud de Nueva York: pedidos por correo' : 'New York State Department of Health: mail requests', url: h.J('NY').birthUrl },
+  { name: es ? 'Ciudad de Nueva York: tarifas de actas de nacimiento y defunción' : 'New York City: birth and death record fees', url: h.J('NYC').birthUrl },
+  { name: es ? 'Florida: actas de nacimiento' : 'Florida Department of Health: birth certificates', url: h.J('FL').birthUrl },
+  { name: es ? 'Departamento de Estado: requisitos del acta para el pasaporte' : 'U.S. Department of State: birth certificate requirements for a passport', url: 'https://travel.state.gov/content/travel/en/passports/how-apply/citizenship-evidence.html' },
+];
+const groups = GROUPS_ORDER.filter((g) => g !== 'states').map((g) => ({ label: groupLabel(g, lang), pages: PAGES.filter((p) => p.group === g) }));
+---
+<PageLayout title={T.title} description={T.description} lang={lang} jsonLd={jsonLd} faqs={faqs} sources={sources} breadcrumbs={[]}>
+  <header class="mb-3">
+    <p class="kicker">{es ? '50 estados, DC y la Ciudad de Nueva York' : '50 states, DC and New York City'}</p>
+    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{T.h1}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{T.intro}</p>
+  </header>
+  <div class="mb-4"><Tool tool={{ kind: 'order', props: { state: 'TX', copies: 2 } }} lang={lang} primary={true} /></div>
+  <Clamp text={T.resume(h)} id="clamp-home" lang={lang} class="mb-3" />
+  <p class="mb-8 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{es ? 'Metodología' : 'Method'}</a> · {ui.updatedOn} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, es ? 'es-US' : 'en-US')}</time></p>
+  <section class="mb-10">
+    <h2 class="text-2xl font-bold text-navy-900">{es ? 'Tarifa del acta de nacimiento en cada estado' : 'Birth certificate fee in every state'}</h2>
+    <p class="mt-2 text-navy-700" set:html={T.tableIntro(h)} />
+    <Fragment set:html={h.table(T.tableHead, rows, T.tableCaption(h), ['l', 'r', 'r', 'r', 'r'])} />
+  </section>
+  <section class="mb-10" data-chrome>
+    <h2 class="mb-4 text-2xl font-bold text-navy-900">{es ? 'Cada acta, su página' : 'Every record, its own page'}</h2>
+    <div class="grid gap-4 sm:grid-cols-3">
+      {groups.map((g) => (
+        <div class="rounded-lg border border-navy-200 p-4">
+          <h3 class="font-semibold text-navy-900">{g.label}</h3>
+          <ul class="mt-2 space-y-1 text-sm">{g.pages.map((p) => <li><a href={route(p.id, lang)} class="text-accent-700 hover:underline">{es ? p.es.nav : p.en.nav}</a></li>)}</ul>
+        </div>
+      ))}
+    </div>
+  </section>
+  <div class="prose prose-slate max-w-none">
+    {chunks.map((c, i) => c.html !== undefined ? <Fragment set:html={c.html} /> : <div class="not-prose"><Tool tool={c.tool!} lang={lang} idPrefix={`h${i}`} /></div>)}
+  </div>
+</PageLayout>
