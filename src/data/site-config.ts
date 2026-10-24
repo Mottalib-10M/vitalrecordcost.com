@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-vital-records.example";
+export const SITE_URL = "https://vitalrecordcost.com";
 export const SITE_NAMES: Record<string, string> = {"en": "Vital Record Cost", "es": "Costo de Actas por Estado"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US", "es": "es-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US", "es": "es_US"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Certified copies of birth certificates in US states", "Death certificate fees and how many copies an estate needs", "Marriage license fees, waiting periods and validity by state", "Marriage and divorce certificate copies", "State-authorized online vital record vendors and their fees", "Amended birth certificates and apostilles"], "es": ["Copias certificadas de actas de nacimiento en los estados de EE. UU.", "Tarifas de actas de defunción y cuántas copias necesita una sucesión", "Tarifas, espera y vigencia de la licencia de matrimonio por estado", "Copias de actas de matrimonio y de divorcio", "Proveedores en línea autorizados por los estados y sus cargos", "Actas de nacimiento enmendadas y apostillas"]};
-export const CONTACT_EMAIL = "contact@us-vital-records.example";
+export const CONTACT_EMAIL = "contact@vitalrecordcost.com";
 export const THEME_COLOR = '#2F4A3A';
 export const LOGO_SYMBOL = 'VR';
 export const BING_VERIFY_CODE = '';

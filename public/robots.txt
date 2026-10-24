@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-vital-records.example/sitemap-index.xml
+Sitemap: https://vitalrecordcost.com/sitemap-index.xml
