@@ -4,7 +4,8 @@
   "dataAsOf": "2026-10-24",
   "licence": {
    "facts": "Montants et délais = faits publiés par les administrations des États, des comtés et des villes (pages officielles citées une à une). Les faits ne sont pas protégés ; aucun tableau ni texte n’est recopié.",
-   "cdc": "CDC/NCHS « Where to Write for Vital Records » : « Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain » (cdc.gov/other/agencymaterials.html). Attribution : développé par CDC/HHS, disponible gratuitement sur cdc.gov. Utilisé seulement comme annuaire de repli ; ses montants (revus en 2019-2022) ne sont pas repris."
+   "cdc": "CDC/NCHS « Where to Write for Vital Records » : « Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain » (cdc.gov/other/agencymaterials.html). Attribution : développé par CDC/HHS, disponible gratuitement sur cdc.gov. Utilisé seulement comme annuaire de repli ; ses montants (revus en 2019-2022) ne sont pas repris. Attribution affichée en pied de page : « Source: CDC/NCHS … ; use does not imply endorsement by CDC or HHS ».",
+   "commonLaw": "Statuts du mariage de fait : SSA, POMS GN 00305.075 (révision du 2023-05-30, domaine public fédéral), complété par le rapport OLR 2025-R-0165 du Connecticut General Assembly (2025-10-09) et la SC Revenue Ruling 21-3 ; le guide législatif de l’Iowa de 2005 n’est plus utilisé."
   },
   "count": 52
  },
@@ -139,13 +140,13 @@
     "url": "https://ltgov.alaska.gov/wp-content/uploads/AuthenticationsApostillesORDERFORM.pdf"
    },
    "commonLaw": {
-    "status": "never",
-    "date": null,
+    "status": "abolished",
+    "date": "1964-01-01",
     "note": {
-     "en": "Statute treated as mandatory since 1917 (Edwards v. Franke)",
-     "es": "Ley considerada obligatoria desde 1917 (Edwards v. Franke)"
+     "en": "Recognized only from March 7, 1939 to December 31, 1963",
+     "es": "Reconocido solo del 7 de marzo de 1939 al 31 de diciembre de 1963"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -207,13 +208,10 @@
     "url": "https://azsos.gov/business/authentication"
    },
    "commonLaw": {
-    "status": "abolished",
-    "date": "1913",
-    "note": {
-     "en": "Ariz. Rev. Stat. 25-111",
-     "es": "Ariz. Rev. Stat. 25-111"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "status": "never",
+    "date": null,
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -281,7 +279,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -346,13 +344,13 @@
     "url": "https://notary.cdn.sos.ca.gov/forms/apostille-request-form.pdf"
    },
    "commonLaw": {
-    "status": "abolished",
-    "date": "1895",
+    "status": "never",
+    "date": null,
     "note": {
-     "en": "Fam. Code 300",
-     "es": "Fam. Code 300"
+     "en": "Recognizes one validly formed in another state",
+     "es": "Reconoce el formado válidamente en otro estado"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -420,7 +418,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -485,7 +483,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -553,10 +551,10 @@
     "status": "recognized",
     "date": null,
     "note": {
-     "en": "Case law; C.R.S. 14-2-109.5 requires both parties 18 or older for marriages after 2006-09-01",
-     "es": "Jurisprudencia; C.R.S. 14-2-109.5 exige que ambos tengan 18 años o más para matrimonios posteriores al 1 de septiembre de 2006"
+     "en": "Both partners must be 18 or older if formed on or after September 1, 2006 (C.R.S. 14-2-109.5)",
+     "es": "Los dos deben tener 18 años o más si se formó a partir del 1 de septiembre de 2006 (C.R.S. 14-2-109.5)"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -621,10 +619,10 @@
     "status": "recognized",
     "date": null,
     "note": {
-     "en": "Case law; D.C. Code 16-921 allows an action to affirm a marriage",
-     "es": "Jurisprudencia; D.C. Code 16-921 permite una acción para confirmar un matrimonio"
+     "en": "D.C. Code 16-921 allows an action to affirm a marriage",
+     "es": "D.C. Code 16-921 permite una acción para confirmar el matrimonio"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -690,12 +688,12 @@
    },
    "commonLaw": {
     "status": "abolished",
-    "date": "1968-01-01",
+    "date": "1968-01-02",
     "note": {
-     "en": "Fla. Stat. 741.211",
-     "es": "Fla. Stat. 741.211"
+     "en": "Fla. Stat. 741.211: invalid if formed after January 1, 1968",
+     "es": "Fla. Stat. 741.211: inválido si se formó después del 1 de enero de 1968"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -766,7 +764,7 @@
      "en": "O.C.G.A. 19-3-1.1",
      "es": "O.C.G.A. 19-3-1.1"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -834,7 +832,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -905,7 +903,7 @@
      "en": "Idaho Code 32-201",
      "es": "Idaho Code 32-201"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -971,12 +969,12 @@
    },
    "commonLaw": {
     "status": "abolished",
-    "date": "1905-06-30",
+    "date": "1905-07-01",
     "note": {
-     "en": "750 ILCS 5/214",
-     "es": "750 ILCS 5/214"
+     "en": "Invalid if formed after June 30, 1905",
+     "es": "Inválido si se formó después del 30 de junio de 1905"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1047,7 +1045,7 @@
      "en": "Ind. Code 31-11-8-5",
      "es": "Ind. Code 31-11-8-5"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1115,10 +1113,10 @@
     "status": "recognized",
     "date": null,
     "note": {
-     "en": "Case law (In re Estate of Fisher)",
-     "es": "Jurisprudencia (In re Estate of Fisher)"
+     "en": "Iowa Code 252A.3(8) also treats it as a marriage for support",
+     "es": "Iowa Code 252A.3(8) también lo trata como matrimonio para la pensión alimenticia"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1186,10 +1184,10 @@
     "status": "recognized",
     "date": null,
     "note": {
-     "en": "Case law; K.S.A. 23-2502 limits recognition to parties 18 or older",
-     "es": "Jurisprudencia; K.S.A. 23-2502 limita el reconocimiento a personas de 18 años o más"
+     "en": "K.S.A. 23-2502: neither partner may be under 18",
+     "es": "K.S.A. 23-2502: ninguno puede tener menos de 18 años"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1254,13 +1252,10 @@
     "url": "https://www.sos.ky.gov/bus/apostilles/Pages/default.aspx"
    },
    "commonLaw": {
-    "status": "abolished",
-    "date": "1852",
-    "note": {
-     "en": "KRS 402.020",
-     "es": "KRS 402.020"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "status": "never",
+    "date": null,
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1287,9 +1282,9 @@
     "birth": "https://ldh.la.gov/vital-records/service-fees",
     "death": "https://ldh.la.gov/vital-records/service-fees"
    },
-   "quote": "LDH service fees: long form $15.00, death $7.00 (+ $0.50 per mail/VitalChek order)",
+   "quote": "Birth Certificate $15.00 per copy; Death Certificate $7.00 per copy; A $0.50 state charge must be added to each mail-in or VitalChek order",
    "retrievedAt": "2026-10-24",
-   "confidence": "low",
+   "confidence": "high",
    "processing": {
     "en": "Mail: approximately 8-10 weeks for delivery",
     "es": "Por correo: aproximadamente 8-10 semanas hasta la entrega"
@@ -1328,7 +1323,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1396,7 +1391,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1464,7 +1459,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1532,7 +1527,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1556,18 +1551,18 @@
    },
    "local": "county",
    "sources": {
-    "birth": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record",
-    "death": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
+    "birth": "https://web.archive.org/web/20260612212831/https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record",
+    "death": "https://web.archive.org/web/20260612212831/https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
    },
-   "quote": "$34 search fee plus a $14 online processing fee ; \"Additional Certified Copies: $16.00 each\" (formulaires)",
-   "retrievedAt": "2026-10-24",
-   "confidence": "low",
+   "quote": "Standard Record: $34 search fee, $14 online processing fee (copie archivée du 2026-06-12) ; Additional Certified Copies $16.00 each (formulaires de demande, copies archivées du 2025-02-02 et du 2026-01-09)",
+   "retrievedAt": "2026-06-12",
+   "confidence": "medium",
    "processing": {
-    "en": "Mail: 10-12 weeks (regular); 8-10 weeks (expedited); online: VitalChek Will Call pickup: processed within 2-5 business days; in person: same-day service by appointment (Tue/Thu 10am-2pm)",
-    "es": "Por correo: 10-12 semanas (normal); 8-10 semanas (urgente); en línea: VitalChek con recogida Will Call: tramitada en 2-5 días hábiles; en persona: servicio el mismo día con cita (martes y jueves de 10 a.m. a 2 p.m.)"
+    "en": "Mail: 4-6 weeks (regular); 2-3 weeks (rush); online: VitalChek Will Call pickup: processed within 2-5 business days; in person: same-day service by appointment (Tue/Thu 10am-2pm)",
+    "es": "Por correo: 4-6 semanas (normal); 2-3 semanas (urgente); en línea: VitalChek con recogida Will Call: tramitada en 2-5 días hábiles; en persona: servicio el mismo día con cita (martes y jueves de 10 a.m. a 2 p.m.)"
    },
-   "mailDaysMax": 84,
-   "processingUrl": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record",
+   "mailDaysMax": 42,
+   "processingUrl": "https://web.archive.org/web/20260612212831/https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record",
    "marriageRecord": {
     "where": "both",
     "first": 34,
@@ -1576,7 +1571,7 @@
      "en": "State has marriages since 1867 ($34 search fee incl. one copy; additional-copy fee on the application form); county clerk also issues.",
      "es": "El estado tiene matrimonios desde 1867 (cargo de búsqueda de $34 con una copia; la tarifa por copia adicional figura en el formulario); el secretario del condado también las expide."
     },
-    "url": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
+    "url": "https://web.archive.org/web/20260612212831/https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
    },
    "divorceRecord": {
     "where": "both",
@@ -1586,7 +1581,7 @@
      "en": "State issues a divorce certificate (record, $34 search fee); the full decree from the county circuit court clerk.",
      "es": "El estado expide un certificado de divorcio (registro, cargo de búsqueda de $34); la sentencia completa, el secretario del tribunal de circuito del condado."
     },
-    "url": "https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
+    "url": "https://web.archive.org/web/20260612212831/https://www.michigan.gov/mdhhs/doing-business/vitalrecords/order-a-copy-of-a-vital-record"
    },
    "apostille": {
     "fee": 1,
@@ -1600,10 +1595,10 @@
     "status": "abolished",
     "date": "1957-01-01",
     "note": {
-     "en": "MCL 551.2",
-     "es": "MCL 551.2"
+     "en": "Recognizes one validly formed in another state",
+     "es": "Reconoce el formado válidamente en otro estado"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1669,12 +1664,9 @@
    },
    "commonLaw": {
     "status": "abolished",
-    "date": "1941-04-26",
-    "note": {
-     "en": "Minn. Stat. 517.01",
-     "es": "Minn. Stat. 517.01"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "date": "1941-04-27",
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1741,11 +1733,8 @@
    "commonLaw": {
     "status": "abolished",
     "date": "1956-04-05",
-    "note": {
-     "en": "Miss. Code 93-1-15",
-     "es": "Miss. Code 93-1-15"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1807,13 +1796,10 @@
     "url": "https://s1.sos.mo.gov/business/notary/notary/certify"
    },
    "commonLaw": {
-    "status": "abolished",
-    "date": "1921-03-31",
-    "note": {
-     "en": "RSMo 451.040",
-     "es": "RSMo 451.040"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "status": "never",
+    "date": null,
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1881,7 +1867,7 @@
      "en": "Statute (Mont. Code 40-1-403)",
      "es": "Ley (Mont. Code 40-1-403)"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -1946,13 +1932,10 @@
     "url": "https://sos.nebraska.gov/business-services/apostilles-and-authentications"
    },
    "commonLaw": {
-    "status": "abolished",
-    "date": "1923",
-    "note": {
-     "en": "Neb. Rev. Stat. 42-104",
-     "es": "Neb. Rev. Stat. 42-104"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "status": "never",
+    "date": null,
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2016,11 +1999,8 @@
    "commonLaw": {
     "status": "abolished",
     "date": "1943-03-29",
-    "note": {
-     "en": "NRS 122.010",
-     "es": "NRS 122.010"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2091,7 +2071,7 @@
      "en": "Only after death of one partner, for inheritance (RSA 457:39, 3 years cohabitation)",
      "es": "Solo tras la muerte de uno de los dos, para la herencia (RSA 457:39, 3 años de convivencia)"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2158,11 +2138,8 @@
    "commonLaw": {
     "status": "abolished",
     "date": "1939-12-01",
-    "note": {
-     "en": "N.J.S.A. 37:1-10",
-     "es": "N.J.S.A. 37:1-10"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2226,11 +2203,8 @@
    "commonLaw": {
     "status": "never",
     "date": null,
-    "note": {
-     "en": "Court held the 1860 statute abolished it or showed it was already abolished",
-     "es": "Un tribunal resolvió que la ley de 1860 lo abolió o mostró que ya estaba abolido"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2298,10 +2272,10 @@
     "status": "abolished",
     "date": "1933-04-29",
     "note": {
-     "en": "Dom. Rel. Law 11; also void 1902-1908",
-     "es": "Dom. Rel. Law 11; también nulo de 1902 a 1908"
+     "en": "Also not recognized from 1902 to 1907",
+     "es": "Tampoco se reconoció de 1902 a 1907"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2369,10 +2343,10 @@
     "status": "abolished",
     "date": "1933-04-29",
     "note": {
-     "en": "Dom. Rel. Law 11; also void 1902-1908",
-     "es": "Dom. Rel. Law 11; también nulo de 1902 a 1908"
+     "en": "Also not recognized from 1902 to 1907",
+     "es": "Tampoco se reconoció de 1902 a 1907"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2440,7 +2414,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2508,10 +2482,10 @@
     "status": "never",
     "date": null,
     "note": {
-     "en": "1890 statute treated as mandatory",
-     "es": "Ley de 1890 considerada obligatoria"
+     "en": "Recognizes one validly formed in another state",
+     "es": "Reconoce el formado válidamente en otro estado"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2582,7 +2556,7 @@
      "en": "ORC 3105.12",
      "es": "ORC 3105.12"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2646,11 +2620,8 @@
    "commonLaw": {
     "status": "recognized",
     "date": null,
-    "note": {
-     "en": "Case law; some courts question it",
-     "es": "Jurisprudencia; algunos tribunales lo cuestionan"
-    },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": null,
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2717,8 +2688,11 @@
    "commonLaw": {
     "status": "never",
     "date": null,
-    "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": {
+     "en": "Recognizes one validly formed in another state",
+     "es": "Reconoce el formado válidamente en otro estado"
+    },
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2784,10 +2758,10 @@
    },
    "commonLaw": {
     "status": "abolished",
-    "date": "2005-01-01",
+    "date": "2005-01-02",
     "note": {
-     "en": "23 Pa.C.S. 1103: invalid if contracted after 2005-01-01",
-     "es": "23 Pa.C.S. 1103: inválido si se contrajo después del 1 de enero de 2005"
+     "en": "23 Pa.C.S. 1103: invalid if formed after January 1, 2005",
+     "es": "23 Pa.C.S. 1103: inválido si se formó después del 1 de enero de 2005"
     },
     "url": "https://cga.ct.gov/2025/rpt/pdf/2025-R-0165.pdf"
    }
@@ -2860,7 +2834,7 @@
      "en": "Case law (Smith v. Smith 2009)",
      "es": "Jurisprudencia (Smith v. Smith 2009)"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -2996,10 +2970,10 @@
     "status": "abolished",
     "date": "1959-07-01",
     "note": {
-     "en": "SDCL 25-1-29",
-     "es": "SDCL 25-1-29"
+     "en": "Recognizes one validly formed in another state",
+     "es": "Reconoce el formado válidamente en otro estado"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -3026,9 +3000,9 @@
     "birth": "https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees",
     "death": "https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees"
    },
-   "quote": "fee table: $15.00 first copy, $15.00 each additional (birth, death)",
+   "quote": "Birth Certificate $15.00 1st copy, $15.00 each additional copy; Death Certificate $15.00, $15.00",
    "retrievedAt": "2026-10-24",
-   "confidence": "low",
+   "confidence": "high",
    "processing": {
     "en": "Mail: 3 days (as of 6/23/2026); online: 3 days; in person: same day",
     "es": "Por correo: 3 días (al 23/6/2026); en línea: 3 días; en persona: el mismo día"
@@ -3070,7 +3044,7 @@
      "en": "Not recognized, but courts may apply estoppel",
      "es": "No reconocido, pero los tribunales pueden aplicar la doctrina de estoppel"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -3138,8 +3112,8 @@
     "status": "recognized",
     "date": null,
     "note": {
-     "en": "Only through a court or administrative order (Utah Code 81-2-408, formerly 30-1-4.5); petition within 1 year of the end of the relationship",
-     "es": "Solo mediante orden judicial o administrativa (Utah Code 81-2-408, antes 30-1-4.5); petición dentro de 1 año tras el fin de la relación"
+     "en": "Only through a court or administrative order (Utah Code 81-2-408); petition within 1 year of the end of the relationship",
+     "es": "Solo mediante una orden judicial o administrativa (Utah Code 81-2-408); petición dentro de 1 año tras el fin de la relación"
     },
     "url": "https://cga.ct.gov/2025/rpt/pdf/2025-R-0165.pdf"
    }
@@ -3206,7 +3180,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -3274,7 +3248,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -3342,10 +3316,10 @@
     "status": "recognized",
     "date": null,
     "note": {
-     "en": "Informal marriage, Tex. Fam. Code 2.401-2.405; both parties 18 or older",
-     "es": "Matrimonio informal, Tex. Fam. Code 2.401-2.405; ambos con 18 años o más"
+     "en": "Informal marriage (Tex. Fam. Code 2.401); both partners 18 or older",
+     "es": "Matrimonio informal (Tex. Fam. Code 2.401); los dos con 18 años o más"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://cga.ct.gov/2025/rpt/pdf/2025-R-0165.pdf"
    }
   },
   {
@@ -3412,8 +3386,11 @@
    "commonLaw": {
     "status": "never",
     "date": null,
-    "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": {
+     "en": "Recognizes one validly formed in another state",
+     "es": "Reconoce el formado válidamente en otro estado"
+    },
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -3478,7 +3455,7 @@
     "status": "never",
     "date": null,
     "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -3544,12 +3521,12 @@
    },
    "commonLaw": {
     "status": "abolished",
-    "date": "1917",
+    "date": "1918",
     "note": {
-     "en": "Attorney general opinion on the 1917 statute",
-     "es": "Opinión del fiscal general sobre la ley de 1917"
+     "en": "Not recognized after 1917",
+     "es": "No reconocido después de 1917"
     },
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   },
   {
@@ -3613,8 +3590,11 @@
    "commonLaw": {
     "status": "never",
     "date": null,
-    "note": null,
-    "url": "https://www.legis.iowa.gov/docs/central/guides/marriage.pdf"
+    "note": {
+     "en": "Recognizes one validly formed in another state",
+     "es": "Reconoce el formado válidamente en otro estado"
+    },
+    "url": "https://secure.ssa.gov/poms.nsf/lnx/0200305075"
    }
   }
  ]

@@ -1,3 +1,4 @@
+import { srcText } from '../../lib/src-label';
 /**
  * Marriage license: fee (state-set, or the county's when the county sets it), premarital-course
  * discount, earliest ceremony day after the waiting period, expiry, and a check of the wedding date.
@@ -95,7 +96,7 @@ export default function MarriageCalc({ lang = 'en', state = 'TX', idPrefix = 'ml
           <tr><td className="py-1.5 pr-2 text-navy-700">{L.expires}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{!r.validityKnown ? L.unknownV : r.expires ? dateL(r.expires, lang) : L.never}</td></tr>
         </tbody></table>}
         {verdict && <p role="status" className={`mt-3 text-sm font-medium ${r?.weddingOk ? 'text-green-800' : 'text-amber-800'}`}>{verdict}</p>}
-        <p className="mt-3 text-xs text-navy-600">{txt(rule.note, lang, '')} <a href={rule.source} target="_blank" rel="nofollow noopener noreferrer" className="underline">{L.src}</a></p>
+        <p className="mt-3 text-xs text-navy-600">{txt(rule.note, lang, '')} <a href={rule.source} target="_blank" rel="nofollow noopener noreferrer" className="underline">{srcText(rule.source, L.src, lang === 'es' ? 'es' : 'en')}</a></p>
       </div>
     </div>
   );

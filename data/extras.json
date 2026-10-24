@@ -116,7 +116,7 @@
   "license_travis_county_fee": {
    "value": 80,
    "unit": "USD",
-   "note": "Travis County Clerk; 20 with Twogether in Texas certificate; +100 non-resident fee from 2026-04-01 if no Texas residency proof (per search index); valid 89 days; informal marriage declaration 45.",
+   "note": "Travis County Clerk; 20 with Twogether in Texas certificate; valid 89 days; informal marriage declaration 45. A +100 non-resident fee seen only in a search snippet is not on the official page read on 2026-10-24: not confirmed, not applied.",
    "url": "https://countyclerk.traviscountytx.gov/departments/recording/marriage-license/",
    "retrieved": "2026-10-24"
   },
@@ -130,7 +130,7 @@
   "license_maricopa_fee": {
    "value": 98,
    "unit": "USD",
-   "note": "Clerk of Superior Court (also Ironwood, Southwest and Ocotillo justice courts, money order only); license valid 1 year (per search index).",
+   "note": "Clerk of Superior Court (also Ironwood, Southwest and Ocotillo justice courts, money order only); license valid 1 year (official page read on 2026-10-24).",
    "url": "https://justicecourts.maricopa.gov/i-want-to/get-married",
    "retrieved": "2026-10-24"
   },
@@ -158,9 +158,9 @@
   "license_franklin_county_fee": {
    "value": 65,
    "unit": "USD",
-   "note": "Franklin County Probate Court (Columbus); card +3%; non-refundable; certified abstract 2. Quote via search index (site blocks bots).",
-   "url": "https://probate.franklincountyohio.gov/Marriage-License-Requirements",
-   "retrieved": "2026-10-24"
+   "note": "Franklin County Probate Court (Columbus); card +3%; non-refundable. Site blocks reading: read on an archived copy of the official page of 2026-09-27.",
+   "url": "https://web.archive.org/web/20260927194214/https://probate.franklincountyohio.gov/Marriage-License-Requirements",
+   "retrieved": "2026-09-27"
   },
   "ceremony_franklin_county_fee": {
    "value": 25,
@@ -170,11 +170,12 @@
    "retrieved": "2026-10-24"
   },
   "license_davidson_county_fee": {
-   "value": 99.5,
+   "value": null,
    "unit": "USD",
-   "note": "Davidson County Clerk (Nashville): cash 99.50, card 101.49, no checks; 60 off with notarized premarital course certificate (within 1 year); valid 30 days. Quote via search index (site blocks bots).",
+   "note": "Davidson County Clerk (Nashville): the official page refuses reading (403) and no archived copy exists; the 99.50 seen in a search snippet is not confirmed and not used.",
    "url": "https://www.nashvilleclerk.com/living/marriage-license/",
-   "retrieved": "2026-10-24"
+   "retrieved": "2026-10-24",
+   "unconfirmed": true
   },
   "ceremony_davidson_county_fee": {
    "value": null,
@@ -186,16 +187,16 @@
   "license_mecklenburg_fee": {
    "value": 60,
    "unit": "USD",
-   "note": "Mecklenburg County Register of Deeds; certified copy 10; valid 60 days, any NC county. Quote via search index (site blocks bots).",
-   "url": "https://deeds.mecknc.gov/Uniform-Fee-Schedule",
-   "retrieved": "2026-10-24"
+   "note": "Mecklenburg County Register of Deeds; certified copy 10. Site blocks reading: read on an archived copy of the official fee schedule of 2025-12-04.",
+   "url": "https://web.archive.org/web/20251204203828/https://deeds.mecknc.gov/Uniform-Fee-Schedule",
+   "retrieved": "2025-12-04"
   },
   "ceremony_mecklenburg_fee": {
    "value": 50,
    "unit": "USD",
-   "note": "Civil ceremony by a magistrate (Mecklenburg County Magistrates Office); statewide statutory fee G.S. 7A-309(1), was 20 before. Quote via search index.",
-   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7A/GS_7A-309.html",
-   "retrieved": "2026-10-24"
+   "note": "Civil ceremony by a magistrate (Mecklenburg County Magistrates Office); statewide statutory fee G.S. 7A-309(1). ncleg.gov blocks reading: read on an archived copy of the statute of 2026-01-24.",
+   "url": "https://web.archive.org/web/20260124030742/https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7A/GS_7A-309.html",
+   "retrieved": "2026-01-24"
   },
   "passport_book_adult_fee": {
    "value": 130,
@@ -326,9 +327,9 @@
   "amended_mi_fee": {
    "value": 50,
    "unit": "USD",
-   "note": "MDHHS application to correct or change a birth record (DCH-0847): 50 includes one certified copy; additional copies 16; rush 25. Older 2003 form said 26. Quote via search index (michigan.gov blocks bots).",
-   "url": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder1/Folder3/DCH-0847-CHGBX.pdf",
-   "retrieved": "2026-10-24"
+   "note": "MDHHS application to correct or change a birth record (DCH-0847): 50 includes one certified copy; additional copies 16; rush 25. michigan.gov blocks reading: read on an archived copy of the form of 2025-09-18.",
+   "url": "https://web.archive.org/web/20250918194356/https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder1/Folder3/DCH-0847-CHGBX.pdf",
+   "retrieved": "2025-09-18"
   },
   "amended_nj_fee": {
    "value": 2,

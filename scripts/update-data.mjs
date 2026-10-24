@@ -40,7 +40,9 @@ const LICENCE = {
   facts:
     'Montants et délais = faits publiés par les administrations des États, des comtés et des villes (pages officielles citées une à une). Les faits ne sont pas protégés ; aucun tableau ni texte n’est recopié.',
   cdc:
-    'CDC/NCHS « Where to Write for Vital Records » : « Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain » (cdc.gov/other/agencymaterials.html). Attribution : développé par CDC/HHS, disponible gratuitement sur cdc.gov. Utilisé seulement comme annuaire de repli ; ses montants (revus en 2019-2022) ne sont pas repris.',
+    'CDC/NCHS « Where to Write for Vital Records » : « Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain » (cdc.gov/other/agencymaterials.html). Attribution : développé par CDC/HHS, disponible gratuitement sur cdc.gov. Utilisé seulement comme annuaire de repli ; ses montants (revus en 2019-2022) ne sont pas repris. Attribution affichée en pied de page : « Source: CDC/NCHS … ; use does not imply endorsement by CDC or HHS ».',
+  commonLaw:
+    'Statuts du mariage de fait : SSA, POMS GN 00305.075 (révision du 2023-05-30, domaine public fédéral), complété par le rapport OLR 2025-R-0165 du Connecticut General Assembly (2025-10-09) et la SC Revenue Ruling 21-3 ; le guide législatif de l’Iowa de 2005 n’est plus utilisé.',
 };
 
 // Short notes are written in English in the sheets; their Spanish wording lives in
@@ -130,7 +132,7 @@ function build() {
   });
 
   const extrasRows = opt('extras.tsv');
-  const items = Object.fromEntries(extrasRows.map((r) => [r.key, { value: r.value === '' ? null : Number.isFinite(Number(r.value)) ? Number(r.value) : null, unit: r.unit, note: r.note, url: r.url, retrieved: r.retrieved }]));
+  const items = Object.fromEntries(extrasRows.map((r) => [r.key, { value: r.value === '' ? null : Number.isFinite(Number(r.value)) ? Number(r.value) : null, unit: r.unit, note: r.note, url: r.url, retrieved: r.retrieved, ...(r.unconfirmed === 'yes' ? { unconfirmed: true } : {}) }]));
 
   const codes = new Set(fees.map((f) => f.code));
   for (const m of marriage) if (!codes.has(m.code)) throw new Error(`mariage ${m.code} sans fiche état civil`);

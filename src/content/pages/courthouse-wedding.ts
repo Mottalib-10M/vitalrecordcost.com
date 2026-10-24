@@ -31,9 +31,9 @@ export default definePage({
       ];
     },
     body: (h) => {
-      const rows = places(h).map((p) => [p.label, p.lic != null ? h.m(p.lic) : h.nc, p.cer != null ? (p.cer === 0 ? 'Free' : h.m(p.cer)) : h.nc, p.cer != null && p.lic != null ? h.m(p.cer + p.lic) : '–', p.url ? h.ext(p.url, 'official page') : '–']);
+      const rows = places(h).map((p) => [p.label, p.lic != null ? h.m(p.lic) : p.licUnconfirmed ? (h.es ? 'no confirmado' : 'not confirmed') : h.nc, p.cer != null ? (p.cer === 0 ? 'Free' : h.m(p.cer)) : h.nc, p.cer != null && p.lic != null ? h.m(p.cer + p.lic) : '–', p.url ? h.ext(p.url, 'official page') : '–']);
       return `<h2>License and ceremony in large counties</h2>
-<p>Figures published by each county's clerk or court. “Not published” means the office does not state a ceremony fee online or does not perform ceremonies.</p>
+<p>Figures published by each county's clerk or court. “Not published” means the office does not state a ceremony fee online or does not perform ceremonies. “Not confirmed” means the official page refused to be read and no dated archived copy of it exists, so no figure is shown.</p>
 ${h.table(['County', 'License', 'Ceremony', 'Total', 'Source'], rows, undefined, ['l', 'r', 'r', 'r', 'l'])}
 <h2>Booking, step by step</h2>
 <ol><li>Buy the license from the office that will perform the ceremony, or any office of the state.</li><li>Book a ceremony slot online or by phone, often weeks ahead for Fridays and popular dates.</li><li>Check the waiting period and the license expiry against the date.</li><li>Arrive early with IDs, the license, witnesses and payment.</li><li>After the ceremony, order certified copies of the marriage certificate once it is recorded.</li></ol>
@@ -62,9 +62,9 @@ ${h.table(['County', 'License', 'Ceremony', 'Total', 'Source'], rows, undefined,
       ];
     },
     body: (h) => {
-      const rows = places(h).map((p) => [p.label, p.lic != null ? h.m(p.lic) : h.nc, p.cer != null ? (p.cer === 0 ? 'Gratis' : h.m(p.cer)) : h.nc, p.cer != null && p.lic != null ? h.m(p.cer + p.lic) : '–', p.url ? h.ext(p.url, 'página oficial') : '–']);
+      const rows = places(h).map((p) => [p.label, p.lic != null ? h.m(p.lic) : p.licUnconfirmed ? (h.es ? 'no confirmado' : 'not confirmed') : h.nc, p.cer != null ? (p.cer === 0 ? 'Gratis' : h.m(p.cer)) : h.nc, p.cer != null && p.lic != null ? h.m(p.cer + p.lic) : '–', p.url ? h.ext(p.url, 'página oficial') : '–']);
       return `<h2>Licencia y ceremonia en condados grandes</h2>
-<p>Cifras publicadas por el secretario o el tribunal de cada condado. «No publicado» significa que la oficina no indica en línea una tarifa de ceremonia o no celebra ceremonias.</p>
+<p>Cifras publicadas por el secretario o el tribunal de cada condado. «No publicado» significa que la oficina no indica en línea una tarifa de ceremonia o no celebra ceremonias. «No confirmado» significa que la página oficial no se dejó leer y no existe una copia archivada fechada, así que no se muestra ninguna cifra.</p>
 ${h.table(['Condado', 'Licencia', 'Ceremonia', 'Total', 'Fuente'], rows, undefined, ['l', 'r', 'r', 'r', 'l'])}
 <h2>Reservar, paso a paso</h2>
 <ol><li>Compre la licencia en la oficina que celebrará la ceremonia, o en cualquier oficina del estado.</li><li>Reserve un turno de ceremonia en línea o por teléfono, a menudo con semanas de antelación para los viernes y las fechas populares.</li><li>Compare la espera y el vencimiento de la licencia con la fecha.</li><li>Llegue temprano con las identificaciones, la licencia, los testigos y el pago.</li><li>Tras la ceremonia, pida copias certificadas del acta de matrimonio cuando se haya registrado.</li></ol>

@@ -1,3 +1,4 @@
+import { srcText } from '../../lib/src-label';
 /**
  * Main calculator: what an order of certified birth or death certificates costs in one of the 52
  * jurisdictions, by mail or at the counter, or online through the vendor the state authorizes.
@@ -92,7 +93,7 @@ export default function OrderCalc({ lang = 'en', state = 'TX', kind: kind0 = 'bi
           {r.intermediaryExtra != null && <tr><td className="py-1.5 pr-2 text-navy-700">{r.intermediaryExtra >= 0 ? L.quoteL : L.quoteLow}</td><td className="tabular-nums py-1.5 text-right font-semibold text-navy-900">{m(Math.abs(r.intermediaryExtra))}</td></tr>}
         </tbody></table>
         <div className="mt-3"><StackedBar segments={segs} total={r.total} ariaPrefix={L.bar} /></div>
-        <p className="mt-3 text-xs text-navy-600">{L.office}: {j.office}. {channel === 'online' ? `${L.online2}: ${txt(j.vendorText, lang, '')}` : `${L.processing}: ${txt(j.processing, lang, L.notPub)}.`} <a href={j.sources[kind]} target="_blank" rel="nofollow noopener noreferrer" className="underline">{L.src}</a></p>
+        <p className="mt-3 text-xs text-navy-600">{L.office}: {j.office}. {channel === 'online' ? `${L.online2}: ${txt(j.vendorText, lang, '')}` : `${L.processing}: ${txt(j.processing, lang, L.notPub)}.`} <a href={j.sources[kind]} target="_blank" rel="nofollow noopener noreferrer" className="underline">{srcText(j.sources[kind], L.src, lang === 'es' ? 'es' : 'en')}</a></p>
       </div>
     </div>
   );

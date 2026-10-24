@@ -42,7 +42,7 @@ export interface MarriageRec extends MarriageRule {
 export const JURS = V.records as unknown as Jur[];
 export const MARRIAGE = ML.records as unknown as MarriageRec[];
 export const META = V.meta as { dataAsOf: string; generatedAt: string; count: number };
-export const EXTRAS = X as unknown as { items: Record<string, { value: number | null; unit: string; note: string; url: string; retrieved: string }>; dataAsOf: string };
+export const EXTRAS = X as unknown as { items: Record<string, { value: number | null; unit: string; note: string; url: string; retrieved: string; unconfirmed?: boolean }>; dataAsOf: string };
 
 /** Alphabetical order of the names in the page language (New York City right after New York State). */
 export function sorted(lang: Lang): Jur[] {

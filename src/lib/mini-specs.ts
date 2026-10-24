@@ -31,7 +31,7 @@ const PLACE: Record<string, string> = {
 };
 const courtLabel = (k: string, lang: L = 'en') => { const l = PLACE[k] ?? k.split('_').map((w) => w[0].toUpperCase() + w.slice(1)).join(' '); return lang === 'es' ? l.replace('New York City', 'Ciudad de Nueva York').replace(/^(.+?) County(.*)$/, 'Condado de $1$2').replace('Los Angeles', 'Los Ángeles') : l; };
 /** Places with a published courthouse ceremony or license fee (extras), for the courthouse page. */
-export const courtPlaces = (lang: L) => COURT.map((k) => ({ k, label: courtLabel(k, lang), cer: x(`ceremony_${k}_fee`), lic: x(`license_${k}_fee`) ?? x(`license_${k}_public_fee`), url: EXTRAS.items[`ceremony_${k}_fee`]?.url ?? '' }));
+export const courtPlaces = (lang: L) => COURT.map((k) => ({ k, label: courtLabel(k, lang), cer: x(`ceremony_${k}_fee`), lic: x(`license_${k}_fee`) ?? x(`license_${k}_public_fee`), licUnconfirmed: !!EXTRAS.items[`license_${k}_fee`]?.unconfirmed, url: EXTRAS.items[`ceremony_${k}_fee`]?.url ?? '' }));
 
 const SPECS: Record<string, (lang: L) => MiniSpec> = {
   /** Birth and death fees of one state side by side. */
@@ -288,7 +288,7 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
       const cer = k ? x(`ceremony_${k}_fee`) : null, lic = k ? x(`license_${k}_fee`) ?? x(`license_${k}_public_fee`) : null;
       return {
         head: [es ? 'Licencia + ceremonia' : 'License + ceremony', cer != null && lic != null ? m(cer + lic) : w.nc],
-        rows: [[es ? 'Licencia' : 'License', lic != null ? m(lic) : w.nc], [es ? 'Ceremonia civil' : 'Civil ceremony', cer != null ? m(cer) : w.nc]],
+        rows: [[es ? 'Licencia' : 'License', lic != null ? m(lic) : k && EXTRAS.items[`license_${k}_fee`]?.unconfirmed ? (es ? 'no confirmado' : 'not confirmed') : w.nc], [es ? 'Ceremonia civil' : 'Civil ceremony', cer != null ? m(cer) : w.nc]],
       };
     },
   }),

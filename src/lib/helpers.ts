@@ -3,6 +3,7 @@ import { route, hasRoute, ROUTES, type Locale } from '../i18n/routes';
 import { JURS, MARRIAGE, META, EXTRAS, byCode, marriageOf, nameOf, txt, sorted, type Jur, type MarriageRec } from './engine/data';
 import { stateFees, rankByCost, type RecordKind } from './engine/vital';
 import { formatNumberL, money, pct, dateL } from './format-l';
+import { srcText } from './src-label';
 
 const esc = (s: string | number) => String(s).replace(/&(?!(?:[a-z]+|#\d+);)/g, '&amp;').replace(/</g, '&lt;');
 export function table(headers: string[], rows: Array<Array<string | number>>, caption?: string, align: Array<'l' | 'r'> = [], lang: Locale = 'en') {
@@ -18,7 +19,7 @@ export function helpers(lang: Locale, strict = false) {
     if (!ROUTES.some((r) => r.id === id)) { if (strict && !process.env.PAGES_DRAFT) throw new Error(`Unknown page id in a link: ${id}`); return text; }
     return `<a href="${route(id, lang)}">${text}</a>`;
   };
-  const ext = (url: string, text: string) => `<a href="${url}" target="_blank" rel="nofollow noopener noreferrer">${text}</a>`;
+  const ext = (url: string, text: string) => `<a href="${url}" target="_blank" rel="nofollow noopener noreferrer">${srcText(url, text, es ? 'es' : 'en')}</a>`;
   const m = (n: number) => money(n, lang);
   const num = (n: number, d = 0) => formatNumberL(n, lang, d);
   const pc = (x: number, d = 0) => pct(x, lang, d);

@@ -161,6 +161,7 @@ const crumbAside = Astro.slots.has('crumb-aside') ? (await Astro.slots.render('c
             <p>{ui.footerBrowser}</p>
             <p>{ui.asOf} {YEAR}, {ui.lastUpdated} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, LANG_TAGS[lang])}</time></p>
             <p>&copy; {new Date().getFullYear()} {SITE_NAMES[lang]}. {ui.footerDisclaimer}</p>
+            <p>{ui.footerCdcPre} <a href="https://www.cdc.gov/nchs/w2w/index.htm" target="_blank" rel="nofollow noopener" class="underline hover:text-navy-900">“Where to Write for Vital Records”</a> {ui.footerCdcPost} <a href="https://www.cdc.gov/other/agencymaterials.html" target="_blank" rel="nofollow noopener" class="underline hover:text-navy-900">{ui.footerCdcTerms}</a>{ui.footerCdcEnd}</p>
             {(GA4_ID || CLARITY_ID) && CONSENT_MODE !== 'none' && <p><button type="button" data-consent-manage class="underline hover:text-navy-900">{consentStrings(lang).manage}</button></p>}
           </div>
         </div>
