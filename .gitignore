@@ -2,3 +2,4 @@ node_modules
 dist
 .astro
 __pycache__
+data/raw/serp-2026-10-24.txt
