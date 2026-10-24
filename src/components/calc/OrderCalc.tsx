@@ -25,7 +25,7 @@ const T = {
   },
   es: {
     state: 'Estado o ciudad del acta', kind: 'Acta', birth: 'Nacimiento', death: 'Defunción', copies: 'Copias certificadas', copiesHelp: 'Copias de la misma acta, pedidas a la vez.',
-    channel: 'Cómo la pide', mail: 'Correo o ventanilla', online: 'En línea', vendor: 'Cargo del proveedor en línea o de trámite', vendorHelpKnown: 'Publicado por el estado para su proveedor autorizado.', vendorHelp: 'No se publica como una sola cifra: escriba el cargo que aparece al pagar.',
+    channel: 'Cómo la pide', mail: 'Correo u oficina', online: 'En línea', vendor: 'Cargo del proveedor en línea o de trámite', vendorHelpKnown: 'Publicado por el estado para su proveedor autorizado.', vendorHelp: 'No se publica como una sola cifra: escriba el cargo que aparece al pagar.',
     ship: 'Envío urgente (opcional)', quote: 'Precio cotizado en otro lugar (opcional)', quoteHelp: 'Total que otro servicio le pidió por las mismas copias.',
     head: 'Total de su pedido', perCopy: 'por copia', first: 'Primera copia certificada', extra: (n: number) => `${n} ${n === 1 ? 'copia más' : 'copias más'} a`, extraL: 'Copias adicionales', vendorL: 'Cargo del proveedor o de trámite', shipL: 'Envío urgente',
     later: 'Las mismas copias pedidas una por una', save: 'que se ahorra al pedirlas juntas', quoteL: 'El otro precio es mayor en', quoteLow: 'El otro precio es menor en',

@@ -11,15 +11,15 @@
   "license_fulton_county_fee": {
    "value": 68.5,
    "unit": "USD",
-   "note": "Fulton County Probate Court; includes one mailed certified copy of the marriage certificate. With premarital education certificate (course within 12 months, taken together): 28.50. Older Fulton pages still show 56/16. No personal checks. Quote via search index (site blocks bots).",
-   "url": "https://fultoncountyga.gov/home/inside-fulton-county/fulton-county-departments/probate-court/filing-fees",
+   "note": "Fulton County Probate Court; includes one mailed certified copy of the marriage certificate. With a qualified premarital education certificate: 28.50. No American Express.",
+   "url": "https://www.fultonprobatega.org/195/Marriage-Licenses",
    "retrieved": "2026-10-24"
   },
   "ceremony_fulton_county_fee": {
    "value": 0,
    "unit": "USD",
-   "note": "Free courthouse ceremony for couples with a Fulton County license, Fridays 10am-4pm, up to 6 guests. Quote via search index.",
-   "url": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/probate-court-2/marriage-licenses-2",
+   "note": "Free group courthouse ceremony (Forever Fridays, 3 pm, South Annex, College Park) for couples with a Fulton County license; two guests at most.",
+   "url": "https://www.fultonprobatega.org/219/Forever-Fridays-Courthouse-Weddings",
    "retrieved": "2026-10-24"
   },
   "license_cook_county_fee": {
@@ -292,7 +292,7 @@
    "value": 0,
    "unit": "USD",
    "note": "PA DOH: no separate amendment fee on the Request to Modify forms; you pay only the 20 certified copy fee for the updated certificate (copy not free, except infants under 6 months returning the incorrect certificate). Fee waivers for armed forces etc.",
-   "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Request%20to%20Modify%20an%20Adult's%20Birth%20Record.pdf",
+   "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Request%20to%20Modify%20an%20Adult%27s%20Birth%20Record.pdf",
    "retrieved": "2026-10-24"
   },
   "amended_il_fee": {

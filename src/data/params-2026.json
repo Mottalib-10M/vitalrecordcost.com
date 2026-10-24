@@ -1,30 +1,21 @@
 {
-  "_lisezmoi": "Tous les paramètres légaux du site vivent ici — jamais en dur dans le code (RECETTE-SITE.md §4). Renommer en params-<année>.json à chaque millésime. Chaque valeur doit être relue sur la source officielle citée avant d'être écrite, et retrieved_at mis à jour ce jour-là.",
+  "_lisezmoi": "Federal and general sources of the site. State figures and their official URLs live in data/source/*.tsv, built into data/*.json by scripts/update-data.mjs.",
   "year": 2026,
-  "retrieved_at": "AAAA-MM-JJ",
+  "retrieved_at": "2026-10-24",
   "valid_from": "2026-01-01",
   "valid_to": "2026-12-31",
   "sources": {
-    "principale": {
-      "url": "https://exemple.gouv.xx/page-officielle",
-      "label": {
-        "fr": "Administration — intitulé exact de la page ou du texte",
-        "en": "Authority — exact title of the page or legal text"
-      }
+    "cdc_w2w": {
+      "url": "https://www.cdc.gov/nchs/w2w/index.htm",
+      "label": { "en": "CDC NCHS, Where to Write for Vital Records (directory of state offices)", "es": "CDC NCHS, Where to Write for Vital Records (directorio de oficinas estatales)" }
     },
-    "loi": {
-      "url": "https://exemple.gouv.xx/texte-de-loi",
-      "label": {
-        "fr": "Loi / code — article précis appliqué par le moteur",
-        "en": "Act / code — the exact article the engine applies"
-      }
+    "passport_fees": {
+      "url": "https://travel.state.gov/content/travel/en/passports/how-apply/fees.html",
+      "label": { "en": "U.S. Department of State, passport fees", "es": "Departamento de Estado de EE. UU., tarifas de pasaporte" }
     },
-    "bareme": {
-      "url": "https://exemple.gouv.xx/bareme-annuel",
-      "label": {
-        "fr": "Barème ou circulaire annuelle, millésime 2026",
-        "en": "Annual schedule or circular, 2026 edition"
-      }
+    "ssa_name": {
+      "url": "https://www.ssa.gov/personal-record/change-name",
+      "label": { "en": "Social Security Administration, change your name on your card", "es": "Administración del Seguro Social, cambiar el nombre en la tarjeta" }
     }
   }
 }
