@@ -1,0 +1,51 @@
+Contrôle du 2026-10-26
+à vérifier à la main : ERR https://cga.ct.gov/2025/rpt/pdf/2025-R-0165.pdf (fetch failed)
+à vérifier à la main : ERR https://www.cdph.ca.gov/Programs/CHSI/pages/vital-records-fees.aspx (fetch failed)
+à vérifier à la main : ERR https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Processing-Times.aspx (fetch failed)
+à vérifier à la main : ERR https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Obtaining-Certified-Copies-of-Marriage-Records.aspx (fetch failed)
+à vérifier à la main : ERR https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records-Obtaining-Certified-Copies-of-Divorce-Records.aspx (fetch failed)
+à vérifier à la main : 403 https://www.dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/death.pdf
+à vérifier à la main : 404 https://dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/marriage.pdf
+à vérifier à la main : 403 https://la-h-health.colorado.gov/services/vital-statistics
+à vérifier à la main : 403 https://oterocounty.colorado.gov/vital-records
+à vérifier à la main : 403 https://cdphe.colorado.gov/vitalrecords
+à vérifier à la main : 403 https://www.dccourts.gov/node/21877
+à vérifier à la main : 403 https://sos.iowa.gov/business/pdf/APCERT.pdf
+à vérifier à la main : 403 https://www.kdhe.ks.gov/1186/Birth-Certificate
+à vérifier à la main : 403 https://www.kdhe.ks.gov/1193/Death-Certificate
+à vérifier à la main : 403 https://www.kdhe.ks.gov/1194/Marriage-Certificate
+à vérifier à la main : 403 https://www.kdhe.ks.gov/1195/Divorce-Certificate
+à vérifier à la main : 403 https://ldh.la.gov/vital-records/service-fees
+à vérifier à la main : 403 https://www.ldh.la.gov/page/635
+à vérifier à la main : 403 https://ldh.la.gov/vital-records/marriage
+à vérifier à la main : 403 https://www.maine.gov/dhhs/mecdc/vital-records/request-documents
+à vérifier à la main : 403 https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Application%20for%20a%20Vital%20Record.pdf
+à vérifier à la main : 403 https://www.maine.gov/sos/corporations-commissions/authentications-and-apostilles
+à vérifier à la main : 403 https://www.nvsos.gov/businesses/apostille/fees
+à vérifier à la main : 403 https://www.health.ny.gov/vital_records/mailrequests.htm
+à vérifier à la main : 403 https://www.health.ny.gov/vital_records/marriage.htm
+à vérifier à la main : 403 https://www.health.ny.gov/vital_records/divorce.htm
+à vérifier à la main : 403 https://www.health.ny.gov/vital_records/apostille.htm
+à vérifier à la main : 404 https://odh.ohio.gov/know-our-programs/vital-statistics/how-to-order-certificates
+à vérifier à la main : 403 https://www.ohiosos.gov/records/authentications-and-apostilles/frequently-asked-questions
+à vérifier à la main : ERR https://sos.oregon.gov/business/Pages/how-to-get-authentication-apostille.aspx (fetch failed)
+à vérifier à la main : 403 https://health.ri.gov/vital-records/requesting-vital-record-state
+à vérifier à la main : 403 https://vitalrecords.tn.gov/hc/en-us/articles/36329848421651-Fees
+à vérifier à la main : 403 https://vitalrecords.tn.gov/hc/en-us/articles/36330016050195-How-long-will-it-take
+à vérifier à la main : 403 https://vitalrecords.tn.gov/hc/en-us/articles/36324720552979-I-have-been-told-that-I-need-to-get-an-apostille-on-my-certificate-How-do-I-do-that
+à vérifier à la main : ERR https://www.wdfi.org/Apostille/fees.htm (fetch failed)
+à vérifier à la main : 403 https://www.dccourts.gov/superior-court/superior-court-divisions/family-court-operations-division/marriage
+à vérifier à la main : 403 https://ldh.la.gov/page/644
+à vérifier à la main : 403 https://www.kalcounty.gov/436/Apply-for-a-Marriage-License
+à vérifier à la main : 403 https://www.lccountymt.gov/Government/Clerk-of-District-Court/Marriage-License
+à vérifier à la main : 403 https://www.berncoclerk.gov/recording-and-filing/marriage-licenses/
+à vérifier à la main : 403 https://www.health.ny.gov/publications/4210/
+à vérifier à la main : 403 https://www.spartanburgcounty.gov/433/Marriage-License-Requirements
+à vérifier à la main : 403 https://montgomerytn.gov/clerk/marriage
+à vérifier à la main : ERR https://web.archive.org/web/20260927194214/https://probate.franklincountyohio.gov/Marriage-License-Requirements (fetch failed)
+à vérifier à la main : ERR https://www.nashvilleclerk.com/living/marriage-license/ (fetch failed)
+à vérifier à la main : ERR https://web.archive.org/web/20251204203828/https://deeds.mecknc.gov/Uniform-Fee-Schedule (fetch failed)
+à vérifier à la main : 403 https://www.state.gov/wp-content/uploads/2026/03/Report-to-Congress-on-A-Plan-to-Minimize-the-Occurrence-of-Passport-and-Visa-Backlogs-HRC13171.pdf
+à vérifier à la main : 403 https://travel.state.gov/en/passports/apply/help/citizenship-evidence.html
+à vérifier à la main : 403 https://www.health.ny.gov/vital_records/docs/public_instructions_for_birth_corrections.pdf
+à vérifier à la main : 404 https://odh.ohio.gov/know-our-programs/vital-statistics/changing-correcting-birth-record
